@@ -6,3 +6,4 @@ Coursework from my Speech Recogition course. Includes 4 coding assignments:
 4. I implemented an Attention-based Encoder-Decoder (AED) with Transformers for end-to-end automatic speech recognition (ASR). I also trained and decoded models using the provided train/dev/test data. Used PSC bridges machines to train these models. 
 
 Some python libraries involved in these assignments: numpy, pytorch, tensorflow, etc.
+Description of assignments described in "coding{assignment_number}_handout.pdf" files
