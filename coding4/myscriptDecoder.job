@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+set -x
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate 11751-fall23-coding4
+
+python decode.py --exp_dir exp/train_YOURTAG --ckpt_name epoch59.pth --decode_tag decode_tag

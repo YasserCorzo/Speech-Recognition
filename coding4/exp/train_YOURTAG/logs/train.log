@@ -1,0 +1,2125 @@
+04:23:49,502 root INFO ASRModel(
+  (encoder): TransformerEncoder(
+    (embed): Conv2dSubsampling(
+      (conv): Sequential(
+        (0): Conv2d(1, 256, kernel_size=(3, 3), stride=(2, 2))
+        (1): ReLU()
+        (2): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2))
+        (3): ReLU()
+      )
+      (out): Sequential(
+        (0): Linear(in_features=5120, out_features=256, bias=True)
+        (1): PositionalEncoding(
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+    )
+    (encoders): MultiSequential(
+      (0): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (1): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (2): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (3): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (4): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (5): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (6): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (7): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (8): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (9): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (10): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (11): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (12): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (13): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (14): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (15): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (16): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (17): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+    )
+    (after_norm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+  )
+  (decoder): TransformerDecoder(
+    (embed): Sequential(
+      (0): Embedding(302, 256)
+      (1): PositionalEncoding(
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+    )
+    (decoders): MultiSequential(
+      (0): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (1): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (2): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (3): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (4): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (5): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+    )
+    (after_norm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+    (output_layer): Linear(in_features=256, out_features=302, bias=True)
+  )
+  (criterion_att): LabelSmoothingLoss(
+    (criterion): KLDivLoss()
+  )
+)
+04:23:49,504 root INFO Built a model with 22.60M Params
+04:23:49,508 root INFO Start to train epoch 0
+04:39:46,845 root INFO ASRModel(
+  (encoder): TransformerEncoder(
+    (embed): Conv2dSubsampling(
+      (conv): Sequential(
+        (0): Conv2d(1, 256, kernel_size=(3, 3), stride=(2, 2))
+        (1): ReLU()
+        (2): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2))
+        (3): ReLU()
+      )
+      (out): Sequential(
+        (0): Linear(in_features=5120, out_features=256, bias=True)
+        (1): PositionalEncoding(
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+    )
+    (encoders): MultiSequential(
+      (0): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (1): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (2): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (3): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (4): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (5): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (6): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (7): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (8): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (9): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (10): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (11): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (12): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (13): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (14): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (15): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (16): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (17): EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+    )
+    (after_norm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+  )
+  (decoder): TransformerDecoder(
+    (embed): Sequential(
+      (0): Embedding(302, 256)
+      (1): PositionalEncoding(
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+    )
+    (decoders): MultiSequential(
+      (0): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (1): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (2): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (3): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (4): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+      (5): DecoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (src_attn): MultiHeadedAttention(
+          (linear_q): Linear(in_features=256, out_features=256, bias=True)
+          (linear_k): Linear(in_features=256, out_features=256, bias=True)
+          (linear_v): Linear(in_features=256, out_features=256, bias=True)
+          (linear_out): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (norm3): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+    )
+    (after_norm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+    (output_layer): Linear(in_features=256, out_features=302, bias=True)
+  )
+  (criterion_att): LabelSmoothingLoss(
+    (criterion): KLDivLoss()
+  )
+)
+04:39:46,848 root INFO Built a model with 22.60M Params
+04:39:46,853 root INFO Start to train epoch 0
+04:40:47,611 root INFO [Epoch 0, Batch=199] Train: loss=4.9804, lr=2.6666666666666673e-06
+04:41:44,753 root INFO [Epoch 0, Batch=399] Train: loss=4.9339, lr=5.3333333333333345e-06
+04:42:43,279 root INFO [Epoch 0, Batch=599] Train: loss=4.9100, lr=8.000000000000001e-06
+04:43:40,552 root INFO [Epoch 0, Batch=799] Train: loss=4.8129, lr=1.0666666666666669e-05
+04:44:38,50 root INFO [Epoch 0, Batch=999] Train: loss=4.7491, lr=1.3333333333333335e-05
+04:45:35,390 root INFO [Epoch 0, Batch=1199] Train: loss=4.6289, lr=1.6000000000000003e-05
+04:46:33,383 root INFO [Epoch 0, Batch=1399] Train: loss=4.4749, lr=1.8666666666666672e-05
+04:47:31,64 root INFO [Epoch 0, Batch=1599] Train: loss=4.3899, lr=2.1333333333333338e-05
+04:48:28,575 root INFO [Epoch 0, Batch=1799] Train: loss=4.3638, lr=2.4e-05
+04:49:26,876 root INFO [Epoch 0, Batch=1999] Train: loss=4.3537, lr=2.666666666666667e-05
+04:50:24,845 root INFO [Epoch 0, Batch=2199] Train: loss=4.2749, lr=2.9333333333333336e-05
+04:51:23,94 root INFO [Epoch 0, Batch=2399] Train: loss=4.2752, lr=3.2000000000000005e-05
+04:52:22,24 root INFO [Epoch 0, Batch=2599] Train: loss=4.2426, lr=3.466666666666667e-05
+04:53:20,670 root INFO [Epoch 0, Batch=2799] Train: loss=4.1792, lr=3.7333333333333344e-05
+04:54:15,626 root INFO Start to validate epoch 0
+04:54:22,79 root INFO Epoch 00, lr=3.9866666666666676e-05 | Train: loss=4.5310 | Val: loss=4.0679 | Time: this epoch 875.23s, elapsed 875.23s
+04:54:22,519 root INFO [info] Save model after epoch 0
+
+04:54:22,520 root INFO Start to train epoch 1
+04:55:20,526 root INFO [Epoch 1, Batch=199] Train: loss=4.0579, lr=4.246666666666667e-05
+04:56:18,334 root INFO [Epoch 1, Batch=399] Train: loss=3.9599, lr=4.5133333333333344e-05
+04:57:16,273 root INFO [Epoch 1, Batch=599] Train: loss=3.8878, lr=4.78e-05
+04:58:14,415 root INFO [Epoch 1, Batch=799] Train: loss=3.8147, lr=5.0466666666666676e-05
+04:59:11,666 root INFO [Epoch 1, Batch=999] Train: loss=3.7407, lr=5.313333333333334e-05
+05:00:09,506 root INFO [Epoch 1, Batch=1199] Train: loss=3.7421, lr=5.580000000000001e-05
+05:01:07,791 root INFO [Epoch 1, Batch=1399] Train: loss=3.7097, lr=5.8466666666666674e-05
+05:02:05,764 root INFO [Epoch 1, Batch=1599] Train: loss=3.6694, lr=6.113333333333335e-05
+05:03:03,750 root INFO [Epoch 1, Batch=1799] Train: loss=3.6173, lr=6.38e-05
+05:04:02,104 root INFO [Epoch 1, Batch=1999] Train: loss=3.5809, lr=6.646666666666668e-05
+05:05:00,137 root INFO [Epoch 1, Batch=2199] Train: loss=3.5965, lr=6.913333333333334e-05
+05:05:57,884 root INFO [Epoch 1, Batch=2399] Train: loss=3.6165, lr=7.180000000000001e-05
+05:06:56,241 root INFO [Epoch 1, Batch=2599] Train: loss=3.5667, lr=7.446666666666668e-05
+05:07:54,822 root INFO [Epoch 1, Batch=2799] Train: loss=3.5552, lr=7.713333333333334e-05
+05:08:49,518 root INFO Start to validate epoch 1
+05:08:55,692 root INFO Epoch 01, lr=7.966666666666669e-05 | Train: loss=3.7205 | Val: loss=3.4881 | Time: this epoch 873.17s, elapsed 1748.84s
+05:08:56,229 root INFO [info] Save model after epoch 1
+
+05:08:56,230 root INFO Start to train epoch 2
+05:09:54,591 root INFO [Epoch 2, Batch=199] Train: loss=3.5665, lr=8.226666666666668e-05
+05:10:51,881 root INFO [Epoch 2, Batch=399] Train: loss=3.4903, lr=8.493333333333334e-05
+05:11:49,499 root INFO [Epoch 2, Batch=599] Train: loss=3.5124, lr=8.76e-05
+05:12:46,581 root INFO [Epoch 2, Batch=799] Train: loss=3.5210, lr=9.026666666666669e-05
+05:13:44,265 root INFO [Epoch 2, Batch=999] Train: loss=3.4696, lr=9.293333333333335e-05
+05:14:42,372 root INFO [Epoch 2, Batch=1199] Train: loss=3.4619, lr=9.56e-05
+05:15:40,26 root INFO [Epoch 2, Batch=1399] Train: loss=3.4599, lr=9.826666666666668e-05
+05:16:37,473 root INFO [Epoch 2, Batch=1599] Train: loss=3.4548, lr=0.00010093333333333335
+05:17:35,587 root INFO [Epoch 2, Batch=1799] Train: loss=3.4401, lr=0.00010360000000000001
+05:18:33,703 root INFO [Epoch 2, Batch=1999] Train: loss=3.4210, lr=0.00010626666666666668
+05:19:31,711 root INFO [Epoch 2, Batch=2199] Train: loss=3.4743, lr=0.00010893333333333334
+05:20:29,632 root INFO [Epoch 2, Batch=2399] Train: loss=3.4236, lr=0.00011160000000000002
+05:21:27,704 root INFO [Epoch 2, Batch=2599] Train: loss=3.4803, lr=0.00011426666666666669
+05:22:26,397 root INFO [Epoch 2, Batch=2799] Train: loss=3.4167, lr=0.00011693333333333335
+05:23:21,9 root INFO Start to validate epoch 2
+05:23:27,217 root INFO Epoch 02, lr=0.00011946666666666668 | Train: loss=3.4580 | Val: loss=3.3884 | Time: this epoch 870.99s, elapsed 2620.36s
+05:23:28,27 root INFO [info] Save model after epoch 2
+
+05:23:28,27 root INFO Start to train epoch 3
+05:24:26,478 root INFO [Epoch 3, Batch=199] Train: loss=3.3905, lr=0.00012206666666666667
+05:25:24,147 root INFO [Epoch 3, Batch=399] Train: loss=3.3913, lr=0.00012473333333333335
+05:26:21,701 root INFO [Epoch 3, Batch=599] Train: loss=3.4031, lr=0.00012740000000000003
+05:27:19,240 root INFO [Epoch 3, Batch=799] Train: loss=3.3290, lr=0.00013006666666666667
+05:28:17,366 root INFO [Epoch 3, Batch=999] Train: loss=3.3806, lr=0.00013273333333333335
+05:29:15,297 root INFO [Epoch 3, Batch=1199] Train: loss=3.3629, lr=0.00013540000000000004
+05:30:12,862 root INFO [Epoch 3, Batch=1399] Train: loss=3.3942, lr=0.00013806666666666667
+05:31:10,450 root INFO [Epoch 3, Batch=1599] Train: loss=3.3553, lr=0.00014073333333333336
+05:32:07,995 root INFO [Epoch 3, Batch=1799] Train: loss=3.3468, lr=0.00014340000000000002
+05:33:05,200 root INFO [Epoch 3, Batch=1999] Train: loss=3.3655, lr=0.00014606666666666668
+05:34:02,534 root INFO [Epoch 3, Batch=2199] Train: loss=3.3500, lr=0.00014873333333333336
+05:35:00,782 root INFO [Epoch 3, Batch=2399] Train: loss=3.3920, lr=0.00015140000000000002
+05:35:58,416 root INFO [Epoch 3, Batch=2599] Train: loss=3.3160, lr=0.00015406666666666668
+05:36:55,512 root INFO [Epoch 3, Batch=2799] Train: loss=3.3685, lr=0.00015673333333333334
+05:37:50,57 root INFO Start to validate epoch 3
+05:37:56,302 root INFO Epoch 03, lr=0.00015926666666666667 | Train: loss=3.3731 | Val: loss=3.3124 | Time: this epoch 868.28s, elapsed 3489.45s
+05:37:57,123 root INFO [info] Save model after epoch 3
+
+05:37:57,124 root INFO Start to train epoch 4
+05:38:55,238 root INFO [Epoch 4, Batch=199] Train: loss=3.3048, lr=0.00016186666666666668
+05:39:52,841 root INFO [Epoch 4, Batch=399] Train: loss=3.3593, lr=0.00016453333333333337
+05:40:50,667 root INFO [Epoch 4, Batch=599] Train: loss=3.3110, lr=0.00016720000000000003
+05:41:47,735 root INFO [Epoch 4, Batch=799] Train: loss=3.3063, lr=0.00016986666666666668
+05:42:45,55 root INFO [Epoch 4, Batch=999] Train: loss=3.3049, lr=0.00017253333333333337
+05:43:42,269 root INFO [Epoch 4, Batch=1199] Train: loss=3.3007, lr=0.0001752
+05:44:39,243 root INFO [Epoch 4, Batch=1399] Train: loss=3.2879, lr=0.0001778666666666667
+05:45:36,819 root INFO [Epoch 4, Batch=1599] Train: loss=3.2749, lr=0.00018053333333333338
+05:46:34,309 root INFO [Epoch 4, Batch=1799] Train: loss=3.2664, lr=0.0001832
+05:47:32,163 root INFO [Epoch 4, Batch=1999] Train: loss=3.2515, lr=0.0001858666666666667
+05:48:29,130 root INFO [Epoch 4, Batch=2199] Train: loss=3.2559, lr=0.00018853333333333338
+05:49:26,623 root INFO [Epoch 4, Batch=2399] Train: loss=3.2534, lr=0.0001912
+05:50:24,337 root INFO [Epoch 4, Batch=2599] Train: loss=3.2545, lr=0.0001938666666666667
+05:51:22,270 root INFO [Epoch 4, Batch=2799] Train: loss=3.1898, lr=0.00019653333333333336
+05:52:15,729 root INFO Start to validate epoch 4
+05:52:21,937 root INFO Epoch 04, lr=0.0001990666666666667 | Train: loss=3.2886 | Val: loss=3.1927 | Time: this epoch 864.81s, elapsed 4355.08s
+05:52:22,438 root INFO [info] Save model after epoch 4
+
+05:52:22,438 root INFO Start to train epoch 5
+05:53:19,928 root INFO [Epoch 5, Batch=199] Train: loss=3.1625, lr=0.0002016666666666667
+05:54:17,73 root INFO [Epoch 5, Batch=399] Train: loss=3.2327, lr=0.00020433333333333336
+05:55:13,972 root INFO [Epoch 5, Batch=599] Train: loss=3.1365, lr=0.00020700000000000004
+05:56:10,537 root INFO [Epoch 5, Batch=799] Train: loss=3.1575, lr=0.0002096666666666667
+05:57:07,776 root INFO [Epoch 5, Batch=999] Train: loss=3.1215, lr=0.00021233333333333336
+05:58:05,409 root INFO [Epoch 5, Batch=1199] Train: loss=3.1320, lr=0.00021500000000000002
+05:59:02,345 root INFO [Epoch 5, Batch=1399] Train: loss=3.1737, lr=0.0002176666666666667
+05:59:59,910 root INFO [Epoch 5, Batch=1599] Train: loss=3.1704, lr=0.00022033333333333337
+06:00:57,112 root INFO [Epoch 5, Batch=1799] Train: loss=3.1466, lr=0.00022300000000000003
+06:01:53,729 root INFO [Epoch 5, Batch=1999] Train: loss=3.0783, lr=0.0002256666666666667
+06:02:51,481 root INFO [Epoch 5, Batch=2199] Train: loss=3.0384, lr=0.00022833333333333334
+06:03:48,925 root INFO [Epoch 5, Batch=2399] Train: loss=3.0915, lr=0.00023100000000000003
+06:04:45,839 root INFO [Epoch 5, Batch=2599] Train: loss=3.0534, lr=0.00023366666666666672
+06:05:43,721 root INFO [Epoch 5, Batch=2799] Train: loss=3.0573, lr=0.00023633333333333335
+06:06:36,932 root INFO Start to validate epoch 5
+06:06:43,285 root INFO Epoch 05, lr=0.0002388666666666667 | Train: loss=3.1382 | Val: loss=2.9926 | Time: this epoch 860.85s, elapsed 5216.43s
+06:06:43,776 root INFO [info] Save model after epoch 5
+
+06:06:43,777 root INFO Start to train epoch 6
+06:07:41,773 root INFO [Epoch 6, Batch=199] Train: loss=3.0920, lr=0.00024146666666666672
+06:08:39,234 root INFO [Epoch 6, Batch=399] Train: loss=3.0447, lr=0.00024413333333333335
+06:09:36,612 root INFO [Epoch 6, Batch=599] Train: loss=2.9319, lr=0.00024680000000000004
+06:10:33,324 root INFO [Epoch 6, Batch=799] Train: loss=3.0361, lr=0.0002494666666666667
+06:11:29,822 root INFO [Epoch 6, Batch=999] Train: loss=2.9378, lr=0.00025213333333333335
+06:12:27,440 root INFO [Epoch 6, Batch=1199] Train: loss=2.9680, lr=0.00025480000000000007
+06:13:24,586 root INFO [Epoch 6, Batch=1399] Train: loss=2.9600, lr=0.00025746666666666667
+06:14:21,961 root INFO [Epoch 6, Batch=1599] Train: loss=3.0112, lr=0.00026013333333333333
+06:15:18,231 root INFO [Epoch 6, Batch=1799] Train: loss=3.0070, lr=0.00026280000000000005
+06:16:15,552 root INFO [Epoch 6, Batch=1999] Train: loss=2.9518, lr=0.0002654666666666667
+06:17:12,591 root INFO [Epoch 6, Batch=2199] Train: loss=2.9603, lr=0.00026813333333333336
+06:18:09,143 root INFO [Epoch 6, Batch=2399] Train: loss=2.9521, lr=0.0002708000000000001
+06:19:05,987 root INFO [Epoch 6, Batch=2599] Train: loss=2.8852, lr=0.0002734666666666667
+06:20:03,177 root INFO [Epoch 6, Batch=2799] Train: loss=2.9425, lr=0.00027613333333333334
+06:20:56,745 root INFO Start to validate epoch 6
+06:21:02,784 root INFO Epoch 06, lr=0.0002786666666666667 | Train: loss=2.9828 | Val: loss=2.8679 | Time: this epoch 859.01s, elapsed 6075.93s
+06:21:03,264 root INFO [info] Save model after epoch 6
+
+06:21:03,264 root INFO Start to train epoch 7
+06:22:00,732 root INFO [Epoch 7, Batch=199] Train: loss=2.9355, lr=0.0002812666666666667
+06:22:57,714 root INFO [Epoch 7, Batch=399] Train: loss=2.9281, lr=0.00028393333333333337
+06:23:54,679 root INFO [Epoch 7, Batch=599] Train: loss=2.8535, lr=0.00028660000000000003
+06:24:51,381 root INFO [Epoch 7, Batch=799] Train: loss=2.8214, lr=0.0002892666666666667
+06:25:48,308 root INFO [Epoch 7, Batch=999] Train: loss=2.9271, lr=0.0002919333333333334
+06:26:46,44 root INFO [Epoch 7, Batch=1199] Train: loss=2.8897, lr=0.00029460000000000006
+06:27:43,428 root INFO [Epoch 7, Batch=1399] Train: loss=2.8988, lr=0.00029726666666666666
+06:28:40,859 root INFO [Epoch 7, Batch=1599] Train: loss=2.7974, lr=0.0002999333333333334
+06:29:37,742 root INFO [Epoch 7, Batch=1799] Train: loss=2.8866, lr=0.00030260000000000004
+06:30:35,38 root INFO [Epoch 7, Batch=1999] Train: loss=2.8474, lr=0.0003052666666666667
+06:31:32,299 root INFO [Epoch 7, Batch=2199] Train: loss=2.8989, lr=0.0003079333333333334
+06:32:29,570 root INFO [Epoch 7, Batch=2399] Train: loss=2.8974, lr=0.0003106
+06:33:27,780 root INFO [Epoch 7, Batch=2599] Train: loss=2.7911, lr=0.0003132666666666667
+06:34:24,706 root INFO [Epoch 7, Batch=2799] Train: loss=2.8332, lr=0.0003159333333333334
+06:35:18,546 root INFO Start to validate epoch 7
+06:35:24,662 root INFO Epoch 07, lr=0.0003184666666666667 | Train: loss=2.8700 | Val: loss=2.7763 | Time: this epoch 861.40s, elapsed 6937.81s
+06:35:25,149 root INFO [info] Save model after epoch 7
+
+06:35:25,150 root INFO Start to train epoch 8
+06:36:22,657 root INFO [Epoch 8, Batch=199] Train: loss=2.8037, lr=0.00032106666666666675
+06:37:19,547 root INFO [Epoch 8, Batch=399] Train: loss=2.8075, lr=0.00032373333333333336
+06:38:16,136 root INFO [Epoch 8, Batch=599] Train: loss=2.7887, lr=0.0003264
+06:39:13,179 root INFO [Epoch 8, Batch=799] Train: loss=2.8208, lr=0.00032906666666666673
+06:40:10,822 root INFO [Epoch 8, Batch=999] Train: loss=2.7873, lr=0.0003317333333333334
+06:41:08,168 root INFO [Epoch 8, Batch=1199] Train: loss=2.7356, lr=0.00033440000000000005
+06:42:05,297 root INFO [Epoch 8, Batch=1399] Train: loss=2.7276, lr=0.0003370666666666667
+06:43:02,600 root INFO [Epoch 8, Batch=1599] Train: loss=2.7726, lr=0.00033973333333333337
+06:43:59,523 root INFO [Epoch 8, Batch=1799] Train: loss=2.7779, lr=0.00034240000000000003
+06:44:56,542 root INFO [Epoch 8, Batch=1999] Train: loss=2.7815, lr=0.00034506666666666674
+06:45:53,431 root INFO [Epoch 8, Batch=2199] Train: loss=2.7454, lr=0.0003477333333333334
+06:46:50,313 root INFO [Epoch 8, Batch=2399] Train: loss=2.8038, lr=0.0003504
+06:47:47,248 root INFO [Epoch 8, Batch=2599] Train: loss=2.7423, lr=0.0003530666666666667
+06:48:44,22 root INFO [Epoch 8, Batch=2799] Train: loss=2.7139, lr=0.0003557333333333334
+06:49:37,842 root INFO Start to validate epoch 8
+06:49:44,111 root INFO Epoch 08, lr=0.0003582666666666667 | Train: loss=2.7816 | Val: loss=2.7088 | Time: this epoch 858.96s, elapsed 7797.26s
+06:49:44,590 root INFO [info] Save model after epoch 8
+
+06:49:44,591 root INFO Start to train epoch 9
+06:50:41,826 root INFO [Epoch 9, Batch=199] Train: loss=2.8148, lr=0.00036086666666666675
+06:51:39,350 root INFO [Epoch 9, Batch=399] Train: loss=2.6589, lr=0.00036353333333333335
+06:52:37,100 root INFO [Epoch 9, Batch=599] Train: loss=2.6122, lr=0.00036620000000000006
+06:53:33,997 root INFO [Epoch 9, Batch=799] Train: loss=2.7244, lr=0.0003688666666666667
+06:54:30,880 root INFO [Epoch 9, Batch=999] Train: loss=2.7009, lr=0.0003715333333333334
+06:55:27,390 root INFO [Epoch 9, Batch=1199] Train: loss=2.6724, lr=0.0003742000000000001
+06:56:24,387 root INFO [Epoch 9, Batch=1399] Train: loss=2.7034, lr=0.0003768666666666667
+06:57:21,785 root INFO [Epoch 9, Batch=1599] Train: loss=2.7429, lr=0.00037953333333333336
+06:58:18,325 root INFO [Epoch 9, Batch=1799] Train: loss=2.6490, lr=0.0003822000000000001
+06:59:15,484 root INFO [Epoch 9, Batch=1999] Train: loss=2.6306, lr=0.00038486666666666673
+07:00:12,231 root INFO [Epoch 9, Batch=2199] Train: loss=2.6632, lr=0.0003875333333333334
+07:01:09,420 root INFO [Epoch 9, Batch=2399] Train: loss=2.5997, lr=0.00039020000000000005
+07:02:06,764 root INFO [Epoch 9, Batch=2599] Train: loss=2.6516, lr=0.0003928666666666667
+07:03:04,762 root INFO [Epoch 9, Batch=2799] Train: loss=2.5994, lr=0.00039553333333333337
+07:03:58,819 root INFO Start to validate epoch 9
+07:04:05,17 root INFO Epoch 09, lr=0.0003980666666666667 | Train: loss=2.6983 | Val: loss=2.6337 | Time: this epoch 860.43s, elapsed 8658.16s
+07:04:05,561 root INFO [info] Save model after epoch 9
+
+07:04:05,561 root INFO Start to train epoch 10
+07:05:03,188 root INFO [Epoch 10, Batch=199] Train: loss=2.6264, lr=0.0004006666666666667
+07:06:00,357 root INFO [Epoch 10, Batch=399] Train: loss=2.6144, lr=0.0004033333333333334
+07:06:57,244 root INFO [Epoch 10, Batch=599] Train: loss=2.6025, lr=0.00040600000000000006
+07:07:55,187 root INFO [Epoch 10, Batch=799] Train: loss=2.6768, lr=0.0004086666666666667
+07:08:52,219 root INFO [Epoch 10, Batch=999] Train: loss=2.6526, lr=0.00041133333333333343
+07:09:49,626 root INFO [Epoch 10, Batch=1199] Train: loss=2.6531, lr=0.0004140000000000001
+07:10:46,597 root INFO [Epoch 10, Batch=1399] Train: loss=2.5719, lr=0.0004166666666666667
+07:11:43,466 root INFO [Epoch 10, Batch=1599] Train: loss=2.6416, lr=0.0004193333333333334
+07:12:40,903 root INFO [Epoch 10, Batch=1799] Train: loss=2.6425, lr=0.00042200000000000007
+07:13:37,593 root INFO [Epoch 10, Batch=1999] Train: loss=2.6286, lr=0.0004246666666666667
+07:14:34,209 root INFO [Epoch 10, Batch=2199] Train: loss=2.6110, lr=0.00042733333333333344
+07:15:30,543 root INFO [Epoch 10, Batch=2399] Train: loss=2.6317, lr=0.00043000000000000004
+07:16:27,288 root INFO [Epoch 10, Batch=2599] Train: loss=2.4949, lr=0.0004326666666666667
+07:17:25,171 root INFO [Epoch 10, Batch=2799] Train: loss=2.5542, lr=0.0004353333333333334
+07:18:19,223 root INFO Start to validate epoch 10
+07:18:25,321 root INFO Epoch 10, lr=0.0004378666666666667 | Train: loss=2.6006 | Val: loss=2.5477 | Time: this epoch 859.76s, elapsed 9518.47s
+07:18:25,839 root INFO [info] Save model after epoch 10
+
+07:18:25,840 root INFO Start to train epoch 11
+07:19:22,990 root INFO [Epoch 11, Batch=199] Train: loss=2.6213, lr=0.00044046666666666673
+07:20:19,504 root INFO [Epoch 11, Batch=399] Train: loss=2.5368, lr=0.0004431333333333334
+07:21:16,594 root INFO [Epoch 11, Batch=599] Train: loss=2.4232, lr=0.00044580000000000005
+07:22:13,741 root INFO [Epoch 11, Batch=799] Train: loss=2.5738, lr=0.00044846666666666676
+07:23:10,258 root INFO [Epoch 11, Batch=999] Train: loss=2.6660, lr=0.0004511333333333334
+07:24:06,449 root INFO [Epoch 11, Batch=1199] Train: loss=2.5160, lr=0.0004538000000000001
+07:25:02,936 root INFO [Epoch 11, Batch=1399] Train: loss=2.4893, lr=0.00045646666666666674
+07:25:59,346 root INFO [Epoch 11, Batch=1599] Train: loss=2.4754, lr=0.0004591333333333334
+07:26:55,325 root INFO [Epoch 11, Batch=1799] Train: loss=2.5161, lr=0.00046180000000000006
+07:27:51,487 root INFO [Epoch 11, Batch=1999] Train: loss=2.5469, lr=0.00046446666666666677
+07:28:47,200 root INFO [Epoch 11, Batch=2199] Train: loss=2.4359, lr=0.00046713333333333343
+07:29:43,629 root INFO [Epoch 11, Batch=2399] Train: loss=2.4345, lr=0.00046980000000000004
+07:30:41,145 root INFO [Epoch 11, Batch=2599] Train: loss=2.2978, lr=0.00047246666666666675
+07:31:38,55 root INFO [Epoch 11, Batch=2799] Train: loss=2.4108, lr=0.0004751333333333334
+07:32:32,354 root INFO Start to validate epoch 11
+07:32:38,488 root INFO Epoch 11, lr=0.0004776666666666667 | Train: loss=2.4741 | Val: loss=2.2997 | Time: this epoch 852.65s, elapsed 10371.63s
+07:32:38,999 root INFO [info] Save model after epoch 11
+
+07:32:39,0 root INFO Start to train epoch 12
+07:33:37,10 root INFO [Epoch 12, Batch=199] Train: loss=2.3367, lr=0.0004802666666666667
+07:34:33,948 root INFO [Epoch 12, Batch=399] Train: loss=2.3872, lr=0.00048293333333333343
+07:35:31,66 root INFO [Epoch 12, Batch=599] Train: loss=2.2960, lr=0.00048560000000000004
+07:36:28,52 root INFO [Epoch 12, Batch=799] Train: loss=2.3785, lr=0.0004882666666666667
+07:37:25,131 root INFO [Epoch 12, Batch=999] Train: loss=2.3896, lr=0.0004909333333333334
+07:38:22,809 root INFO [Epoch 12, Batch=1199] Train: loss=2.2752, lr=0.0004936000000000001
+07:39:19,555 root INFO [Epoch 12, Batch=1399] Train: loss=2.2709, lr=0.0004962666666666667
+07:40:16,441 root INFO [Epoch 12, Batch=1599] Train: loss=2.1949, lr=0.0004989333333333334
+07:41:13,557 root INFO [Epoch 12, Batch=1799] Train: loss=2.1818, lr=0.0005016
+07:42:10,877 root INFO [Epoch 12, Batch=1999] Train: loss=2.0292, lr=0.0005042666666666667
+07:43:07,957 root INFO [Epoch 12, Batch=2199] Train: loss=2.1520, lr=0.0005069333333333334
+07:44:05,112 root INFO [Epoch 12, Batch=2399] Train: loss=2.1162, lr=0.0005096000000000001
+07:45:02,864 root INFO [Epoch 12, Batch=2599] Train: loss=2.2158, lr=0.0005122666666666667
+07:46:00,417 root INFO [Epoch 12, Batch=2799] Train: loss=2.1180, lr=0.0005149333333333333
+07:46:54,320 root INFO Start to validate epoch 12
+07:47:00,394 root INFO Epoch 12, lr=0.0005174666666666667 | Train: loss=2.2315 | Val: loss=1.8306 | Time: this epoch 861.39s, elapsed 11233.54s
+07:47:00,886 root INFO [info] Save model after epoch 12
+
+07:47:00,887 root INFO Start to train epoch 13
+07:47:58,494 root INFO [Epoch 13, Batch=199] Train: loss=1.9278, lr=0.0005200666666666668
+07:48:54,743 root INFO [Epoch 13, Batch=399] Train: loss=1.9185, lr=0.0005227333333333334
+07:49:51,438 root INFO [Epoch 13, Batch=599] Train: loss=2.0268, lr=0.0005254000000000001
+07:50:48,262 root INFO [Epoch 13, Batch=799] Train: loss=1.9174, lr=0.0005280666666666667
+07:51:45,269 root INFO [Epoch 13, Batch=999] Train: loss=1.9541, lr=0.0005307333333333334
+07:52:42,345 root INFO [Epoch 13, Batch=1199] Train: loss=1.8348, lr=0.0005334000000000001
+07:53:39,230 root INFO [Epoch 13, Batch=1399] Train: loss=2.0252, lr=0.0005360666666666668
+07:54:35,701 root INFO [Epoch 13, Batch=1599] Train: loss=2.0975, lr=0.0005387333333333334
+07:55:32,668 root INFO [Epoch 13, Batch=1799] Train: loss=1.8535, lr=0.0005414
+07:56:29,521 root INFO [Epoch 13, Batch=1999] Train: loss=1.8261, lr=0.0005440666666666668
+07:57:25,962 root INFO [Epoch 13, Batch=2199] Train: loss=1.8623, lr=0.0005467333333333334
+07:58:22,609 root INFO [Epoch 13, Batch=2399] Train: loss=1.8031, lr=0.0005494000000000001
+07:59:19,118 root INFO [Epoch 13, Batch=2599] Train: loss=1.6468, lr=0.0005520666666666668
+08:00:16,82 root INFO [Epoch 13, Batch=2799] Train: loss=1.5485, lr=0.0005547333333333333
+08:01:09,638 root INFO Start to validate epoch 13
+08:01:15,851 root INFO Epoch 13, lr=0.0005572666666666667 | Train: loss=1.8759 | Val: loss=1.3779 | Time: this epoch 854.96s, elapsed 12089.00s
+08:01:16,325 root INFO [info] Save model after epoch 13
+
+08:01:16,325 root INFO Start to train epoch 14
+08:02:13,632 root INFO [Epoch 14, Batch=199] Train: loss=1.5952, lr=0.0005598666666666668
+08:03:11,415 root INFO [Epoch 14, Batch=399] Train: loss=1.5836, lr=0.0005625333333333334
+08:04:08,368 root INFO [Epoch 14, Batch=599] Train: loss=1.4419, lr=0.0005652000000000001
+08:05:05,404 root INFO [Epoch 14, Batch=799] Train: loss=1.5786, lr=0.0005678666666666667
+08:06:02,348 root INFO [Epoch 14, Batch=999] Train: loss=1.3774, lr=0.0005705333333333334
+08:06:59,753 root INFO [Epoch 14, Batch=1199] Train: loss=1.3462, lr=0.0005732000000000001
+08:07:57,206 root INFO [Epoch 14, Batch=1399] Train: loss=1.3349, lr=0.0005758666666666668
+08:08:54,491 root INFO [Epoch 14, Batch=1599] Train: loss=1.3203, lr=0.0005785333333333334
+08:09:52,310 root INFO [Epoch 14, Batch=1799] Train: loss=1.3764, lr=0.0005812
+08:10:50,171 root INFO [Epoch 14, Batch=1999] Train: loss=1.3898, lr=0.0005838666666666668
+08:11:48,67 root INFO [Epoch 14, Batch=2199] Train: loss=1.3405, lr=0.0005865333333333334
+08:12:45,899 root INFO [Epoch 14, Batch=2399] Train: loss=1.3083, lr=0.0005892000000000001
+08:13:43,828 root INFO [Epoch 14, Batch=2599] Train: loss=1.2301, lr=0.0005918666666666668
+08:14:41,284 root INFO [Epoch 14, Batch=2799] Train: loss=1.1279, lr=0.0005945333333333333
+08:15:36,309 root INFO Start to validate epoch 14
+08:15:42,696 root INFO Epoch 14, lr=0.0005970666666666667 | Train: loss=1.3605 | Val: loss=1.0440 | Time: this epoch 866.37s, elapsed 12955.84s
+08:15:43,204 root INFO [info] Save model after epoch 14
+
+08:15:43,205 root INFO Start to train epoch 15
+08:16:41,571 root INFO [Epoch 15, Batch=199] Train: loss=1.0938, lr=0.0005996666666666668
+08:17:38,883 root INFO [Epoch 15, Batch=399] Train: loss=1.1186, lr=0.0006023333333333335
+08:18:37,112 root INFO [Epoch 15, Batch=599] Train: loss=1.0904, lr=0.0006050000000000001
+08:19:34,400 root INFO [Epoch 15, Batch=799] Train: loss=1.0207, lr=0.0006076666666666667
+08:20:31,868 root INFO [Epoch 15, Batch=999] Train: loss=0.9490, lr=0.0006103333333333335
+08:21:29,846 root INFO [Epoch 15, Batch=1199] Train: loss=0.9722, lr=0.000613
+08:22:27,364 root INFO [Epoch 15, Batch=1399] Train: loss=0.9051, lr=0.0006156666666666668
+08:23:25,289 root INFO [Epoch 15, Batch=1599] Train: loss=1.0196, lr=0.0006183333333333335
+08:24:22,785 root INFO [Epoch 15, Batch=1799] Train: loss=0.8622, lr=0.000621
+08:25:20,530 root INFO [Epoch 15, Batch=1999] Train: loss=0.8484, lr=0.0006236666666666668
+08:26:17,460 root INFO [Epoch 15, Batch=2199] Train: loss=0.8445, lr=0.0006263333333333335
+08:27:14,452 root INFO [Epoch 15, Batch=2399] Train: loss=0.8013, lr=0.0006290000000000001
+08:28:11,791 root INFO [Epoch 15, Batch=2599] Train: loss=0.8974, lr=0.0006316666666666668
+08:29:08,607 root INFO [Epoch 15, Batch=2799] Train: loss=0.8262, lr=0.0006343333333333334
+08:30:02,286 root INFO Start to validate epoch 15
+08:30:08,264 root INFO Epoch 15, lr=0.0006368666666666668 | Train: loss=0.9357 | Val: loss=0.7340 | Time: this epoch 865.06s, elapsed 13821.41s
+08:30:08,750 root INFO [info] Save model after epoch 15
+
+08:30:08,750 root INFO Start to train epoch 16
+08:31:06,64 root INFO [Epoch 16, Batch=199] Train: loss=0.7840, lr=0.0006394666666666667
+08:32:03,447 root INFO [Epoch 16, Batch=399] Train: loss=0.6921, lr=0.0006421333333333335
+08:33:00,336 root INFO [Epoch 16, Batch=599] Train: loss=0.7111, lr=0.0006448000000000001
+08:33:57,630 root INFO [Epoch 16, Batch=799] Train: loss=0.7264, lr=0.0006474666666666667
+08:34:54,583 root INFO [Epoch 16, Batch=999] Train: loss=0.7614, lr=0.0006501333333333335
+08:35:51,539 root INFO [Epoch 16, Batch=1199] Train: loss=0.7459, lr=0.0006528
+08:36:48,250 root INFO [Epoch 16, Batch=1399] Train: loss=0.7055, lr=0.0006554666666666668
+08:37:45,514 root INFO [Epoch 16, Batch=1599] Train: loss=0.6559, lr=0.0006581333333333335
+08:38:43,338 root INFO [Epoch 16, Batch=1799] Train: loss=0.6376, lr=0.0006608
+08:39:40,791 root INFO [Epoch 16, Batch=1999] Train: loss=0.6676, lr=0.0006634666666666668
+08:40:38,589 root INFO [Epoch 16, Batch=2199] Train: loss=0.6891, lr=0.0006661333333333334
+08:41:34,726 root INFO [Epoch 16, Batch=2399] Train: loss=0.5967, lr=0.0006688000000000001
+08:42:32,31 root INFO [Epoch 16, Batch=2599] Train: loss=0.6413, lr=0.0006714666666666668
+08:43:28,857 root INFO [Epoch 16, Batch=2799] Train: loss=0.6119, lr=0.0006741333333333334
+08:44:22,531 root INFO Start to validate epoch 16
+08:44:28,791 root INFO Epoch 16, lr=0.0006766666666666668 | Train: loss=0.6950 | Val: loss=0.5687 | Time: this epoch 860.04s, elapsed 14681.94s
+08:44:29,284 root INFO [info] Save model after epoch 16
+
+08:44:29,284 root INFO Start to train epoch 17
+08:45:27,746 root INFO [Epoch 17, Batch=199] Train: loss=0.5944, lr=0.0006792666666666667
+08:46:24,702 root INFO [Epoch 17, Batch=399] Train: loss=0.6044, lr=0.0006819333333333335
+08:47:21,462 root INFO [Epoch 17, Batch=599] Train: loss=0.5614, lr=0.0006846
+08:48:18,531 root INFO [Epoch 17, Batch=799] Train: loss=0.5706, lr=0.0006872666666666667
+08:49:15,809 root INFO [Epoch 17, Batch=999] Train: loss=0.5142, lr=0.0006899333333333335
+08:50:14,29 root INFO [Epoch 17, Batch=1199] Train: loss=0.6278, lr=0.0006926
+08:51:11,351 root INFO [Epoch 17, Batch=1399] Train: loss=0.6043, lr=0.0006952666666666668
+08:52:08,407 root INFO [Epoch 17, Batch=1599] Train: loss=0.5169, lr=0.0006979333333333335
+08:53:05,256 root INFO [Epoch 17, Batch=1799] Train: loss=0.6674, lr=0.0007006
+08:54:02,539 root INFO [Epoch 17, Batch=1999] Train: loss=0.4982, lr=0.0007032666666666668
+08:54:59,544 root INFO [Epoch 17, Batch=2199] Train: loss=0.5663, lr=0.0007059333333333334
+08:55:56,714 root INFO [Epoch 17, Batch=2399] Train: loss=0.4645, lr=0.0007086000000000001
+08:56:54,292 root INFO [Epoch 17, Batch=2599] Train: loss=0.5556, lr=0.0007112666666666668
+08:57:51,715 root INFO [Epoch 17, Batch=2799] Train: loss=0.5004, lr=0.0007139333333333334
+08:58:46,162 root INFO Start to validate epoch 17
+08:58:52,172 root INFO Epoch 17, lr=0.0007164666666666668 | Train: loss=0.5657 | Val: loss=0.4941 | Time: this epoch 862.89s, elapsed 15545.32s
+08:58:52,657 root INFO [info] Save model after epoch 17
+
+08:58:52,657 root INFO Start to train epoch 18
+08:59:50,299 root INFO [Epoch 18, Batch=199] Train: loss=0.4710, lr=0.0007190666666666667
+09:00:47,952 root INFO [Epoch 18, Batch=399] Train: loss=0.5048, lr=0.0007217333333333335
+09:01:45,656 root INFO [Epoch 18, Batch=599] Train: loss=0.5599, lr=0.0007244000000000002
+09:02:43,228 root INFO [Epoch 18, Batch=799] Train: loss=0.5038, lr=0.0007270666666666667
+09:03:41,53 root INFO [Epoch 18, Batch=999] Train: loss=0.4370, lr=0.0007297333333333335
+09:04:38,633 root INFO [Epoch 18, Batch=1199] Train: loss=0.4862, lr=0.0007324000000000001
+09:05:36,102 root INFO [Epoch 18, Batch=1399] Train: loss=0.4862, lr=0.0007350666666666668
+09:06:33,501 root INFO [Epoch 18, Batch=1599] Train: loss=0.5406, lr=0.0007377333333333334
+09:07:30,676 root INFO [Epoch 18, Batch=1799] Train: loss=0.5304, lr=0.0007404000000000001
+09:08:26,920 root INFO [Epoch 18, Batch=1999] Train: loss=0.5351, lr=0.0007430666666666668
+09:09:23,587 root INFO [Epoch 18, Batch=2199] Train: loss=0.3722, lr=0.0007457333333333334
+09:10:20,713 root INFO [Epoch 18, Batch=2399] Train: loss=0.5289, lr=0.0007484000000000002
+09:11:18,898 root INFO [Epoch 18, Batch=2599] Train: loss=0.4814, lr=0.0007510666666666667
+09:12:16,553 root INFO [Epoch 18, Batch=2799] Train: loss=0.4670, lr=0.0007537333333333334
+09:13:11,163 root INFO Start to validate epoch 18
+09:13:17,198 root INFO Epoch 18, lr=0.0007562666666666668 | Train: loss=0.4863 | Val: loss=0.4428 | Time: this epoch 864.54s, elapsed 16410.34s
+09:13:17,689 root INFO [info] Save model after epoch 18
+
+09:13:17,689 root INFO Start to train epoch 19
+09:14:16,120 root INFO [Epoch 19, Batch=199] Train: loss=0.4279, lr=0.0007588666666666667
+09:15:14,43 root INFO [Epoch 19, Batch=399] Train: loss=0.4199, lr=0.0007615333333333335
+09:16:11,597 root INFO [Epoch 19, Batch=599] Train: loss=0.4379, lr=0.0007642000000000001
+09:17:09,386 root INFO [Epoch 19, Batch=799] Train: loss=0.3748, lr=0.0007668666666666667
+09:18:07,432 root INFO [Epoch 19, Batch=999] Train: loss=0.4684, lr=0.0007695333333333335
+09:19:04,600 root INFO [Epoch 19, Batch=1199] Train: loss=0.3918, lr=0.0007722000000000001
+09:20:02,336 root INFO [Epoch 19, Batch=1399] Train: loss=0.4444, lr=0.0007748666666666668
+09:20:59,605 root INFO [Epoch 19, Batch=1599] Train: loss=0.4712, lr=0.0007775333333333334
+09:21:57,564 root INFO [Epoch 19, Batch=1799] Train: loss=0.4314, lr=0.0007802000000000001
+09:22:55,459 root INFO [Epoch 19, Batch=1999] Train: loss=0.4229, lr=0.0007828666666666668
+09:23:53,525 root INFO [Epoch 19, Batch=2199] Train: loss=0.3705, lr=0.0007855333333333334
+09:24:50,816 root INFO [Epoch 19, Batch=2399] Train: loss=0.4213, lr=0.0007882000000000002
+09:25:47,73 root INFO [Epoch 19, Batch=2599] Train: loss=0.5163, lr=0.0007908666666666667
+09:26:44,19 root INFO [Epoch 19, Batch=2799] Train: loss=0.3959, lr=0.0007935333333333334
+09:27:38,562 root INFO Start to validate epoch 19
+09:27:44,878 root INFO Epoch 19, lr=0.0007960666666666668 | Train: loss=0.4310 | Val: loss=0.4040 | Time: this epoch 867.19s, elapsed 17278.02s
+09:27:45,372 root INFO [info] Save model after epoch 19
+
+09:27:45,372 root INFO Start to train epoch 20
+09:28:43,649 root INFO [Epoch 20, Batch=199] Train: loss=0.3585, lr=0.0007986666666666668
+09:29:40,681 root INFO [Epoch 20, Batch=399] Train: loss=0.4115, lr=0.0008013333333333334
+09:30:38,514 root INFO [Epoch 20, Batch=599] Train: loss=0.3680, lr=0.0008040000000000001
+09:31:36,245 root INFO [Epoch 20, Batch=799] Train: loss=0.4217, lr=0.0008066666666666668
+09:32:34,414 root INFO [Epoch 20, Batch=999] Train: loss=0.3335, lr=0.0008093333333333335
+09:33:31,492 root INFO [Epoch 20, Batch=1199] Train: loss=0.3560, lr=0.0008120000000000001
+09:34:28,396 root INFO [Epoch 20, Batch=1399] Train: loss=0.3620, lr=0.0008146666666666669
+09:35:25,713 root INFO [Epoch 20, Batch=1599] Train: loss=0.3394, lr=0.0008173333333333334
+09:36:22,359 root INFO [Epoch 20, Batch=1799] Train: loss=0.3782, lr=0.0008200000000000001
+09:37:19,437 root INFO [Epoch 20, Batch=1999] Train: loss=0.4668, lr=0.0008226666666666669
+09:38:17,297 root INFO [Epoch 20, Batch=2199] Train: loss=0.3816, lr=0.0008253333333333334
+09:39:14,635 root INFO [Epoch 20, Batch=2399] Train: loss=0.3680, lr=0.0008280000000000002
+09:40:12,644 root INFO [Epoch 20, Batch=2599] Train: loss=0.3362, lr=0.0008306666666666668
+09:41:09,380 root INFO [Epoch 20, Batch=2799] Train: loss=0.4085, lr=0.0008333333333333334
+09:42:04,23 root INFO Start to validate epoch 20
+09:42:10,120 root INFO Epoch 20, lr=0.0008358666666666667 | Train: loss=0.3901 | Val: loss=0.3876 | Time: this epoch 864.75s, elapsed 18143.27s
+09:42:10,674 root INFO [info] Save model after epoch 20
+
+09:42:10,675 root INFO Start to train epoch 21
+09:43:09,75 root INFO [Epoch 21, Batch=199] Train: loss=0.3642, lr=0.0008384666666666668
+09:44:06,930 root INFO [Epoch 21, Batch=399] Train: loss=0.3232, lr=0.0008411333333333334
+09:45:04,335 root INFO [Epoch 21, Batch=599] Train: loss=0.3789, lr=0.0008438000000000001
+09:46:01,924 root INFO [Epoch 21, Batch=799] Train: loss=0.3415, lr=0.0008464666666666668
+09:46:59,851 root INFO [Epoch 21, Batch=999] Train: loss=0.3838, lr=0.0008491333333333334
+09:47:58,169 root INFO [Epoch 21, Batch=1199] Train: loss=0.3444, lr=0.0008518000000000001
+09:48:55,300 root INFO [Epoch 21, Batch=1399] Train: loss=0.3752, lr=0.0008544666666666668
+09:49:52,404 root INFO [Epoch 21, Batch=1599] Train: loss=0.3589, lr=0.0008571333333333334
+09:50:50,277 root INFO [Epoch 21, Batch=1799] Train: loss=0.3316, lr=0.0008598000000000001
+09:51:47,715 root INFO [Epoch 21, Batch=1999] Train: loss=0.3472, lr=0.0008624666666666669
+09:52:45,359 root INFO [Epoch 21, Batch=2199] Train: loss=0.2753, lr=0.0008651333333333334
+09:53:42,926 root INFO [Epoch 21, Batch=2399] Train: loss=0.3509, lr=0.0008678000000000002
+09:54:40,308 root INFO [Epoch 21, Batch=2599] Train: loss=0.3874, lr=0.0008704666666666668
+09:55:37,191 root INFO [Epoch 21, Batch=2799] Train: loss=0.3987, lr=0.0008731333333333334
+09:56:31,390 root INFO Start to validate epoch 21
+09:56:37,706 root INFO Epoch 21, lr=0.0008756666666666667 | Train: loss=0.3569 | Val: loss=0.4497 | Time: this epoch 867.03s, elapsed 19010.85s
+09:56:37,707 root INFO Start to train epoch 22
+09:57:35,319 root INFO [Epoch 22, Batch=199] Train: loss=0.2995, lr=0.0008782666666666668
+09:58:32,903 root INFO [Epoch 22, Batch=399] Train: loss=0.4066, lr=0.0008809333333333335
+09:59:29,903 root INFO [Epoch 22, Batch=599] Train: loss=0.3541, lr=0.0008836000000000001
+10:00:27,763 root INFO [Epoch 22, Batch=799] Train: loss=0.3183, lr=0.0008862666666666668
+10:01:25,430 root INFO [Epoch 22, Batch=999] Train: loss=0.3278, lr=0.0008889333333333335
+10:02:22,956 root INFO [Epoch 22, Batch=1199] Train: loss=0.3248, lr=0.0008916000000000001
+10:03:20,566 root INFO [Epoch 22, Batch=1399] Train: loss=0.2901, lr=0.0008942666666666668
+10:04:18,419 root INFO [Epoch 22, Batch=1599] Train: loss=0.2894, lr=0.0008969333333333335
+10:05:15,648 root INFO [Epoch 22, Batch=1799] Train: loss=0.3596, lr=0.0008996000000000001
+10:06:12,674 root INFO [Epoch 22, Batch=1999] Train: loss=0.3104, lr=0.0009022666666666668
+10:07:09,710 root INFO [Epoch 22, Batch=2199] Train: loss=0.3221, lr=0.0009049333333333335
+10:08:07,179 root INFO [Epoch 22, Batch=2399] Train: loss=0.3048, lr=0.0009076000000000002
+10:09:03,496 root INFO [Epoch 22, Batch=2599] Train: loss=0.3434, lr=0.0009102666666666668
+10:10:00,732 root INFO [Epoch 22, Batch=2799] Train: loss=0.3962, lr=0.0009129333333333335
+10:10:54,468 root INFO Start to validate epoch 22
+10:11:00,679 root INFO Epoch 22, lr=0.0009154666666666668 | Train: loss=0.3297 | Val: loss=0.3501 | Time: this epoch 862.97s, elapsed 19873.83s
+10:11:01,167 root INFO [info] Save model after epoch 22
+
+10:11:01,167 root INFO Start to train epoch 23
+10:11:58,616 root INFO [Epoch 23, Batch=199] Train: loss=0.3078, lr=0.0009180666666666668
+10:12:56,568 root INFO [Epoch 23, Batch=399] Train: loss=0.2789, lr=0.0009207333333333335
+10:13:54,21 root INFO [Epoch 23, Batch=599] Train: loss=0.2768, lr=0.0009234000000000001
+10:14:52,34 root INFO [Epoch 23, Batch=799] Train: loss=0.3809, lr=0.0009260666666666668
+10:15:49,39 root INFO [Epoch 23, Batch=999] Train: loss=0.2843, lr=0.0009287333333333335
+10:16:45,828 root INFO [Epoch 23, Batch=1199] Train: loss=0.3380, lr=0.0009314000000000001
+10:17:43,156 root INFO [Epoch 23, Batch=1399] Train: loss=0.3349, lr=0.0009340666666666667
+10:18:40,670 root INFO [Epoch 23, Batch=1599] Train: loss=0.3131, lr=0.0009367333333333335
+10:19:36,972 root INFO [Epoch 23, Batch=1799] Train: loss=0.3357, lr=0.0009394000000000001
+10:20:33,905 root INFO [Epoch 23, Batch=1999] Train: loss=0.2893, lr=0.0009420666666666668
+10:21:31,225 root INFO [Epoch 23, Batch=2199] Train: loss=0.2995, lr=0.0009447333333333335
+10:22:28,42 root INFO [Epoch 23, Batch=2399] Train: loss=0.2480, lr=0.0009474
+10:23:25,492 root INFO [Epoch 23, Batch=2599] Train: loss=0.2943, lr=0.0009500666666666668
+10:24:22,572 root INFO [Epoch 23, Batch=2799] Train: loss=0.3039, lr=0.0009527333333333335
+10:25:16,905 root INFO Start to validate epoch 23
+10:25:23,56 root INFO Epoch 23, lr=0.0009552666666666668 | Train: loss=0.3080 | Val: loss=0.3575 | Time: this epoch 861.89s, elapsed 20736.20s
+10:25:23,57 root INFO Start to train epoch 24
+10:26:21,67 root INFO [Epoch 24, Batch=199] Train: loss=0.2985, lr=0.0009578666666666668
+10:27:18,975 root INFO [Epoch 24, Batch=399] Train: loss=0.3227, lr=0.0009605333333333334
+10:28:17,18 root INFO [Epoch 24, Batch=599] Train: loss=0.3072, lr=0.0009632
+10:29:13,871 root INFO [Epoch 24, Batch=799] Train: loss=0.3172, lr=0.0009658666666666669
+10:30:10,998 root INFO [Epoch 24, Batch=999] Train: loss=0.2209, lr=0.0009685333333333335
+10:31:08,18 root INFO [Epoch 24, Batch=1199] Train: loss=0.2956, lr=0.0009712000000000001
+10:32:05,144 root INFO [Epoch 24, Batch=1399] Train: loss=0.2863, lr=0.0009738666666666667
+10:33:03,260 root INFO [Epoch 24, Batch=1599] Train: loss=0.3124, lr=0.0009765333333333334
+10:34:01,23 root INFO [Epoch 24, Batch=1799] Train: loss=0.3146, lr=0.0009792000000000002
+10:34:58,906 root INFO [Epoch 24, Batch=1999] Train: loss=0.2444, lr=0.0009818666666666668
+10:35:57,391 root INFO [Epoch 24, Batch=2199] Train: loss=0.3027, lr=0.0009845333333333335
+10:36:53,867 root INFO [Epoch 24, Batch=2399] Train: loss=0.3073, lr=0.0009872000000000001
+10:37:51,78 root INFO [Epoch 24, Batch=2599] Train: loss=0.2417, lr=0.0009898666666666668
+10:38:48,964 root INFO [Epoch 24, Batch=2799] Train: loss=0.3326, lr=0.0009925333333333335
+10:39:42,944 root INFO Start to validate epoch 24
+10:39:49,5 root INFO Epoch 24, lr=0.0009950666666666667 | Train: loss=0.2889 | Val: loss=0.3280 | Time: this epoch 865.95s, elapsed 21602.15s
+10:39:49,491 root INFO [info] Save model after epoch 24
+
+10:39:49,492 root INFO Start to train epoch 25
+10:40:47,238 root INFO [Epoch 25, Batch=199] Train: loss=0.2536, lr=0.0009976666666666669
+10:41:44,861 root INFO [Epoch 25, Batch=399] Train: loss=0.2659, lr=0.0009998333749884293
+10:42:43,101 root INFO [Epoch 25, Batch=599] Train: loss=0.3342, lr=0.0009985033665845888
+10:43:40,208 root INFO [Epoch 25, Batch=799] Train: loss=0.2738, lr=0.000997178651750425
+10:44:37,402 root INFO [Epoch 25, Batch=999] Train: loss=0.2598, lr=0.0009958591954639384
+10:45:34,973 root INFO [Epoch 25, Batch=1199] Train: loss=0.2596, lr=0.0009945449630266604
+10:46:32,442 root INFO [Epoch 25, Batch=1399] Train: loss=0.2958, lr=0.0009932359200598181
+10:47:30,168 root INFO [Epoch 25, Batch=1599] Train: loss=0.2532, lr=0.0009919320325005583
+10:48:28,253 root INFO [Epoch 25, Batch=1799] Train: loss=0.2434, lr=0.000990633266598225
+10:49:25,533 root INFO [Epoch 25, Batch=1999] Train: loss=0.2734, lr=0.000989339588910689
+10:50:23,50 root INFO [Epoch 25, Batch=2199] Train: loss=0.2653, lr=0.0009880509663007318
+10:51:20,549 root INFO [Epoch 25, Batch=2399] Train: loss=0.2714, lr=0.0009867673659324817
+10:52:17,863 root INFO [Epoch 25, Batch=2599] Train: loss=0.2268, lr=0.0009854887552678971
+10:53:14,379 root INFO [Epoch 25, Batch=2799] Train: loss=0.2432, lr=0.0009842151020633043
+10:54:08,376 root INFO Start to validate epoch 25
+10:54:14,541 root INFO Epoch 25, lr=0.0009830096942600374 | Train: loss=0.2713 | Val: loss=0.3168 | Time: this epoch 865.05s, elapsed 22467.69s
+10:54:15,71 root INFO [info] Save model after epoch 25
+
+10:54:15,72 root INFO Start to train epoch 26
+10:55:12,254 root INFO [Epoch 26, Batch=199] Train: loss=0.2850, lr=0.0009817771589949395
+10:56:09,838 root INFO [Epoch 26, Batch=399] Train: loss=0.1866, lr=0.0009805178239986664
+10:57:06,836 root INFO [Epoch 26, Batch=599] Train: loss=0.2396, lr=0.0009792633226865933
+10:58:04,635 root INFO [Epoch 26, Batch=799] Train: loss=0.2546, lr=0.000978013624215887
+10:59:01,605 root INFO [Epoch 26, Batch=999] Train: loss=0.2391, lr=0.000976768698018536
+10:59:58,977 root INFO [Epoch 26, Batch=1199] Train: loss=0.2760, lr=0.0009755285137982109
+11:00:56,142 root INFO [Epoch 26, Batch=1399] Train: loss=0.2750, lr=0.0009742930415271667
+11:01:53,697 root INFO [Epoch 26, Batch=1599] Train: loss=0.2376, lr=0.0009730622514431895
+11:02:50,682 root INFO [Epoch 26, Batch=1799] Train: loss=0.2673, lr=0.0009718361140465858
+11:03:48,516 root INFO [Epoch 26, Batch=1999] Train: loss=0.2607, lr=0.0009706146000972112
+11:04:46,190 root INFO [Epoch 26, Batch=2199] Train: loss=0.2672, lr=0.0009693976806115439
+11:05:42,898 root INFO [Epoch 26, Batch=2399] Train: loss=0.2919, lr=0.0009681853268597942
+11:06:39,947 root INFO [Epoch 26, Batch=2599] Train: loss=0.2515, lr=0.0009669775103630573
+11:07:37,372 root INFO [Epoch 26, Batch=2799] Train: loss=0.2483, lr=0.0009657742028905023
+11:08:31,20 root INFO Start to validate epoch 26
+11:08:37,43 root INFO Epoch 26, lr=0.0009646352117828866 | Train: loss=0.2497 | Val: loss=0.3017 | Time: this epoch 861.97s, elapsed 23330.19s
+11:08:37,514 root INFO [info] Save model after epoch 26
+
+11:08:37,515 root INFO Start to train epoch 27
+11:09:35,241 root INFO [Epoch 27, Batch=199] Train: loss=0.2021, lr=0.0009634704274436505
+11:10:32,919 root INFO [Epoch 27, Batch=399] Train: loss=0.2570, lr=0.0009622801491123261
+11:11:30,166 root INFO [Epoch 27, Batch=599] Train: loss=0.2699, lr=0.0009610942713445088
+11:12:27,872 root INFO [Epoch 27, Batch=799] Train: loss=0.2169, lr=0.00095991276709141
+11:13:25,787 root INFO [Epoch 27, Batch=999] Train: loss=0.2297, lr=0.0009587356095364344
+11:14:23,703 root INFO [Epoch 27, Batch=1199] Train: loss=0.2113, lr=0.0009575627720926226
+11:15:21,712 root INFO [Epoch 27, Batch=1399] Train: loss=0.2195, lr=0.0009563942284001302
+11:16:19,505 root INFO [Epoch 27, Batch=1599] Train: loss=0.2105, lr=0.0009552299523237388
+11:17:17,89 root INFO [Epoch 27, Batch=1799] Train: loss=0.2281, lr=0.0009540699179504009
+11:18:15,476 root INFO [Epoch 27, Batch=1999] Train: loss=0.1927, lr=0.0009529140995868178
+11:19:12,163 root INFO [Epoch 27, Batch=2199] Train: loss=0.2136, lr=0.000951762471757049
+11:20:08,621 root INFO [Epoch 27, Batch=2399] Train: loss=0.2231, lr=0.0009506150092001543
+11:21:05,835 root INFO [Epoch 27, Batch=2599] Train: loss=0.1896, lr=0.0009494716868678665
+11:22:02,774 root INFO [Epoch 27, Batch=2799] Train: loss=0.1993, lr=0.000948332479922294
+11:22:57,165 root INFO Start to validate epoch 27
+11:23:03,283 root INFO Epoch 27, lr=0.0009472540227654834 | Train: loss=0.2333 | Val: loss=0.2976 | Time: this epoch 865.77s, elapsed 24196.43s
+11:23:03,836 root INFO [info] Save model after epoch 27
+
+11:23:03,837 root INFO Start to train epoch 28
+11:24:01,297 root INFO [Epoch 28, Batch=199] Train: loss=0.2653, lr=0.0009461510021065878
+11:24:58,880 root INFO [Epoch 28, Batch=399] Train: loss=0.2393, lr=0.000945023692040943
+11:25:55,907 root INFO [Epoch 28, Batch=599] Train: loss=0.2259, lr=0.0009439004018637939
+11:26:52,977 root INFO [Epoch 28, Batch=799] Train: loss=0.2862, lr=0.0009427811077408478
+11:27:50,550 root INFO [Epoch 28, Batch=999] Train: loss=0.2674, lr=0.000941665786035186
+11:28:47,702 root INFO [Epoch 28, Batch=1199] Train: loss=0.2798, lr=0.0009405544133051672
+11:29:45,24 root INFO [Epoch 28, Batch=1399] Train: loss=0.2047, lr=0.0009394469663023585
+11:30:41,753 root INFO [Epoch 28, Batch=1599] Train: loss=0.2168, lr=0.0009383434219694921
+11:31:39,5 root INFO [Epoch 28, Batch=1799] Train: loss=0.1835, lr=0.0009372437574384498
+11:32:37,449 root INFO [Epoch 28, Batch=1999] Train: loss=0.2998, lr=0.0009361479500282721
+11:33:35,79 root INFO [Epoch 28, Batch=2199] Train: loss=0.1856, lr=0.0009350559772431934
+11:34:31,891 root INFO [Epoch 28, Batch=2399] Train: loss=0.2051, lr=0.000933967816770703
+11:35:28,916 root INFO [Epoch 28, Batch=2599] Train: loss=0.1956, lr=0.0009328834464796293
+11:36:25,442 root INFO [Epoch 28, Batch=2799] Train: loss=0.2098, lr=0.00093180284441825
+11:37:19,477 root INFO Start to validate epoch 28
+11:37:25,634 root INFO Epoch 28, lr=0.0009307797429485299 | Train: loss=0.2205 | Val: loss=0.2890 | Time: this epoch 861.80s, elapsed 25058.78s
+11:37:26,117 root INFO [info] Save model after epoch 28
+
+11:37:26,118 root INFO Start to train epoch 29
+11:38:23,960 root INFO [Epoch 29, Batch=199] Train: loss=0.2054, lr=0.0009297332141418185
+11:39:20,945 root INFO [Epoch 29, Batch=399] Train: loss=0.1675, lr=0.0009286635098076921
+11:40:18,310 root INFO [Epoch 29, Batch=599] Train: loss=0.1912, lr=0.0009275974892418804
+11:41:15,198 root INFO [Epoch 29, Batch=799] Train: loss=0.3283, lr=0.0009265351313496623
+11:42:13,97 root INFO [Epoch 29, Batch=999] Train: loss=0.2064, lr=0.0009254764152050459
+11:43:11,586 root INFO [Epoch 29, Batch=1199] Train: loss=0.2107, lr=0.0009244213200490366
+11:44:08,898 root INFO [Epoch 29, Batch=1399] Train: loss=0.2089, lr=0.0009233698252879284
+11:45:06,592 root INFO [Epoch 29, Batch=1599] Train: loss=0.1936, lr=0.0009223219104916153
+11:46:04,16 root INFO [Epoch 29, Batch=1799] Train: loss=0.1977, lr=0.0009212775553919236
+11:47:01,310 root INFO [Epoch 29, Batch=1999] Train: loss=0.3106, lr=0.0009202367398809661
+11:47:58,253 root INFO [Epoch 29, Batch=2199] Train: loss=0.1699, lr=0.0009191994440095157
+11:48:54,666 root INFO [Epoch 29, Batch=2399] Train: loss=0.2149, lr=0.0009181656479853995
+11:49:52,66 root INFO [Epoch 29, Batch=2599] Train: loss=0.1604, lr=0.0009171353321719127
+11:50:49,588 root INFO [Epoch 29, Batch=2799] Train: loss=0.2470, lr=0.0009161084770862516
+11:51:44,88 root INFO Start to validate epoch 29
+11:51:50,216 root INFO Epoch 29, lr=0.0009151361526458867 | Train: loss=0.2056 | Val: loss=0.2810 | Time: this epoch 864.10s, elapsed 25923.36s
+11:51:50,709 root INFO [info] Save model after epoch 29
+
+11:51:50,710 root INFO Start to train epoch 30
+11:52:48,775 root INFO [Epoch 30, Batch=199] Train: loss=0.1764, lr=0.0009141414530040078
+11:53:45,928 root INFO [Epoch 30, Batch=399] Train: loss=0.2183, lr=0.0009131246101386775
+11:54:43,680 root INFO [Epoch 30, Batch=599] Train: loss=0.1937, lr=0.0009121111529894008
+11:55:40,817 root INFO [Epoch 30, Batch=799] Train: loss=0.1611, lr=0.0009111010628091207
+11:56:38,55 root INFO [Epoch 30, Batch=999] Train: loss=0.1831, lr=0.0009100943209957855
+11:57:34,959 root INFO [Epoch 30, Batch=1199] Train: loss=0.1509, lr=0.0009090909090909092
+11:58:32,699 root INFO [Epoch 30, Batch=1399] Train: loss=0.2016, lr=0.0009080908087781507
+11:59:30,34 root INFO [Epoch 30, Batch=1599] Train: loss=0.2112, lr=0.0009070940018819093
+12:00:28,507 root INFO [Epoch 30, Batch=1799] Train: loss=0.2224, lr=0.0009061004703659373
+12:01:25,333 root INFO [Epoch 30, Batch=1999] Train: loss=0.1924, lr=0.0009051101963319694
+12:02:22,174 root INFO [Epoch 30, Batch=2199] Train: loss=0.1742, lr=0.0009041231620183684
+12:03:20,168 root INFO [Epoch 30, Batch=2399] Train: loss=0.1877, lr=0.000903139349798787
+12:04:16,959 root INFO [Epoch 30, Batch=2599] Train: loss=0.2025, lr=0.000902158742180846
+12:05:14,54 root INFO [Epoch 30, Batch=2799] Train: loss=0.1610, lr=0.0009011813218048281
+12:06:07,990 root INFO Start to validate epoch 30
+12:06:14,206 root INFO Epoch 30, lr=0.0009002557089371648 | Train: loss=0.1963 | Val: loss=0.2838 | Time: this epoch 863.50s, elapsed 26787.35s
+12:06:14,206 root INFO Start to train epoch 31
+12:07:11,434 root INFO [Epoch 31, Batch=199] Train: loss=0.1894, lr=0.0008993086973155228
+12:08:08,132 root INFO [Epoch 31, Batch=399] Train: loss=0.1568, lr=0.0008983405012041528
+12:09:04,714 root INFO [Epoch 31, Batch=599] Train: loss=0.1981, lr=0.0008973754254556053
+12:10:01,796 root INFO [Epoch 31, Batch=799] Train: loss=0.1640, lr=0.000896413453344978
+12:10:58,342 root INFO [Epoch 31, Batch=999] Train: loss=0.1684, lr=0.000895454568272603
+12:11:55,486 root INFO [Epoch 31, Batch=1199] Train: loss=0.1729, lr=0.000894498753762842
+12:12:52,700 root INFO [Epoch 31, Batch=1399] Train: loss=0.1726, lr=0.0008935459934628982
+12:13:48,970 root INFO [Epoch 31, Batch=1599] Train: loss=0.1710, lr=0.0008925962711416412
+12:14:45,786 root INFO [Epoch 31, Batch=1799] Train: loss=0.1893, lr=0.0008916495706884452
+12:15:42,810 root INFO [Epoch 31, Batch=1999] Train: loss=0.1737, lr=0.0008907058761120415
+12:16:39,789 root INFO [Epoch 31, Batch=2199] Train: loss=0.1509, lr=0.000889765171539384
+12:17:37,651 root INFO [Epoch 31, Batch=2399] Train: loss=0.1651, lr=0.0008888274412145277
+12:18:34,387 root INFO [Epoch 31, Batch=2599] Train: loss=0.1614, lr=0.0008878926694975202
+12:19:31,775 root INFO [Epoch 31, Batch=2799] Train: loss=0.1993, lr=0.0008869608408633065
+12:20:25,394 root INFO Start to validate epoch 31
+12:20:31,379 root INFO Epoch 31, lr=0.0008860783156532042 | Train: loss=0.1850 | Val: loss=0.2790 | Time: this epoch 857.17s, elapsed 27644.53s
+12:20:31,859 root INFO [info] Save model after epoch 31
+
+12:20:31,860 root INFO Start to train epoch 32
+12:21:29,280 root INFO [Epoch 32, Batch=199] Train: loss=0.2176, lr=0.0008851752997710099
+12:22:26,17 root INFO [Epoch 32, Batch=399] Train: loss=0.1896, lr=0.0008842519916030037
+12:23:23,184 root INFO [Epoch 32, Batch=599] Train: loss=0.1295, lr=0.0008833315666719667
+12:24:19,709 root INFO [Epoch 32, Batch=799] Train: loss=0.1568, lr=0.0008824140100031471
+12:25:16,333 root INFO [Epoch 32, Batch=999] Train: loss=0.2295, lr=0.0008814993067304513
+12:26:13,274 root INFO [Epoch 32, Batch=1199] Train: loss=0.1634, lr=0.0008805874420954337
+12:27:09,607 root INFO [Epoch 32, Batch=1399] Train: loss=0.1541, lr=0.0008796784014462958
+12:28:06,604 root INFO [Epoch 32, Batch=1599] Train: loss=0.1888, lr=0.0008787721702368974
+12:29:03,530 root INFO [Epoch 32, Batch=1799] Train: loss=0.1406, lr=0.0008778687340257795
+12:30:01,133 root INFO [Epoch 32, Batch=1999] Train: loss=0.1677, lr=0.000876968078475197
+12:30:58,541 root INFO [Epoch 32, Batch=2199] Train: loss=0.1578, lr=0.0008760701893501634
+12:31:56,669 root INFO [Epoch 32, Batch=2399] Train: loss=0.1826, lr=0.0008751750525175062
+12:32:54,800 root INFO [Epoch 32, Batch=2599] Train: loss=0.2016, lr=0.0008742826539449317
+12:33:53,81 root INFO [Epoch 32, Batch=2799] Train: loss=0.1445, lr=0.0008733929797001018
+12:34:48,47 root INFO Start to validate epoch 32
+12:34:54,532 root INFO Epoch 32, lr=0.0008725502999754281 | Train: loss=0.1757 | Val: loss=0.2767 | Time: this epoch 862.67s, elapsed 28507.68s
+12:34:55,555 root INFO [info] Save model after epoch 32
+
+12:34:55,556 root INFO Start to train epoch 33
+12:35:54,71 root INFO [Epoch 33, Batch=199] Train: loss=0.1469, lr=0.0008716879757432513
+12:36:51,885 root INFO [Epoch 33, Batch=399] Train: loss=0.1569, lr=0.0008708061911103489
+12:37:49,736 root INFO [Epoch 33, Batch=599] Train: loss=0.1690, lr=0.0008699270770695658
+12:38:47,577 root INFO [Epoch 33, Batch=799] Train: loss=0.1456, lr=0.0008690506201677072
+12:39:45,253 root INFO [Epoch 33, Batch=999] Train: loss=0.1596, lr=0.0008681768070462669
+12:40:43,341 root INFO [Epoch 33, Batch=1199] Train: loss=0.1669, lr=0.0008673056244405714
+12:41:41,531 root INFO [Epoch 33, Batch=1399] Train: loss=0.1670, lr=0.0008664370591789359
+12:42:39,132 root INFO [Epoch 33, Batch=1599] Train: loss=0.1978, lr=0.0008655710981818258
+12:43:37,580 root INFO [Epoch 33, Batch=1799] Train: loss=0.2469, lr=0.0008647077284610311
+12:44:35,617 root INFO [Epoch 33, Batch=1999] Train: loss=0.1547, lr=0.0008638469371188472
+12:45:33,304 root INFO [Epoch 33, Batch=2199] Train: loss=0.1683, lr=0.000862988711347266
+12:46:31,303 root INFO [Epoch 33, Batch=2399] Train: loss=0.1443, lr=0.0008621330384271756
+12:47:29,169 root INFO [Epoch 33, Batch=2599] Train: loss=0.1580, lr=0.0008612799057275682
+12:48:26,449 root INFO [Epoch 33, Batch=2799] Train: loss=0.1345, lr=0.0008604293007047574
+12:49:21,38 root INFO Start to validate epoch 33
+12:49:27,271 root INFO Epoch 33, lr=0.0008596235558466233 | Train: loss=0.1663 | Val: loss=0.2714 | Time: this epoch 871.72s, elapsed 29380.42s
+12:49:27,751 root INFO [info] Save model after epoch 33
+
+12:49:27,752 root INFO Start to train epoch 34
+12:50:25,122 root INFO [Epoch 34, Batch=199] Train: loss=0.1552, lr=0.0008587989564247844
+12:51:23,432 root INFO [Epoch 34, Batch=399] Train: loss=0.1654, lr=0.0008579556736640437
+12:52:21,266 root INFO [Epoch 34, Batch=599] Train: loss=0.1314, lr=0.0008571148701754475
+12:53:19,230 root INFO [Epoch 34, Batch=799] Train: loss=0.1433, lr=0.0008562765338342229
+12:54:16,927 root INFO [Epoch 34, Batch=999] Train: loss=0.1950, lr=0.000855440652598449
+12:55:14,939 root INFO [Epoch 34, Batch=1199] Train: loss=0.1411, lr=0.0008546072145083304
+12:56:12,381 root INFO [Epoch 34, Batch=1399] Train: loss=0.1390, lr=0.0008537762076854783
+12:57:10,761 root INFO [Epoch 34, Batch=1599] Train: loss=0.1363, lr=0.0008529476203321995
+12:58:09,62 root INFO [Epoch 34, Batch=1799] Train: loss=0.1636, lr=0.0008521214407307931
+12:59:06,750 root INFO [Epoch 34, Batch=1999] Train: loss=0.1299, lr=0.000851297657242854
+13:00:03,328 root INFO [Epoch 34, Batch=2199] Train: loss=0.1665, lr=0.0008504762583085854
+13:01:00,748 root INFO [Epoch 34, Batch=2399] Train: loss=0.1326, lr=0.0008496572324461159
+13:01:57,598 root INFO [Epoch 34, Batch=2599] Train: loss=0.1516, lr=0.0008488405682508272
+13:02:54,907 root INFO [Epoch 34, Batch=2799] Train: loss=0.1739, lr=0.0008480262543946851
+13:03:48,613 root INFO Start to validate epoch 34
+13:03:54,824 root INFO Epoch 34, lr=0.0008472548229835655 | Train: loss=0.1597 | Val: loss=0.2685 | Time: this epoch 867.07s, elapsed 30247.97s
+13:03:55,315 root INFO [info] Save model after epoch 34
+
+13:03:55,315 root INFO Start to train epoch 35
+13:04:53,360 root INFO [Epoch 35, Batch=199] Train: loss=0.1430, lr=0.0008464652757792677
+13:05:50,957 root INFO [Epoch 35, Batch=399] Train: loss=0.1531, lr=0.0008456577723512163
+13:06:47,809 root INFO [Epoch 35, Batch=599] Train: loss=0.1676, lr=0.0008448525755274976
+13:07:45,399 root INFO [Epoch 35, Batch=799] Train: loss=0.1617, lr=0.0008440496743477625
+13:08:43,287 root INFO [Epoch 35, Batch=999] Train: loss=0.1263, lr=0.0008432490579244356
+13:09:40,812 root INFO [Epoch 35, Batch=1199] Train: loss=0.1432, lr=0.0008424507154420964
+13:10:38,433 root INFO [Epoch 35, Batch=1399] Train: loss=0.2147, lr=0.0008416546361568651
+13:11:36,245 root INFO [Epoch 35, Batch=1599] Train: loss=0.1518, lr=0.0008408608093957951
+13:12:33,145 root INFO [Epoch 35, Batch=1799] Train: loss=0.1120, lr=0.0008400692245562727
+13:13:31,7 root INFO [Epoch 35, Batch=1999] Train: loss=0.1417, lr=0.0008392798711054216
+13:14:28,143 root INFO [Epoch 35, Batch=2199] Train: loss=0.1599, lr=0.0008384927385795146
+13:15:25,250 root INFO [Epoch 35, Batch=2399] Train: loss=0.1513, lr=0.0008377078165833911
+13:16:22,400 root INFO [Epoch 35, Batch=2599] Train: loss=0.1429, lr=0.0008369250947898801
+13:17:18,700 root INFO [Epoch 35, Batch=2799] Train: loss=0.1405, lr=0.0008361445629392302
+13:18:12,257 root INFO Start to validate epoch 35
+13:18:18,363 root INFO Epoch 35, lr=0.0008354050768311135 | Train: loss=0.1525 | Val: loss=0.2711 | Time: this epoch 863.05s, elapsed 31111.51s
+13:18:18,364 root INFO Start to train epoch 36
+13:19:15,639 root INFO [Epoch 36, Batch=199] Train: loss=0.1637, lr=0.0008346481670125327
+13:20:12,369 root INFO [Epoch 36, Batch=399] Train: loss=0.1262, lr=0.0008338739824780544
+13:21:09,527 root INFO [Epoch 36, Batch=599] Train: loss=0.1521, lr=0.0008331019482578379
+13:22:06,911 root INFO [Epoch 36, Batch=799] Train: loss=0.1594, lr=0.000832332054416039
+13:23:04,552 root INFO [Epoch 36, Batch=999] Train: loss=0.1203, lr=0.0008315642910809698
+13:24:02,130 root INFO [Epoch 36, Batch=1199] Train: loss=0.1326, lr=0.0008307986484445654
+13:25:00,318 root INFO [Epoch 36, Batch=1399] Train: loss=0.1037, lr=0.0008300351167618588
+13:25:57,370 root INFO [Epoch 36, Batch=1599] Train: loss=0.2280, lr=0.0008292736863504599
+13:26:54,326 root INFO [Epoch 36, Batch=1799] Train: loss=0.1369, lr=0.0008285143475900391
+13:27:51,20 root INFO [Epoch 36, Batch=1999] Train: loss=0.1472, lr=0.0008277570909218176
+13:28:48,165 root INFO [Epoch 36, Batch=2199] Train: loss=0.1692, lr=0.0008270019068480618
+13:29:45,548 root INFO [Epoch 36, Batch=2399] Train: loss=0.1239, lr=0.0008262487859315822
+13:30:43,476 root INFO [Epoch 36, Batch=2599] Train: loss=0.1475, lr=0.0008254977187952393
+13:31:39,796 root INFO [Epoch 36, Batch=2799] Train: loss=0.1352, lr=0.0008247486961214525
+13:32:33,965 root INFO Start to validate epoch 36
+13:32:40,342 root INFO Epoch 36, lr=0.0008240390098313654 | Train: loss=0.1466 | Val: loss=0.2600 | Time: this epoch 861.98s, elapsed 31973.49s
+13:32:40,880 root INFO [info] Save model after epoch 36
+
+13:32:40,880 root INFO Start to train epoch 37
+13:33:39,32 root INFO [Epoch 37, Batch=199] Train: loss=0.1236, lr=0.0008233125492228357
+13:34:37,24 root INFO [Epoch 37, Batch=399] Train: loss=0.1317, lr=0.0008225694536707151
+13:35:34,218 root INFO [Epoch 37, Batch=599] Train: loss=0.1301, lr=0.0008218283665761027
+13:36:30,516 root INFO [Epoch 37, Batch=799] Train: loss=0.1573, lr=0.0008210892789077542
+13:37:28,145 root INFO [Epoch 37, Batch=999] Train: loss=0.1517, lr=0.0008203521816911769
+13:38:25,398 root INFO [Epoch 37, Batch=1199] Train: loss=0.1505, lr=0.0008196170660081724
+13:39:21,934 root INFO [Epoch 37, Batch=1399] Train: loss=0.1551, lr=0.0008188839229963833
+13:40:18,680 root INFO [Epoch 37, Batch=1599] Train: loss=0.1568, lr=0.0008181527438488443
+13:41:15,87 root INFO [Epoch 37, Batch=1799] Train: loss=0.1357, lr=0.0008174235198135382
+13:42:12,632 root INFO [Epoch 37, Batch=1999] Train: loss=0.1166, lr=0.0008166962421929557
+13:43:10,69 root INFO [Epoch 37, Batch=2199] Train: loss=0.1254, lr=0.0008159709023436594
+13:44:07,565 root INFO [Epoch 37, Batch=2399] Train: loss=0.1334, lr=0.0008152474916758529
+13:45:05,97 root INFO [Epoch 37, Batch=2599] Train: loss=0.1329, lr=0.0008145260016529535
+13:46:02,257 root INFO [Epoch 37, Batch=2799] Train: loss=0.1521, lr=0.0008138064237911683
+13:46:55,532 root INFO Start to validate epoch 37
+13:47:01,712 root INFO Epoch 37, lr=0.0008131245882816685 | Train: loss=0.1403 | Val: loss=0.2686 | Time: this epoch 860.83s, elapsed 32834.86s
+13:47:01,712 root INFO Start to train epoch 38
+13:47:59,784 root INFO [Epoch 38, Batch=199] Train: loss=0.1388, lr=0.0008124265887265605
+13:48:56,937 root INFO [Epoch 38, Batch=399] Train: loss=0.1370, lr=0.0008117125557280683
+13:49:54,263 root INFO [Epoch 38, Batch=599] Train: loss=0.1352, lr=0.0008110004020940991
+13:50:51,658 root INFO [Epoch 38, Batch=799] Train: loss=0.1141, lr=0.0008102901195948169
+13:51:49,253 root INFO [Epoch 38, Batch=999] Train: loss=0.1368, lr=0.0008095817000507518
+13:52:45,979 root INFO [Epoch 38, Batch=1199] Train: loss=0.1248, lr=0.0008088751353324047
+13:53:42,383 root INFO [Epoch 38, Batch=1399] Train: loss=0.1130, lr=0.000808170417359855
+13:54:39,191 root INFO [Epoch 38, Batch=1599] Train: loss=0.1196, lr=0.0008074675381023731
+13:55:36,752 root INFO [Epoch 38, Batch=1799] Train: loss=0.1122, lr=0.0008067664895780353
+13:56:33,224 root INFO [Epoch 38, Batch=1999] Train: loss=0.1634, lr=0.0008060672638533442
+13:57:30,423 root INFO [Epoch 38, Batch=2199] Train: loss=0.0754, lr=0.0008053698530428502
+13:58:27,143 root INFO [Epoch 38, Batch=2399] Train: loss=0.1025, lr=0.0008046742493087794
+13:59:23,879 root INFO [Epoch 38, Batch=2599] Train: loss=0.1186, lr=0.0008039804448606626
+14:00:21,297 root INFO [Epoch 38, Batch=2799] Train: loss=0.1536, lr=0.0008032884319549693
+14:01:15,806 root INFO Start to validate epoch 38
+14:01:21,865 root INFO Epoch 38, lr=0.0008026326720997208 | Train: loss=0.1352 | Val: loss=0.2698 | Time: this epoch 860.15s, elapsed 33695.01s
+14:01:21,866 root INFO Start to train epoch 39
+14:02:20,111 root INFO [Epoch 39, Batch=199] Train: loss=0.1377, lr=0.0008019613225519488
+14:03:17,636 root INFO [Epoch 39, Batch=399] Train: loss=0.1262, lr=0.000801274505894846
+14:04:15,340 root INFO [Epoch 39, Batch=599] Train: loss=0.1418, lr=0.0008005894508336049
+14:05:11,765 root INFO [Epoch 39, Batch=799] Train: loss=0.1307, lr=0.0007999061498506367
+14:06:09,180 root INFO [Epoch 39, Batch=999] Train: loss=0.1224, lr=0.0007992245954731896
+14:07:06,813 root INFO [Epoch 39, Batch=1199] Train: loss=0.1273, lr=0.0007985447802730055
+14:08:04,44 root INFO [Epoch 39, Batch=1399] Train: loss=0.1302, lr=0.0007978666968659809
+14:09:01,190 root INFO [Epoch 39, Batch=1599] Train: loss=0.1089, lr=0.0007971903379118286
+14:09:58,567 root INFO [Epoch 39, Batch=1799] Train: loss=0.1344, lr=0.0007965156961137452
+14:10:55,988 root INFO [Epoch 39, Batch=1999] Train: loss=0.1331, lr=0.0007958427642180797
+14:11:53,187 root INFO [Epoch 39, Batch=2199] Train: loss=0.1053, lr=0.0007951715350140062
+14:12:50,880 root INFO [Epoch 39, Batch=2399] Train: loss=0.1122, lr=0.0007945020013331995
+14:13:47,898 root INFO [Epoch 39, Batch=2599] Train: loss=0.0972, lr=0.0007938341560495135
+14:14:45,575 root INFO [Epoch 39, Batch=2799] Train: loss=0.1294, lr=0.0007931679920786623
+14:15:39,716 root INFO Start to validate epoch 39
+14:15:45,927 root INFO Epoch 39, lr=0.0007925366872072803 | Train: loss=0.1292 | Val: loss=0.2635 | Time: this epoch 864.06s, elapsed 34559.07s
+14:15:45,929 root INFO Start to train epoch 40
+14:16:43,39 root INFO [Epoch 40, Batch=199] Train: loss=0.1272, lr=0.0007918903339499381
+14:17:40,516 root INFO [Epoch 40, Batch=399] Train: loss=0.0929, lr=0.0007912290475432048
+14:18:38,110 root INFO [Epoch 40, Batch=599] Train: loss=0.1132, lr=0.0007905694150420948
+14:19:35,156 root INFO [Epoch 40, Batch=799] Train: loss=0.2834, lr=0.0007899114295639357
+14:20:32,417 root INFO [Epoch 40, Batch=999] Train: loss=0.1244, lr=0.0007892550842660864
+14:21:29,90 root INFO [Epoch 40, Batch=1199] Train: loss=0.2052, lr=0.0007886003723456398
+14:22:26,275 root INFO [Epoch 40, Batch=1399] Train: loss=0.1328, lr=0.0007879472870391254
+14:23:24,222 root INFO [Epoch 40, Batch=1599] Train: loss=0.1204, lr=0.000787295821622217
+14:24:22,458 root INFO [Epoch 40, Batch=1799] Train: loss=0.1243, lr=0.0007866459694094408
+14:25:20,504 root INFO [Epoch 40, Batch=1999] Train: loss=0.0885, lr=0.0007859977237538881
+14:26:17,218 root INFO [Epoch 40, Batch=2199] Train: loss=0.1060, lr=0.0007853510780469292
+14:27:13,655 root INFO [Epoch 40, Batch=2399] Train: loss=0.1351, lr=0.0007847060257179306
+14:28:09,792 root INFO [Epoch 40, Batch=2599] Train: loss=0.1060, lr=0.0007840625602339751
+14:29:06,327 root INFO [Epoch 40, Batch=2799] Train: loss=0.1342, lr=0.0007834206750995828
+14:30:00,673 root INFO Start to validate epoch 40
+14:30:06,845 root INFO Epoch 40, lr=0.0007828123421379568 | Train: loss=0.1278 | Val: loss=0.2642 | Time: this epoch 860.92s, elapsed 35419.99s
+14:30:06,845 root INFO Start to train epoch 41
+14:31:04,748 root INFO [Epoch 41, Batch=199] Train: loss=0.1184, lr=0.0007821894716368299
+14:32:02,416 root INFO [Epoch 41, Batch=399] Train: loss=0.1626, lr=0.0007815521720878001
+14:32:59,557 root INFO [Epoch 41, Batch=599] Train: loss=0.0974, lr=0.000780916427750203
+14:33:56,652 root INFO [Epoch 41, Batch=799] Train: loss=0.1267, lr=0.0007802822323089696
+14:34:54,361 root INFO [Epoch 41, Batch=999] Train: loss=0.1452, lr=0.0007796495794848728
+14:35:51,541 root INFO [Epoch 41, Batch=1199] Train: loss=0.1227, lr=0.0007790184630342662
+14:36:48,801 root INFO [Epoch 41, Batch=1399] Train: loss=0.0961, lr=0.0007783888767488253
+14:37:46,228 root INFO [Epoch 41, Batch=1599] Train: loss=0.1620, lr=0.000777760814455291
+14:38:43,497 root INFO [Epoch 41, Batch=1799] Train: loss=0.1009, lr=0.0007771342700152151
+14:39:40,894 root INFO [Epoch 41, Batch=1999] Train: loss=0.1147, lr=0.0007765092373247088
+14:40:37,587 root INFO [Epoch 41, Batch=2199] Train: loss=0.1091, lr=0.0007758857103141929
+14:41:34,841 root INFO [Epoch 41, Batch=2399] Train: loss=0.1147, lr=0.0007752636829481497
+14:42:32,447 root INFO [Epoch 41, Batch=2599] Train: loss=0.1335, lr=0.0007746431492248783
+14:43:29,462 root INFO [Epoch 41, Batch=2799] Train: loss=0.1152, lr=0.0007740241031762507
+14:44:22,904 root INFO Start to validate epoch 41
+14:44:29,131 root INFO Epoch 41, lr=0.0007734373819828304 | Train: loss=0.1206 | Val: loss=0.2719 | Time: this epoch 862.29s, elapsed 36282.28s
+14:44:29,131 root INFO Start to train epoch 42
+14:45:26,878 root INFO [Epoch 42, Batch=199] Train: loss=0.1064, lr=0.0007728366059698241
+14:46:23,863 root INFO [Epoch 42, Batch=399] Train: loss=0.1575, lr=0.0007722218774236421
+14:47:20,978 root INFO [Epoch 42, Batch=599] Train: loss=0.0899, lr=0.0007716086134471262
+14:48:18,669 root INFO [Epoch 42, Batch=799] Train: loss=0.0945, lr=0.00077099680823402
+14:49:15,61 root INFO [Epoch 42, Batch=999] Train: loss=0.1095, lr=0.0007703864560102417
+14:50:12,502 root INFO [Epoch 42, Batch=1199] Train: loss=0.1327, lr=0.0007697775510336563
+14:51:09,575 root INFO [Epoch 42, Batch=1399] Train: loss=0.1159, lr=0.0007691700875938484
+14:52:06,510 root INFO [Epoch 42, Batch=1599] Train: loss=0.1281, lr=0.0007685640600118968
+14:53:03,953 root INFO [Epoch 42, Batch=1799] Train: loss=0.1200, lr=0.0007679594626401523
+14:54:01,459 root INFO [Epoch 42, Batch=1999] Train: loss=0.0884, lr=0.0007673562898620162
+14:54:58,885 root INFO [Epoch 42, Batch=2199] Train: loss=0.1279, lr=0.0007667545360917207
+14:55:56,162 root INFO [Epoch 42, Batch=2399] Train: loss=0.1139, lr=0.0007661541957741129
+14:56:53,238 root INFO [Epoch 42, Batch=2599] Train: loss=0.1116, lr=0.000765555263384438
+14:57:50,270 root INFO [Epoch 42, Batch=2799] Train: loss=0.1186, lr=0.0007649577334281269
+14:58:44,851 root INFO Start to validate epoch 42
+14:58:51,234 root INFO Epoch 42, lr=0.0007643913739959731 | Train: loss=0.1167 | Val: loss=0.2627 | Time: this epoch 862.10s, elapsed 37144.38s
+14:58:51,234 root INFO Start to train epoch 43
+14:59:49,607 root INFO [Epoch 43, Batch=199] Train: loss=0.1045, lr=0.0007638114164476494
+15:00:47,6 root INFO [Epoch 43, Batch=399] Train: loss=0.0804, lr=0.0007632179573498929
+15:01:44,709 root INFO [Epoch 43, Batch=599] Train: loss=0.0918, lr=0.0007626258794070491
+15:02:42,343 root INFO [Epoch 43, Batch=799] Train: loss=0.1089, lr=0.0007620351772701563
+15:03:39,563 root INFO [Epoch 43, Batch=999] Train: loss=0.1178, lr=0.0007614458456192098
+15:04:36,773 root INFO [Epoch 43, Batch=1199] Train: loss=0.1225, lr=0.0007608578791629604
+15:05:33,677 root INFO [Epoch 43, Batch=1399] Train: loss=0.1397, lr=0.0007602712726387153
+15:06:30,794 root INFO [Epoch 43, Batch=1599] Train: loss=0.1362, lr=0.00075968602081214
+15:07:28,254 root INFO [Epoch 43, Batch=1799] Train: loss=0.1343, lr=0.0007591021184770616
+15:08:25,385 root INFO [Epoch 43, Batch=1999] Train: loss=0.0860, lr=0.0007585195604552756
+15:09:22,595 root INFO [Epoch 43, Batch=2199] Train: loss=0.1095, lr=0.000757938341596352
+15:10:19,229 root INFO [Epoch 43, Batch=2399] Train: loss=0.1038, lr=0.0007573584567774441
+15:11:15,985 root INFO [Epoch 43, Batch=2599] Train: loss=0.1333, lr=0.0007567799009030992
+15:12:14,274 root INFO [Epoch 43, Batch=2799] Train: loss=0.1036, lr=0.0007562026689050704
+15:13:08,365 root INFO Start to validate epoch 43
+15:13:14,538 root INFO Epoch 43, lr=0.0007556555201554618 | Train: loss=0.1136 | Val: loss=0.2622 | Time: this epoch 863.30s, elapsed 38007.68s
+15:13:14,539 root INFO Start to train epoch 44
+15:14:12,97 root INFO [Epoch 44, Batch=199] Train: loss=0.1050, lr=0.0007550952058885734
+15:15:09,433 root INFO [Epoch 44, Batch=399] Train: loss=0.0779, lr=0.0007545218173892327
+15:16:05,816 root INFO [Epoch 44, Batch=599] Train: loss=0.1307, lr=0.0007539497331327537
+15:17:02,309 root INFO [Epoch 44, Batch=799] Train: loss=0.0876, lr=0.0007533789481821871
+15:17:59,811 root INFO [Epoch 44, Batch=999] Train: loss=0.0942, lr=0.0007528094576267073
+15:18:57,124 root INFO [Epoch 44, Batch=1199] Train: loss=0.0923, lr=0.0007522412565814336
+15:19:54,12 root INFO [Epoch 44, Batch=1399] Train: loss=0.1379, lr=0.0007516743401872562
+15:20:50,860 root INFO [Epoch 44, Batch=1599] Train: loss=0.1698, lr=0.0007511087036106605
+15:21:47,363 root INFO [Epoch 44, Batch=1799] Train: loss=0.1047, lr=0.0007505443420435543
+15:22:44,149 root INFO [Epoch 44, Batch=1999] Train: loss=0.0992, lr=0.0007499812507030958
+15:23:40,813 root INFO [Epoch 44, Batch=2199] Train: loss=0.0944, lr=0.0007494194248315239
+15:24:37,680 root INFO [Epoch 44, Batch=2399] Train: loss=0.1064, lr=0.0007488588596959892
+15:25:34,285 root INFO [Epoch 44, Batch=2599] Train: loss=0.0825, lr=0.0007482995505883864
+15:26:30,948 root INFO [Epoch 44, Batch=2799] Train: loss=0.0879, lr=0.0007477414928251881
+15:27:24,413 root INFO Start to validate epoch 44
+15:27:30,532 root INFO Epoch 44, lr=0.0007472124927640488 | Train: loss=0.1104 | Val: loss=0.2648 | Time: this epoch 855.99s, elapsed 38863.68s
+15:27:30,535 root INFO Start to train epoch 45
+15:28:28,604 root INFO [Epoch 45, Batch=199] Train: loss=0.1263, lr=0.0007466707374160058
+15:29:25,626 root INFO [Epoch 45, Batch=399] Train: loss=0.1176, lr=0.0007461163131796048
+15:30:22,543 root INFO [Epoch 45, Batch=599] Train: loss=0.0836, lr=0.0007455631221391929
+15:31:18,941 root INFO [Epoch 45, Batch=799] Train: loss=0.1368, lr=0.0007450111597299125
+15:32:15,893 root INFO [Epoch 45, Batch=999] Train: loss=0.1815, lr=0.000744460421410527
+15:33:13,194 root INFO [Epoch 45, Batch=1199] Train: loss=0.0940, lr=0.0007439109026632645
+15:34:10,544 root INFO [Epoch 45, Batch=1399] Train: loss=0.0898, lr=0.000743362598993662
+15:35:07,406 root INFO [Epoch 45, Batch=1599] Train: loss=0.1003, lr=0.0007428155059304114
+15:36:04,388 root INFO [Epoch 45, Batch=1799] Train: loss=0.0767, lr=0.0007422696190252055
+15:37:01,343 root INFO [Epoch 45, Batch=1999] Train: loss=0.1155, lr=0.0007417249338525871
+15:37:58,701 root INFO [Epoch 45, Batch=2199] Train: loss=0.1176, lr=0.0007411814460097974
+15:38:55,663 root INFO [Epoch 45, Batch=2399] Train: loss=0.1140, lr=0.0007406391511166272
+15:39:52,572 root INFO [Epoch 45, Batch=2599] Train: loss=0.1168, lr=0.0007400980448152684
+15:40:50,47 root INFO [Epoch 45, Batch=2799] Train: loss=0.1803, lr=0.0007395581227701666
+15:41:43,775 root INFO Start to validate epoch 45
+15:41:50,118 root INFO Epoch 45, lr=0.000739046289815687 | Train: loss=0.1069 | Val: loss=0.2583 | Time: this epoch 859.58s, elapsed 39723.26s
+15:41:51,124 root INFO [info] Save model after epoch 45
+
+15:41:51,124 root INFO Start to train epoch 46
+15:42:49,73 root INFO [Epoch 46, Batch=199] Train: loss=0.1201, lr=0.0007385220910154936
+15:43:46,336 root INFO [Epoch 46, Batch=399] Train: loss=0.0946, lr=0.0007379856082401922
+15:44:43,375 root INFO [Epoch 46, Batch=599] Train: loss=0.1274, lr=0.0007374502929164207
+15:45:40,571 root INFO [Epoch 46, Batch=799] Train: loss=0.0915, lr=0.0007369161408161193
+15:46:36,781 root INFO [Epoch 46, Batch=999] Train: loss=0.1140, lr=0.0007363831477326346
+15:47:34,277 root INFO [Epoch 46, Batch=1199] Train: loss=0.0902, lr=0.0007358513094805799
+15:48:31,851 root INFO [Epoch 46, Batch=1399] Train: loss=0.1366, lr=0.0007353206218956985
+15:49:29,111 root INFO [Epoch 46, Batch=1599] Train: loss=0.1140, lr=0.0007347910808347255
+15:50:26,185 root INFO [Epoch 46, Batch=1799] Train: loss=0.0905, lr=0.000734262682175252
+15:51:23,265 root INFO [Epoch 46, Batch=1999] Train: loss=0.0972, lr=0.0007337354218155916
+15:52:20,394 root INFO [Epoch 46, Batch=2199] Train: loss=0.0894, lr=0.0007332092956746449
+15:53:16,980 root INFO [Epoch 46, Batch=2399] Train: loss=0.0999, lr=0.000732684299691768
+15:54:13,736 root INFO [Epoch 46, Batch=2599] Train: loss=0.0962, lr=0.0007321604298266407
+15:55:10,476 root INFO [Epoch 46, Batch=2799] Train: loss=0.1005, lr=0.0007316376820591355
+15:56:04,209 root INFO Start to validate epoch 46
+15:56:10,615 root INFO Epoch 46, lr=0.0007311421073793924 | Train: loss=0.1046 | Val: loss=0.2625 | Time: this epoch 859.49s, elapsed 40583.76s
+15:56:10,616 root INFO Start to train epoch 47
+15:57:08,22 root INFO [Epoch 47, Batch=199] Train: loss=0.0762, lr=0.0007306345369454269
+15:58:04,805 root INFO [Epoch 47, Batch=399] Train: loss=0.1176, lr=0.0007301150484251677
+15:59:01,655 root INFO [Epoch 47, Batch=599] Train: loss=0.0869, lr=0.0007295966664162424
+15:59:58,373 root INFO [Epoch 47, Batch=799] Train: loss=0.0869, lr=0.0007290793869961029
+16:00:55,451 root INFO [Epoch 47, Batch=999] Train: loss=0.0716, lr=0.0007285632062616408
+16:01:52,266 root INFO [Epoch 47, Batch=1199] Train: loss=0.1031, lr=0.0007280481203290635
+16:02:49,819 root INFO [Epoch 47, Batch=1399] Train: loss=0.1029, lr=0.0007275341253337725
+16:03:47,359 root INFO [Epoch 47, Batch=1599] Train: loss=0.0948, lr=0.0007270212174302405
+16:04:44,274 root INFO [Epoch 47, Batch=1799] Train: loss=0.0853, lr=0.0007265093927918911
+16:05:41,158 root INFO [Epoch 47, Batch=1999] Train: loss=0.1017, lr=0.0007259986476109789
+16:06:38,196 root INFO [Epoch 47, Batch=2199] Train: loss=0.0974, lr=0.0007254889780984705
+16:07:34,475 root INFO [Epoch 47, Batch=2399] Train: loss=0.1091, lr=0.0007249803804839262
+16:08:31,58 root INFO [Epoch 47, Batch=2599] Train: loss=0.0941, lr=0.0007244728510153833
+16:09:28,400 root INFO [Epoch 47, Batch=2799] Train: loss=0.0942, lr=0.0007239663859592391
+16:10:22,761 root INFO Start to validate epoch 47
+16:10:29,186 root INFO Epoch 47, lr=0.0007234862266836862 | Train: loss=0.1020 | Val: loss=0.2616 | Time: this epoch 858.57s, elapsed 41442.33s
+16:10:29,186 root INFO Start to train epoch 48
+16:11:26,476 root INFO [Epoch 48, Batch=199] Train: loss=0.1016, lr=0.0007229944237101131
+16:12:23,936 root INFO [Epoch 48, Batch=399] Train: loss=0.0835, lr=0.0007224910507996092
+16:13:21,709 root INFO [Epoch 48, Batch=599] Train: loss=0.0922, lr=0.0007219887278223847
+16:14:18,816 root INFO [Epoch 48, Batch=799] Train: loss=0.0810, lr=0.0007214874511335964
+16:15:15,838 root INFO [Epoch 48, Batch=999] Train: loss=0.0970, lr=0.0007209872171060909
+16:16:12,723 root INFO [Epoch 48, Batch=1199] Train: loss=0.0935, lr=0.0007204880221302937
+16:17:09,895 root INFO [Epoch 48, Batch=1399] Train: loss=0.0763, lr=0.0007199898626141011
+16:18:06,659 root INFO [Epoch 48, Batch=1599] Train: loss=0.0979, lr=0.0007194927349827707
+16:19:04,233 root INFO [Epoch 48, Batch=1799] Train: loss=0.0938, lr=0.0007189966356788135
+16:20:01,265 root INFO [Epoch 48, Batch=1999] Train: loss=0.1022, lr=0.0007185015611618882
+16:20:57,862 root INFO [Epoch 48, Batch=2199] Train: loss=0.0737, lr=0.0007180075079086937
+16:21:54,394 root INFO [Epoch 48, Batch=2399] Train: loss=0.0904, lr=0.0007175144724128644
+16:22:51,92 root INFO [Epoch 48, Batch=2599] Train: loss=0.0889, lr=0.0007170224511848659
+16:23:47,634 root INFO [Epoch 48, Batch=2799] Train: loss=0.1444, lr=0.0007165314407518907
+16:24:41,724 root INFO Start to validate epoch 48
+16:24:47,741 root INFO Epoch 48, lr=0.0007160659139413318 | Train: loss=0.0988 | Val: loss=0.2608 | Time: this epoch 858.55s, elapsed 42300.89s
+16:24:47,741 root INFO Start to train epoch 49
+16:25:45,105 root INFO [Epoch 49, Batch=199] Train: loss=0.0870, lr=0.0007155890786559613
+16:26:42,225 root INFO [Epoch 49, Batch=399] Train: loss=0.1167, lr=0.0007151010050196293
+16:27:39,579 root INFO [Epoch 49, Batch=599] Train: loss=0.1176, lr=0.0007146139287072714
+16:28:37,43 root INFO [Epoch 49, Batch=799] Train: loss=0.0854, lr=0.000714127846326974
+16:29:34,296 root INFO [Epoch 49, Batch=999] Train: loss=0.0774, lr=0.0007136427545029526
+16:30:31,341 root INFO [Epoch 49, Batch=1199] Train: loss=0.1037, lr=0.0007131586498754523
+16:31:28,468 root INFO [Epoch 49, Batch=1399] Train: loss=0.0899, lr=0.00071267552910065
+16:32:25,686 root INFO [Epoch 49, Batch=1599] Train: loss=0.1091, lr=0.0007121933888505586
+16:33:23,390 root INFO [Epoch 49, Batch=1799] Train: loss=0.0848, lr=0.000711712225812929
+16:34:21,247 root INFO [Epoch 49, Batch=1999] Train: loss=0.1001, lr=0.0007112320366911561
+16:35:18,216 root INFO [Epoch 49, Batch=2199] Train: loss=0.1126, lr=0.000710752818204183
+16:36:15,312 root INFO [Epoch 49, Batch=2399] Train: loss=0.1028, lr=0.0007102745670864072
+16:37:12,361 root INFO [Epoch 49, Batch=2599] Train: loss=0.1047, lr=0.0007097972800875867
+16:38:09,577 root INFO [Epoch 49, Batch=2799] Train: loss=0.0892, lr=0.0007093209539727481
+16:39:03,898 root INFO Start to validate epoch 49
+16:39:10,30 root INFO Epoch 49, lr=0.0007088693312496355 | Train: loss=0.0969 | Val: loss=0.2602 | Time: this epoch 862.29s, elapsed 43163.18s
+16:39:10,32 root INFO Start to train epoch 50
+16:40:07,160 root INFO [Epoch 50, Batch=199] Train: loss=0.0838, lr=0.000708406719543521
+16:41:04,534 root INFO [Epoch 50, Batch=399] Train: loss=0.1049, lr=0.0007079331855871686
+16:42:01,265 root INFO [Epoch 50, Batch=599] Train: loss=0.0701, lr=0.0007074605999633481
+16:42:58,722 root INFO [Epoch 50, Batch=799] Train: loss=0.1100, lr=0.0007069889595109507
+16:43:55,319 root INFO [Epoch 50, Batch=999] Train: loss=0.0963, lr=0.0007065182610835989
+16:44:51,861 root INFO [Epoch 50, Batch=1199] Train: loss=0.0824, lr=0.0007060485015495599
+16:45:48,297 root INFO [Epoch 50, Batch=1399] Train: loss=0.1209, lr=0.0007055796777916572
+16:46:44,824 root INFO [Epoch 50, Batch=1599] Train: loss=0.0842, lr=0.0007051117867071841
+16:47:42,190 root INFO [Epoch 50, Batch=1799] Train: loss=0.0764, lr=0.000704644825207817
+16:48:39,433 root INFO [Epoch 50, Batch=1999] Train: loss=0.0921, lr=0.0007041787902195304
+16:49:36,271 root INFO [Epoch 50, Batch=2199] Train: loss=0.1033, lr=0.0007037136786825115
+16:50:32,962 root INFO [Epoch 50, Batch=2399] Train: loss=0.1069, lr=0.0007032494875510758
+16:51:29,694 root INFO [Epoch 50, Batch=2599] Train: loss=0.0594, lr=0.0007027862137935837
+16:52:27,389 root INFO [Epoch 50, Batch=2799] Train: loss=0.0887, lr=0.000702323854392357
+16:53:22,386 root INFO Start to validate epoch 50
+16:53:28,499 root INFO Epoch 50, lr=0.0007018854571476272 | Train: loss=0.0941 | Val: loss=0.2635 | Time: this epoch 858.47s, elapsed 44021.65s
+16:53:28,500 root INFO Start to train epoch 51
+16:54:26,504 root INFO [Epoch 51, Batch=199] Train: loss=0.0816, lr=0.0007014363756912764
+16:55:23,851 root INFO [Epoch 51, Batch=399] Train: loss=0.0776, lr=0.0007009766735901295
+16:56:21,136 root INFO [Epoch 51, Batch=599] Train: loss=0.0869, lr=0.0007005178741342356
+16:57:18,286 root INFO [Epoch 51, Batch=799] Train: loss=0.0979, lr=0.0007000599743734838
+16:58:15,338 root INFO [Epoch 51, Batch=999] Train: loss=0.0633, lr=0.0006996029713712437
+16:59:11,947 root INFO [Epoch 51, Batch=1199] Train: loss=0.0802, lr=0.0006991468622042873
+17:00:08,973 root INFO [Epoch 51, Batch=1399] Train: loss=0.0698, lr=0.0006986916439627095
+17:01:06,272 root INFO [Epoch 51, Batch=1599] Train: loss=0.1039, lr=0.0006982373137498509
+17:02:03,154 root INFO [Epoch 51, Batch=1799] Train: loss=0.0811, lr=0.0006977838686822196
+17:03:01,298 root INFO [Epoch 51, Batch=1999] Train: loss=0.0760, lr=0.0006973313058894149
+17:03:58,124 root INFO [Epoch 51, Batch=2199] Train: loss=0.0757, lr=0.000696879622514051
+17:04:55,206 root INFO [Epoch 51, Batch=2399] Train: loss=0.1002, lr=0.0006964288157116811
+17:05:52,805 root INFO [Epoch 51, Batch=2599] Train: loss=0.0770, lr=0.0006959788826507218
+17:06:49,507 root INFO [Epoch 51, Batch=2799] Train: loss=0.0830, lr=0.000695529820512379
+17:07:43,469 root INFO Start to validate epoch 51
+17:07:49,580 root INFO Epoch 51, lr=0.0006951040156170708 | Train: loss=0.0922 | Val: loss=0.2631 | Time: this epoch 861.08s, elapsed 44882.73s
+17:07:49,580 root INFO Start to train epoch 52
+17:08:46,901 root INFO [Epoch 52, Batch=199] Train: loss=0.0851, lr=0.0006946678174903462
+17:09:44,567 root INFO [Epoch 52, Batch=399] Train: loss=0.0719, lr=0.0006942212867393848
+17:10:41,554 root INFO [Epoch 52, Batch=599] Train: loss=0.0719, lr=0.0006937756159694744
+17:11:38,249 root INFO [Epoch 52, Batch=799] Train: loss=0.0658, lr=0.0006933308024237347
+17:12:35,128 root INFO [Epoch 52, Batch=999] Train: loss=0.1098, lr=0.0006928868433576425
+17:13:31,958 root INFO [Epoch 52, Batch=1199] Train: loss=0.1017, lr=0.0006924437360389604
+17:14:28,730 root INFO [Epoch 52, Batch=1399] Train: loss=0.0738, lr=0.0006920014777476669
+17:15:25,313 root INFO [Epoch 52, Batch=1599] Train: loss=0.0875, lr=0.0006915600657758854
+17:16:21,686 root INFO [Epoch 52, Batch=1799] Train: loss=0.0900, lr=0.0006911194974278152
+17:17:19,77 root INFO [Epoch 52, Batch=1999] Train: loss=0.0588, lr=0.0006906797700196619
+17:18:16,521 root INFO [Epoch 52, Batch=2199] Train: loss=0.1125, lr=0.0006902408808795689
+17:19:14,338 root INFO [Epoch 52, Batch=2399] Train: loss=0.0863, lr=0.0006898028273475495
+17:20:11,702 root INFO [Epoch 52, Batch=2599] Train: loss=0.0527, lr=0.0006893656067754186
+17:21:08,855 root INFO [Epoch 52, Batch=2799] Train: loss=0.0786, lr=0.000688929216526726
+17:22:02,54 root INFO Start to validate epoch 52
+17:22:08,659 root INFO Epoch 52, lr=0.0006885154124867363 | Train: loss=0.0899 | Val: loss=0.2604 | Time: this epoch 859.08s, elapsed 45741.81s
+17:22:08,660 root INFO Start to train epoch 53
+17:23:06,254 root INFO [Epoch 53, Batch=199] Train: loss=0.0721, lr=0.0006880914932597941
+17:24:03,232 root INFO [Epoch 53, Batch=399] Train: loss=0.0755, lr=0.0006876575166827652
+17:25:00,375 root INFO [Epoch 53, Batch=599] Train: loss=0.0982, lr=0.0006872243601932589
+17:25:57,292 root INFO [Epoch 53, Batch=799] Train: loss=0.0723, lr=0.0006867920212116529
+17:26:54,116 root INFO [Epoch 53, Batch=999] Train: loss=0.0667, lr=0.0006863604971696708
+17:27:50,808 root INFO [Epoch 53, Batch=1199] Train: loss=0.0678, lr=0.0006859297855103179
+17:28:47,411 root INFO [Epoch 53, Batch=1399] Train: loss=0.1079, lr=0.0006854998836878172
+17:29:44,542 root INFO [Epoch 53, Batch=1599] Train: loss=0.0944, lr=0.0006850707891675469
+17:30:41,295 root INFO [Epoch 53, Batch=1799] Train: loss=0.0839, lr=0.0006846424994259774
+17:31:38,250 root INFO [Epoch 53, Batch=1999] Train: loss=0.0972, lr=0.0006842150119506084
+17:32:35,550 root INFO [Epoch 53, Batch=2199] Train: loss=0.0938, lr=0.000683788324239908
+17:33:32,496 root INFO [Epoch 53, Batch=2399] Train: loss=0.0874, lr=0.0006833624338032502
+17:34:28,926 root INFO [Epoch 53, Batch=2599] Train: loss=0.0885, lr=0.0006829373381608546
+17:35:25,335 root INFO [Epoch 53, Batch=2799] Train: loss=0.0782, lr=0.0006825130348437254
+17:36:19,457 root INFO Start to validate epoch 53
+17:36:25,815 root INFO Epoch 53, lr=0.0006821106783445847 | Train: loss=0.0885 | Val: loss=0.2624 | Time: this epoch 857.16s, elapsed 46598.96s
+17:36:25,816 root INFO Start to train epoch 54
+17:37:23,317 root INFO [Epoch 54, Batch=199] Train: loss=0.0889, lr=0.0006816984725558467
+17:38:20,877 root INFO [Epoch 54, Batch=399] Train: loss=0.0723, lr=0.0006812764727181067
+17:39:17,928 root INFO [Epoch 54, Batch=599] Train: loss=0.0968, lr=0.000680855255617918
+17:40:15,82 root INFO [Epoch 54, Batch=799] Train: loss=0.0957, lr=0.0006804348188385279
+17:41:12,319 root INFO [Epoch 54, Batch=999] Train: loss=0.0766, lr=0.0006800151599736182
+17:42:09,189 root INFO [Epoch 54, Batch=1199] Train: loss=0.0752, lr=0.0006795962766272459
+17:43:05,794 root INFO [Epoch 54, Batch=1399] Train: loss=0.0659, lr=0.0006791781664137872
+17:44:02,877 root INFO [Epoch 54, Batch=1599] Train: loss=0.0813, lr=0.0006787608269578791
+17:44:59,628 root INFO [Epoch 54, Batch=1799] Train: loss=0.1081, lr=0.0006783442558943635
+17:45:56,466 root INFO [Epoch 54, Batch=1999] Train: loss=0.0842, lr=0.0006779284508682307
+17:46:53,9 root INFO [Epoch 54, Batch=2199] Train: loss=0.0951, lr=0.0006775134095345636
+17:47:50,35 root INFO [Epoch 54, Batch=2399] Train: loss=0.1049, lr=0.0006770991295584819
+17:48:46,851 root INFO [Epoch 54, Batch=2599] Train: loss=0.1089, lr=0.0006766856086150873
+17:49:43,853 root INFO [Epoch 54, Batch=2799] Train: loss=0.1284, lr=0.0006762728443894078
+17:50:37,867 root INFO Start to validate epoch 54
+17:50:43,787 root INFO Epoch 54, lr=0.0006758814171851715 | Train: loss=0.0865 | Val: loss=0.2597 | Time: this epoch 857.97s, elapsed 47456.93s
+17:50:43,793 root INFO Start to train epoch 55
+17:51:41,335 root INFO [Epoch 55, Batch=199] Train: loss=0.0870, lr=0.0006754803951696564
+17:52:38,883 root INFO [Epoch 55, Batch=399] Train: loss=0.0915, lr=0.0006750698311474259
+17:53:36,115 root INFO [Epoch 55, Batch=599] Train: loss=0.0900, lr=0.000674660014851561
+17:54:33,336 root INFO [Epoch 55, Batch=799] Train: loss=0.0754, lr=0.0006742509440151935
+17:55:29,856 root INFO [Epoch 55, Batch=999] Train: loss=0.1240, lr=0.0006738426163810649
+17:56:26,357 root INFO [Epoch 55, Batch=1199] Train: loss=0.1003, lr=0.0006734350297014739
+17:57:23,678 root INFO [Epoch 55, Batch=1399] Train: loss=0.0850, lr=0.0006730281817382247
+17:58:21,56 root INFO [Epoch 55, Batch=1599] Train: loss=0.1000, lr=0.0006726220702625756
+17:59:18,169 root INFO [Epoch 55, Batch=1799] Train: loss=0.0860, lr=0.000672216693055187
+18:00:14,875 root INFO [Epoch 55, Batch=1999] Train: loss=0.0837, lr=0.0006718120479060715
+18:01:11,499 root INFO [Epoch 55, Batch=2199] Train: loss=0.0641, lr=0.0006714081326145423
+18:02:08,101 root INFO [Epoch 55, Batch=2399] Train: loss=0.1176, lr=0.0006710049449891632
+18:03:05,396 root INFO [Epoch 55, Batch=2599] Train: loss=0.0826, lr=0.0006706024828476995
+18:04:02,787 root INFO [Epoch 55, Batch=2799] Train: loss=0.1135, lr=0.000670200744017067
+18:04:56,847 root INFO Start to validate epoch 55
+18:05:02,894 root INFO Epoch 55, lr=0.0006698197601235385 | Train: loss=0.0851 | Val: loss=0.2652 | Time: this epoch 859.10s, elapsed 48316.04s
+18:05:02,895 root INFO Start to train epoch 56
+18:06:00,560 root INFO [Epoch 56, Batch=199] Train: loss=0.0636, lr=0.0006694294251510956
+18:06:57,255 root INFO [Epoch 56, Batch=399] Train: loss=0.0712, lr=0.0006690297896160156
+18:07:54,669 root INFO [Epoch 56, Batch=599] Train: loss=0.0842, lr=0.0006686308689499255
+18:08:51,443 root INFO [Epoch 56, Batch=799] Train: loss=0.0595, lr=0.0006682326610240984
+18:09:48,213 root INFO [Epoch 56, Batch=999] Train: loss=0.0926, lr=0.0006678351637186708
+18:10:44,662 root INFO [Epoch 56, Batch=1199] Train: loss=0.1250, lr=0.0006674383749225959
+18:11:41,619 root INFO [Epoch 56, Batch=1399] Train: loss=0.0733, lr=0.0006670422925335968
+18:12:38,634 root INFO [Epoch 56, Batch=1599] Train: loss=0.0614, lr=0.0006666469144581185
+18:13:35,601 root INFO [Epoch 56, Batch=1799] Train: loss=0.0864, lr=0.0006662522386112827
+18:14:32,424 root INFO [Epoch 56, Batch=1999] Train: loss=0.0662, lr=0.0006658582629168406
+18:15:29,635 root INFO [Epoch 56, Batch=2199] Train: loss=0.1004, lr=0.0006654649853071278
+18:16:26,865 root INFO [Epoch 56, Batch=2399] Train: loss=0.0556, lr=0.0006650724037230185
+18:17:24,135 root INFO [Epoch 56, Batch=2599] Train: loss=0.1144, lr=0.00066468051611388
+18:18:21,39 root INFO [Epoch 56, Batch=2799] Train: loss=0.0707, lr=0.0006642893204375277
+18:19:14,807 root INFO Start to validate epoch 56
+18:19:21,116 root INFO Epoch 56, lr=0.0006639183235952481 | Train: loss=0.0830 | Val: loss=0.2622 | Time: this epoch 858.22s, elapsed 49174.26s
+18:19:21,117 root INFO Start to train epoch 57
+18:20:18,321 root INFO [Epoch 57, Batch=199] Train: loss=0.0765, lr=0.0006635382092835311
+18:21:16,266 root INFO [Epoch 57, Batch=399] Train: loss=0.0898, lr=0.0006631490258667934
+18:22:12,959 root INFO [Epoch 57, Batch=599] Train: loss=0.1239, lr=0.000662760526448074
+18:23:10,350 root INFO [Epoch 57, Batch=799] Train: loss=0.0576, lr=0.0006623727090261495
+18:24:07,22 root INFO [Epoch 57, Batch=999] Train: loss=0.0783, lr=0.000661985571607984
+18:25:03,596 root INFO [Epoch 57, Batch=1199] Train: loss=0.0797, lr=0.0006615991122086863
+18:26:00,782 root INFO [Epoch 57, Batch=1399] Train: loss=0.0713, lr=0.0006612133288514669
+18:26:57,519 root INFO [Epoch 57, Batch=1599] Train: loss=0.0740, lr=0.0006608282195675958
+18:27:54,779 root INFO [Epoch 57, Batch=1799] Train: loss=0.0696, lr=0.0006604437823963601
+18:28:51,572 root INFO [Epoch 57, Batch=1999] Train: loss=0.0557, lr=0.0006600600153850223
+18:29:49,34 root INFO [Epoch 57, Batch=2199] Train: loss=0.0721, lr=0.0006596769165887783
+18:30:46,144 root INFO [Epoch 57, Batch=2399] Train: loss=0.0850, lr=0.0006592944840707159
+18:31:43,116 root INFO [Epoch 57, Batch=2599] Train: loss=0.0872, lr=0.0006589127159017747
+18:32:40,772 root INFO [Epoch 57, Batch=2799] Train: loss=0.0816, lr=0.000658531610160704
+18:33:35,115 root INFO Start to validate epoch 57
+18:33:41,288 root INFO Epoch 57, lr=0.0006581701715375913 | Train: loss=0.0822 | Val: loss=0.2630 | Time: this epoch 860.17s, elapsed 50034.43s
+18:33:41,289 root INFO Start to train epoch 58
+18:34:39,318 root INFO [Epoch 58, Batch=199] Train: loss=0.0816, lr=0.0006577998395091377
+18:35:36,610 root INFO [Epoch 58, Batch=399] Train: loss=0.0727, lr=0.0006574206604140443
+18:36:33,256 root INFO [Epoch 58, Batch=599] Train: loss=0.0832, lr=0.0006570421362806291
+18:37:30,546 root INFO [Epoch 58, Batch=799] Train: loss=0.0698, lr=0.000656664265225519
+18:38:28,193 root INFO [Epoch 58, Batch=999] Train: loss=0.0692, lr=0.0006562870453729142
+18:39:25,676 root INFO [Epoch 58, Batch=1199] Train: loss=0.0913, lr=0.0006559104748545492
+18:40:22,295 root INFO [Epoch 58, Batch=1399] Train: loss=0.0646, lr=0.0006555345518096538
+18:41:19,25 root INFO [Epoch 58, Batch=1599] Train: loss=0.0870, lr=0.0006551592743849147
+18:42:16,586 root INFO [Epoch 58, Batch=1799] Train: loss=0.0592, lr=0.0006547846407344367
+18:43:14,646 root INFO [Epoch 58, Batch=1999] Train: loss=0.0772, lr=0.0006544106490197048
+18:44:11,572 root INFO [Epoch 58, Batch=2199] Train: loss=0.1215, lr=0.0006540372974095464
+18:45:08,616 root INFO [Epoch 58, Batch=2399] Train: loss=0.0989, lr=0.0006536645840800935
+18:46:04,992 root INFO [Epoch 58, Batch=2599] Train: loss=0.0617, lr=0.0006532925072147456
+18:47:02,885 root INFO [Epoch 58, Batch=2799] Train: loss=0.0547, lr=0.0006529210650041318
+18:47:56,143 root INFO Start to validate epoch 58
+18:48:02,416 root INFO Epoch 58, lr=0.000652568781111469 | Train: loss=0.0802 | Val: loss=0.2614 | Time: this epoch 861.13s, elapsed 50895.56s
+18:48:02,417 root INFO Start to train epoch 59
+18:49:00,295 root INFO [Epoch 59, Batch=199] Train: loss=0.0989, lr=0.0006522078188681212
+18:49:57,794 root INFO [Epoch 59, Batch=399] Train: loss=0.0773, lr=0.000651838222703871
+18:50:55,907 root INFO [Epoch 59, Batch=599] Train: loss=0.0787, lr=0.0006514692541617536
+18:51:53,532 root INFO [Epoch 59, Batch=799] Train: loss=0.0879, lr=0.0006511009114674715
+18:52:51,486 root INFO [Epoch 59, Batch=999] Train: loss=0.0714, lr=0.0006507331928537417
+18:53:48,981 root INFO [Epoch 59, Batch=1199] Train: loss=0.0731, lr=0.0006503660965602599
+18:54:46,154 root INFO [Epoch 59, Batch=1399] Train: loss=0.0578, lr=0.0006499996208336651
+18:55:42,919 root INFO [Epoch 59, Batch=1599] Train: loss=0.0878, lr=0.000649633763927505
+18:56:39,854 root INFO [Epoch 59, Batch=1799] Train: loss=0.0689, lr=0.0006492685241022002
+18:57:36,264 root INFO [Epoch 59, Batch=1999] Train: loss=0.0804, lr=0.0006489038996250096
+18:58:32,562 root INFO [Epoch 59, Batch=2199] Train: loss=0.0484, lr=0.0006485398887699969
+18:59:29,99 root INFO [Epoch 59, Batch=2399] Train: loss=0.0574, lr=0.0006481764898179948
+19:00:26,271 root INFO [Epoch 59, Batch=2599] Train: loss=0.0798, lr=0.000647813701056572
+19:01:23,177 root INFO [Epoch 59, Batch=2799] Train: loss=0.0783, lr=0.0006474515207799988
+19:02:17,118 root INFO Start to validate epoch 59
+19:02:23,358 root INFO Epoch 59, lr=0.0006471080115787439 | Train: loss=0.0792 | Val: loss=0.2577 | Time: this epoch 860.94s, elapsed 51756.50s
+19:02:23,809 root INFO [info] Save model after epoch 59
+

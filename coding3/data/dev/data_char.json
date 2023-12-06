@@ -1,0 +1,4229 @@
+{
+    "utts": {
+        "1272-128104-0000": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:17",
+                    "name": "input1",
+                    "shape": [
+                        584,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        89,
+                        69
+                    ],
+                    "text": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+                    "token": "M I S T E R ▁ Q U I L T E R ▁ I S ▁ T H E ▁ A P O S T L E ▁ O F ▁ T H E ▁ M I D D L E ▁ C L A S S E S ▁ A N D ▁ W E ▁ A R E ▁ G L A D ▁ T O ▁ W E L C O M E ▁ H I S ▁ G O S P E L",
+                    "tokenid": "32 12 17 7 5 21 2 66 31 12 26 7 5 21 2 12 17 2 7 16 5 2 8 40 9 17 7 26 5 2 9 37 2 7 16 5 2 32 12 24 24 26 5 2 33 26 8 17 17 5 17 2 8 10 24 2 34 5 2 8 21 5 2 38 26 8 24 2 7 9 2 34 5 26 33 9 32 5 2 16 12 17 2 38 9 17 40 5 26"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0001": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:49191",
+                    "name": "input1",
+                    "shape": [
+                        480,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        63,
+                        69
+                    ],
+                    "text": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+                    "token": "N O R ▁ I S ▁ M I S T E R ▁ Q U I L T E R ' S ▁ M A N N E R ▁ L E S S ▁ I N T E R E S T I N G ▁ T H A N ▁ H I S ▁ M A T T E R",
+                    "tokenid": "10 9 21 2 12 17 2 32 12 17 7 5 21 2 66 31 12 26 7 5 21 63 17 2 32 8 10 10 5 21 2 26 5 17 17 2 12 10 7 5 21 5 17 7 12 10 38 2 7 16 8 10 2 16 12 17 2 32 8 7 7 5 21"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0002": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:89733",
+                    "name": "input1",
+                    "shape": [
+                        1247,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        172,
+                        69
+                    ],
+                    "text": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+                    "token": "H E ▁ T E L L S ▁ U S ▁ T H A T ▁ A T ▁ T H I S ▁ F E S T I V E ▁ S E A S O N ▁ O F ▁ T H E ▁ Y E A R ▁ W I T H ▁ C H R I S T M A S ▁ A N D ▁ R O A S T ▁ B E E F ▁ L O O M I N G ▁ B E F O R E ▁ U S ▁ S I M I L E S ▁ D R A W N ▁ F R O M ▁ E A T I N G ▁ A N D ▁ I T S ▁ R E S U L T S ▁ O C C U R ▁ M O S T ▁ R E A D I L Y ▁ T O ▁ T H E ▁ M I N D",
+                    "tokenid": "16 5 2 7 5 26 26 17 2 31 17 2 7 16 8 7 2 8 7 2 7 16 12 17 2 37 5 17 7 12 53 5 2 17 5 8 17 9 10 2 9 37 2 7 16 5 2 39 5 8 21 2 34 12 7 16 2 33 16 21 12 17 7 32 8 17 2 8 10 24 2 21 9 8 17 7 2 43 5 5 37 2 26 9 9 32 12 10 38 2 43 5 37 9 21 5 2 31 17 2 17 12 32 12 26 5 17 2 24 21 8 34 10 2 37 21 9 32 2 5 8 7 12 10 38 2 8 10 24 2 12 7 17 2 21 5 17 31 26 7 17 2 9 33 33 31 21 2 32 9 17 7 2 21 5 8 24 12 26 39 2 7 9 2 7 16 5 2 32 12 10 24"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0003": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:193936",
+                    "name": "input1",
+                    "shape": [
+                        988,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        133,
+                        69
+                    ],
+                    "text": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+                    "token": "H E ▁ H A S ▁ G R A V E ▁ D O U B T S ▁ W H E T H E R ▁ S I R ▁ F R E D E R I C K ▁ L E I G H T O N ' S ▁ W O R K ▁ I S ▁ R E A L L Y ▁ G R E E K ▁ A F T E R ▁ A L L ▁ A N D ▁ C A N ▁ D I S C O V E R ▁ I N ▁ I T ▁ B U T ▁ L I T T L E ▁ O F ▁ R O C K Y ▁ I T H A C A",
+                    "tokenid": "16 5 2 16 8 17 2 38 21 8 53 5 2 24 9 31 43 7 17 2 34 16 5 7 16 5 21 2 17 12 21 2 37 21 5 24 5 21 12 33 54 2 26 5 12 38 16 7 9 10 63 17 2 34 9 21 54 2 12 17 2 21 5 8 26 26 39 2 38 21 5 5 54 2 8 37 7 5 21 2 8 26 26 2 8 10 24 2 33 8 10 2 24 12 17 33 9 53 5 21 2 12 10 2 12 7 2 43 31 7 2 26 12 7 7 26 5 2 9 37 2 21 9 33 54 39 2 12 7 16 8 33 8"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0004": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:276642",
+                    "name": "input1",
+                    "shape": [
+                        2938,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        362,
+                        69
+                    ],
+                    "text": "LINNELL'S PICTURES ARE A SORT OF UP GUARDS AND AT EM PAINTINGS AND MASON'S EXQUISITE IDYLLS ARE AS NATIONAL AS A JINGO POEM MISTER BIRKET FOSTER'S LANDSCAPES SMILE AT ONE MUCH IN THE SAME WAY THAT MISTER CARKER USED TO FLASH HIS TEETH AND MISTER JOHN COLLIER GIVES HIS SITTER A CHEERFUL SLAP ON THE BACK BEFORE HE SAYS LIKE A SHAMPOOER IN A TURKISH BATH NEXT MAN",
+                    "token": "L I N N E L L ' S ▁ P I C T U R E S ▁ A R E ▁ A ▁ S O R T ▁ O F ▁ U P ▁ G U A R D S ▁ A N D ▁ A T ▁ E M ▁ P A I N T I N G S ▁ A N D ▁ M A S O N ' S ▁ E X Q U I S I T E ▁ I D Y L L S ▁ A R E ▁ A S ▁ N A T I O N A L ▁ A S ▁ A ▁ J I N G O ▁ P O E M ▁ M I S T E R ▁ B I R K E T ▁ F O S T E R ' S ▁ L A N D S C A P E S ▁ S M I L E ▁ A T ▁ O N E ▁ M U C H ▁ I N ▁ T H E ▁ S A M E ▁ W A Y ▁ T H A T ▁ M I S T E R ▁ C A R K E R ▁ U S E D ▁ T O ▁ F L A S H ▁ H I S ▁ T E E T H ▁ A N D ▁ M I S T E R ▁ J O H N ▁ C O L L I E R ▁ G I V E S ▁ H I S ▁ S I T T E R ▁ A ▁ C H E E R F U L ▁ S L A P ▁ O N ▁ T H E ▁ B A C K ▁ B E F O R E ▁ H E ▁ S A Y S ▁ L I K E ▁ A ▁ S H A M P O O E R ▁ I N ▁ A ▁ T U R K I S H ▁ B A T H ▁ N E X T ▁ M A N",
+                    "tokenid": "26 12 10 10 5 26 26 63 17 2 40 12 33 7 31 21 5 17 2 8 21 5 2 8 2 17 9 21 7 2 9 37 2 31 40 2 38 31 8 21 24 17 2 8 10 24 2 8 7 2 5 32 2 40 8 12 10 7 12 10 38 17 2 8 10 24 2 32 8 17 9 10 63 17 2 5 64 66 31 12 17 12 7 5 2 12 24 39 26 26 17 2 8 21 5 2 8 17 2 10 8 7 12 9 10 8 26 2 8 17 2 8 2 65 12 10 38 9 2 40 9 5 32 2 32 12 17 7 5 21 2 43 12 21 54 5 7 2 37 9 17 7 5 21 63 17 2 26 8 10 24 17 33 8 40 5 17 2 17 32 12 26 5 2 8 7 2 9 10 5 2 32 31 33 16 2 12 10 2 7 16 5 2 17 8 32 5 2 34 8 39 2 7 16 8 7 2 32 12 17 7 5 21 2 33 8 21 54 5 21 2 31 17 5 24 2 7 9 2 37 26 8 17 16 2 16 12 17 2 7 5 5 7 16 2 8 10 24 2 32 12 17 7 5 21 2 65 9 16 10 2 33 9 26 26 12 5 21 2 38 12 53 5 17 2 16 12 17 2 17 12 7 7 5 21 2 8 2 33 16 5 5 21 37 31 26 2 17 26 8 40 2 9 10 2 7 16 5 2 43 8 33 54 2 43 5 37 9 21 5 2 16 5 2 17 8 39 17 2 26 12 54 5 2 8 2 17 16 8 32 40 9 9 5 21 2 12 10 2 8 2 7 31 21 54 12 17 16 2 43 8 7 16 2 10 5 64 7 2 32 8 10"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0005": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:521198",
+                    "name": "input1",
+                    "shape": [
+                        899,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        108,
+                        69
+                    ],
+                    "text": "IT IS OBVIOUSLY UNNECESSARY FOR US TO POINT OUT HOW LUMINOUS THESE CRITICISMS ARE HOW DELICATE IN EXPRESSION",
+                    "token": "I T ▁ I S ▁ O B V I O U S L Y ▁ U N N E C E S S A R Y ▁ F O R ▁ U S ▁ T O ▁ P O I N T ▁ O U T ▁ H O W ▁ L U M I N O U S ▁ T H E S E ▁ C R I T I C I S M S ▁ A R E ▁ H O W ▁ D E L I C A T E ▁ I N ▁ E X P R E S S I O N",
+                    "tokenid": "12 7 2 12 17 2 9 43 53 12 9 31 17 26 39 2 31 10 10 5 33 5 17 17 8 21 39 2 37 9 21 2 31 17 2 7 9 2 40 9 12 10 7 2 9 31 7 2 16 9 34 2 26 31 32 12 10 9 31 17 2 7 16 5 17 5 2 33 21 12 7 12 33 12 17 32 17 2 8 21 5 2 16 9 34 2 24 5 26 12 33 8 7 5 2 12 10 2 5 64 40 21 5 17 17 12 9 10"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0006": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:596517",
+                    "name": "input1",
+                    "shape": [
+                        562,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        74,
+                        69
+                    ],
+                    "text": "ON THE GENERAL PRINCIPLES OF ART MISTER QUILTER WRITES WITH EQUAL LUCIDITY",
+                    "token": "O N ▁ T H E ▁ G E N E R A L ▁ P R I N C I P L E S ▁ O F ▁ A R T ▁ M I S T E R ▁ Q U I L T E R ▁ W R I T E S ▁ W I T H ▁ E Q U A L ▁ L U C I D I T Y",
+                    "tokenid": "9 10 2 7 16 5 2 38 5 10 5 21 8 26 2 40 21 12 10 33 12 40 26 5 17 2 9 37 2 8 21 7 2 32 12 17 7 5 21 2 66 31 12 26 7 5 21 2 34 21 12 7 5 17 2 34 12 7 16 2 5 66 31 8 26 2 26 31 33 12 24 12 7 39"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0007": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:643865",
+                    "name": "input1",
+                    "shape": [
+                        922,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        99,
+                        69
+                    ],
+                    "text": "PAINTING HE TELLS US IS OF A DIFFERENT QUALITY TO MATHEMATICS AND FINISH IN ART IS ADDING MORE FACT",
+                    "token": "P A I N T I N G ▁ H E ▁ T E L L S ▁ U S ▁ I S ▁ O F ▁ A ▁ D I F F E R E N T ▁ Q U A L I T Y ▁ T O ▁ M A T H E M A T I C S ▁ A N D ▁ F I N I S H ▁ I N ▁ A R T ▁ I S ▁ A D D I N G ▁ M O R E ▁ F A C T",
+                    "tokenid": "40 8 12 10 7 12 10 38 2 16 5 2 7 5 26 26 17 2 31 17 2 12 17 2 9 37 2 8 2 24 12 37 37 5 21 5 10 7 2 66 31 8 26 12 7 39 2 7 9 2 32 8 7 16 5 32 8 7 12 33 17 2 8 10 24 2 37 12 10 12 17 16 2 12 10 2 8 21 7 2 12 17 2 8 24 24 12 10 38 2 32 9 21 5 2 37 8 33 7"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0008": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:721093",
+                    "name": "input1",
+                    "shape": [
+                        510,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        57,
+                        69
+                    ],
+                    "text": "AS FOR ETCHINGS THEY ARE OF TWO KINDS BRITISH AND FOREIGN",
+                    "token": "A S ▁ F O R ▁ E T C H I N G S ▁ T H E Y ▁ A R E ▁ O F ▁ T W O ▁ K I N D S ▁ B R I T I S H ▁ A N D ▁ F O R E I G N",
+                    "tokenid": "8 17 2 37 9 21 2 5 7 33 16 12 10 38 17 2 7 16 5 39 2 8 21 5 2 9 37 2 7 34 9 2 54 12 10 24 17 2 43 21 12 7 12 17 16 2 8 10 24 2 37 9 21 5 12 38 10"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0009": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:764125",
+                    "name": "input1",
+                    "shape": [
+                        1827,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        251,
+                        69
+                    ],
+                    "text": "HE LAMENTS MOST BITTERLY THE DIVORCE THAT HAS BEEN MADE BETWEEN DECORATIVE ART AND WHAT WE USUALLY CALL PICTURES MAKES THE CUSTOMARY APPEAL TO THE LAST JUDGMENT AND REMINDS US THAT IN THE GREAT DAYS OF ART MICHAEL ANGELO WAS THE FURNISHING UPHOLSTERER",
+                    "token": "H E ▁ L A M E N T S ▁ M O S T ▁ B I T T E R L Y ▁ T H E ▁ D I V O R C E ▁ T H A T ▁ H A S ▁ B E E N ▁ M A D E ▁ B E T W E E N ▁ D E C O R A T I V E ▁ A R T ▁ A N D ▁ W H A T ▁ W E ▁ U S U A L L Y ▁ C A L L ▁ P I C T U R E S ▁ M A K E S ▁ T H E ▁ C U S T O M A R Y ▁ A P P E A L ▁ T O ▁ T H E ▁ L A S T ▁ J U D G M E N T ▁ A N D ▁ R E M I N D S ▁ U S ▁ T H A T ▁ I N ▁ T H E ▁ G R E A T ▁ D A Y S ▁ O F ▁ A R T ▁ M I C H A E L ▁ A N G E L O ▁ W A S ▁ T H E ▁ F U R N I S H I N G ▁ U P H O L S T E R E R",
+                    "tokenid": "16 5 2 26 8 32 5 10 7 17 2 32 9 17 7 2 43 12 7 7 5 21 26 39 2 7 16 5 2 24 12 53 9 21 33 5 2 7 16 8 7 2 16 8 17 2 43 5 5 10 2 32 8 24 5 2 43 5 7 34 5 5 10 2 24 5 33 9 21 8 7 12 53 5 2 8 21 7 2 8 10 24 2 34 16 8 7 2 34 5 2 31 17 31 8 26 26 39 2 33 8 26 26 2 40 12 33 7 31 21 5 17 2 32 8 54 5 17 2 7 16 5 2 33 31 17 7 9 32 8 21 39 2 8 40 40 5 8 26 2 7 9 2 7 16 5 2 26 8 17 7 2 65 31 24 38 32 5 10 7 2 8 10 24 2 21 5 32 12 10 24 17 2 31 17 2 7 16 8 7 2 12 10 2 7 16 5 2 38 21 5 8 7 2 24 8 39 17 2 9 37 2 8 21 7 2 32 12 33 16 8 5 26 2 8 10 38 5 26 9 2 34 8 17 2 7 16 5 2 37 31 21 10 12 17 16 12 10 38 2 31 40 16 9 26 17 7 5 21 5 21"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0010": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:916468",
+                    "name": "input1",
+                    "shape": [
+                        558,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        80,
+                        69
+                    ],
+                    "text": "NEAR THE FIRE AND THE ORNAMENTS FRED BROUGHT HOME FROM INDIA ON THE MANTEL BOARD",
+                    "token": "N E A R ▁ T H E ▁ F I R E ▁ A N D ▁ T H E ▁ O R N A M E N T S ▁ F R E D ▁ B R O U G H T ▁ H O M E ▁ F R O M ▁ I N D I A ▁ O N ▁ T H E ▁ M A N T E L ▁ B O A R D",
+                    "tokenid": "10 5 8 21 2 7 16 5 2 37 12 21 5 2 8 10 24 2 7 16 5 2 9 21 10 8 32 5 10 7 17 2 37 21 5 24 2 43 21 9 31 38 16 7 2 16 9 32 5 2 37 21 9 32 2 12 10 24 12 8 2 9 10 2 7 16 5 2 32 8 10 7 5 26 2 43 9 8 21 24"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0011": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:963484",
+                    "name": "input1",
+                    "shape": [
+                        1510,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        195,
+                        69
+                    ],
+                    "text": "IN FACT HE IS QUITE SEVERE ON MISTER RUSKIN FOR NOT RECOGNISING THAT A PICTURE SHOULD DENOTE THE FRAILTY OF MAN AND REMARKS WITH PLEASING COURTESY AND FELICITOUS GRACE THAT MANY PHASES OF FEELING",
+                    "token": "I N ▁ F A C T ▁ H E ▁ I S ▁ Q U I T E ▁ S E V E R E ▁ O N ▁ M I S T E R ▁ R U S K I N ▁ F O R ▁ N O T ▁ R E C O G N I S I N G ▁ T H A T ▁ A ▁ P I C T U R E ▁ S H O U L D ▁ D E N O T E ▁ T H E ▁ F R A I L T Y ▁ O F ▁ M A N ▁ A N D ▁ R E M A R K S ▁ W I T H ▁ P L E A S I N G ▁ C O U R T E S Y ▁ A N D ▁ F E L I C I T O U S ▁ G R A C E ▁ T H A T ▁ M A N Y ▁ P H A S E S ▁ O F ▁ F E E L I N G",
+                    "tokenid": "12 10 2 37 8 33 7 2 16 5 2 12 17 2 66 31 12 7 5 2 17 5 53 5 21 5 2 9 10 2 32 12 17 7 5 21 2 21 31 17 54 12 10 2 37 9 21 2 10 9 7 2 21 5 33 9 38 10 12 17 12 10 38 2 7 16 8 7 2 8 2 40 12 33 7 31 21 5 2 17 16 9 31 26 24 2 24 5 10 9 7 5 2 7 16 5 2 37 21 8 12 26 7 39 2 9 37 2 32 8 10 2 8 10 24 2 21 5 32 8 21 54 17 2 34 12 7 16 2 40 26 5 8 17 12 10 38 2 33 9 31 21 7 5 17 39 2 8 10 24 2 37 5 26 12 33 12 7 9 31 17 2 38 21 8 33 5 2 7 16 8 7 2 32 8 10 39 2 40 16 8 17 5 17 2 9 37 2 37 5 5 26 12 10 38"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0012": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1089516",
+                    "name": "input1",
+                    "shape": [
+                        536,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        51,
+                        69
+                    ],
+                    "text": "ONLY UNFORTUNATELY HIS OWN WORK NEVER DOES GET GOOD",
+                    "token": "O N L Y ▁ U N F O R T U N A T E L Y ▁ H I S ▁ O W N ▁ W O R K ▁ N E V E R ▁ D O E S ▁ G E T ▁ G O O D",
+                    "tokenid": "9 10 26 39 2 31 10 37 9 21 7 31 10 8 7 5 26 39 2 16 12 17 2 9 34 10 2 34 9 21 54 2 10 5 53 5 21 2 24 9 5 17 2 38 5 7 2 38 9 9 24"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0013": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1134706",
+                    "name": "input1",
+                    "shape": [
+                        708,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        98,
+                        69
+                    ],
+                    "text": "MISTER QUILTER HAS MISSED HIS CHANCE FOR HE HAS FAILED EVEN TO MAKE HIMSELF THE TUPPER OF PAINTING",
+                    "token": "M I S T E R ▁ Q U I L T E R ▁ H A S ▁ M I S S E D ▁ H I S ▁ C H A N C E ▁ F O R ▁ H E ▁ H A S ▁ F A I L E D ▁ E V E N ▁ T O ▁ M A K E ▁ H I M S E L F ▁ T H E ▁ T U P P E R ▁ O F ▁ P A I N T I N G",
+                    "tokenid": "32 12 17 7 5 21 2 66 31 12 26 7 5 21 2 16 8 17 2 32 12 17 17 5 24 2 16 12 17 2 33 16 8 10 33 5 2 37 9 21 2 16 5 2 16 8 17 2 37 8 12 26 5 24 2 5 53 5 10 2 7 9 2 32 8 54 5 2 16 12 32 17 5 26 37 2 7 16 5 2 7 31 40 40 5 21 2 9 37 2 40 8 12 10 7 12 10 38"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-128104-0014": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1194172",
+                    "name": "input1",
+                    "shape": [
+                        223,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        20,
+                        69
+                    ],
+                    "text": "BY HARRY QUILTER M A",
+                    "token": "B Y ▁ H A R R Y ▁ Q U I L T E R ▁ M ▁ A",
+                    "tokenid": "43 39 2 16 8 21 21 39 2 66 31 12 26 7 5 21 2 32 2 8"
+                }
+            ],
+            "utt2spk": "1272-128104"
+        },
+        "1272-135031-0000": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1213383",
+                    "name": "input1",
+                    "shape": [
+                        1087,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        149,
+                        69
+                    ],
+                    "text": "BECAUSE YOU WERE SLEEPING INSTEAD OF CONQUERING THE LOVELY ROSE PRINCESS HAS BECOME A FIDDLE WITHOUT A BOW WHILE POOR SHAGGY SITS THERE A COOING DOVE",
+                    "token": "B E C A U S E ▁ Y O U ▁ W E R E ▁ S L E E P I N G ▁ I N S T E A D ▁ O F ▁ C O N Q U E R I N G ▁ T H E ▁ L O V E L Y ▁ R O S E ▁ P R I N C E S S ▁ H A S ▁ B E C O M E ▁ A ▁ F I D D L E ▁ W I T H O U T ▁ A ▁ B O W ▁ W H I L E ▁ P O O R ▁ S H A G G Y ▁ S I T S ▁ T H E R E ▁ A ▁ C O O I N G ▁ D O V E",
+                    "tokenid": "43 5 33 8 31 17 5 2 39 9 31 2 34 5 21 5 2 17 26 5 5 40 12 10 38 2 12 10 17 7 5 8 24 2 9 37 2 33 9 10 66 31 5 21 12 10 38 2 7 16 5 2 26 9 53 5 26 39 2 21 9 17 5 2 40 21 12 10 33 5 17 17 2 16 8 17 2 43 5 33 9 32 5 2 8 2 37 12 24 24 26 5 2 34 12 7 16 9 31 7 2 8 2 43 9 34 2 34 16 12 26 5 2 40 9 9 21 2 17 16 8 38 38 39 2 17 12 7 17 2 7 16 5 21 5 2 8 2 33 9 9 12 10 38 2 24 9 53 5"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0001": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1304306",
+                    "name": "input1",
+                    "shape": [
+                        1111,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        161,
+                        69
+                    ],
+                    "text": "HE HAS GONE AND GONE FOR GOOD ANSWERED POLYCHROME WHO HAD MANAGED TO SQUEEZE INTO THE ROOM BESIDE THE DRAGON AND HAD WITNESSED THE OCCURRENCES WITH MUCH INTEREST",
+                    "token": "H E ▁ H A S ▁ G O N E ▁ A N D ▁ G O N E ▁ F O R ▁ G O O D ▁ A N S W E R E D ▁ P O L Y C H R O M E ▁ W H O ▁ H A D ▁ M A N A G E D ▁ T O ▁ S Q U E E Z E ▁ I N T O ▁ T H E ▁ R O O M ▁ B E S I D E ▁ T H E ▁ D R A G O N ▁ A N D ▁ H A D ▁ W I T N E S S E D ▁ T H E ▁ O C C U R R E N C E S ▁ W I T H ▁ M U C H ▁ I N T E R E S T",
+                    "tokenid": "16 5 2 16 8 17 2 38 9 10 5 2 8 10 24 2 38 9 10 5 2 37 9 21 2 38 9 9 24 2 8 10 17 34 5 21 5 24 2 40 9 26 39 33 16 21 9 32 5 2 34 16 9 2 16 8 24 2 32 8 10 8 38 5 24 2 7 9 2 17 66 31 5 5 67 5 2 12 10 7 9 2 7 16 5 2 21 9 9 32 2 43 5 17 12 24 5 2 7 16 5 2 24 21 8 38 9 10 2 8 10 24 2 16 8 24 2 34 12 7 10 5 17 17 5 24 2 7 16 5 2 9 33 33 31 21 21 5 10 33 5 17 2 34 12 7 16 2 32 31 33 16 2 12 10 7 5 21 5 17 7"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0002": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1397221",
+                    "name": "input1",
+                    "shape": [
+                        1146,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        156,
+                        69
+                    ],
+                    "text": "I HAVE REMAINED A PRISONER ONLY BECAUSE I WISHED TO BE ONE AND WITH THIS HE STEPPED FORWARD AND BURST THE STOUT CHAINS AS EASILY AS IF THEY HAD BEEN THREADS",
+                    "token": "I ▁ H A V E ▁ R E M A I N E D ▁ A ▁ P R I S O N E R ▁ O N L Y ▁ B E C A U S E ▁ I ▁ W I S H E D ▁ T O ▁ B E ▁ O N E ▁ A N D ▁ W I T H ▁ T H I S ▁ H E ▁ S T E P P E D ▁ F O R W A R D ▁ A N D ▁ B U R S T ▁ T H E ▁ S T O U T ▁ C H A I N S ▁ A S ▁ E A S I L Y ▁ A S ▁ I F ▁ T H E Y ▁ H A D ▁ B E E N ▁ T H R E A D S",
+                    "tokenid": "12 2 16 8 53 5 2 21 5 32 8 12 10 5 24 2 8 2 40 21 12 17 9 10 5 21 2 9 10 26 39 2 43 5 33 8 31 17 5 2 12 2 34 12 17 16 5 24 2 7 9 2 43 5 2 9 10 5 2 8 10 24 2 34 12 7 16 2 7 16 12 17 2 16 5 2 17 7 5 40 40 5 24 2 37 9 21 34 8 21 24 2 8 10 24 2 43 31 21 17 7 2 7 16 5 2 17 7 9 31 7 2 33 16 8 12 10 17 2 8 17 2 5 8 17 12 26 39 2 8 17 2 12 37 2 7 16 5 39 2 16 8 24 2 43 5 5 10 2 7 16 21 5 8 24 17"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0003": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1493041",
+                    "name": "input1",
+                    "shape": [
+                        474,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        74,
+                        69
+                    ],
+                    "text": "THE LITTLE GIRL HAD BEEN ASLEEP BUT SHE HEARD THE RAPS AND OPENED THE DOOR",
+                    "token": "T H E ▁ L I T T L E ▁ G I R L ▁ H A D ▁ B E E N ▁ A S L E E P ▁ B U T ▁ S H E ▁ H E A R D ▁ T H E ▁ R A P S ▁ A N D ▁ O P E N E D ▁ T H E ▁ D O O R",
+                    "tokenid": "7 16 5 2 26 12 7 7 26 5 2 38 12 21 26 2 16 8 24 2 43 5 5 10 2 8 17 26 5 5 40 2 43 31 7 2 17 16 5 2 16 5 8 21 24 2 7 16 5 2 21 8 40 17 2 8 10 24 2 9 40 5 10 5 24 2 7 16 5 2 24 9 9 21"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0004": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1533085",
+                    "name": "input1",
+                    "shape": [
+                        421,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        65,
+                        69
+                    ],
+                    "text": "THE KING HAS FLED IN DISGRACE AND YOUR FRIENDS ARE ASKING FOR YOU",
+                    "token": "T H E ▁ K I N G ▁ H A S ▁ F L E D ▁ I N ▁ D I S G R A C E ▁ A N D ▁ Y O U R ▁ F R I E N D S ▁ A R E ▁ A S K I N G ▁ F O R ▁ Y O U",
+                    "tokenid": "7 16 5 2 54 12 10 38 2 16 8 17 2 37 26 5 24 2 12 10 2 24 12 17 38 21 8 33 5 2 8 10 24 2 39 9 31 21 2 37 21 12 5 10 24 17 2 8 21 5 2 8 17 54 12 10 38 2 37 9 21 2 39 9 31"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0005": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1568730",
+                    "name": "input1",
+                    "shape": [
+                        461,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        65,
+                        69
+                    ],
+                    "text": "I BEGGED RUGGEDO LONG AGO TO SEND HIM AWAY BUT HE WOULD NOT DO SO",
+                    "token": "I ▁ B E G G E D ▁ R U G G E D O ▁ L O N G ▁ A G O ▁ T O ▁ S E N D ▁ H I M ▁ A W A Y ▁ B U T ▁ H E ▁ W O U L D ▁ N O T ▁ D O ▁ S O",
+                    "tokenid": "12 2 43 5 38 38 5 24 2 21 31 38 38 5 24 9 2 26 9 10 38 2 8 38 9 2 7 9 2 17 5 10 24 2 16 12 32 2 8 34 8 39 2 43 31 7 2 16 5 2 34 9 31 26 24 2 10 9 7 2 24 9 2 17 9"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0006": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1607695",
+                    "name": "input1",
+                    "shape": [
+                        407,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        65,
+                        69
+                    ],
+                    "text": "I ALSO OFFERED TO HELP YOUR BROTHER TO ESCAPE BUT HE WOULD NOT GO",
+                    "token": "I ▁ A L S O ▁ O F F E R E D ▁ T O ▁ H E L P ▁ Y O U R ▁ B R O T H E R ▁ T O ▁ E S C A P E ▁ B U T ▁ H E ▁ W O U L D ▁ N O T ▁ G O",
+                    "tokenid": "12 2 8 26 17 9 2 9 37 37 5 21 5 24 2 7 9 2 16 5 26 40 2 39 9 31 21 2 43 21 9 7 16 5 21 2 7 9 2 5 17 33 8 40 5 2 43 31 7 2 16 5 2 34 9 31 26 24 2 10 9 7 2 38 9"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0007": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1642178",
+                    "name": "input1",
+                    "shape": [
+                        404,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        53,
+                        69
+                    ],
+                    "text": "HE EATS AND SLEEPS VERY STEADILY REPLIED THE NEW KING",
+                    "token": "H E ▁ E A T S ▁ A N D ▁ S L E E P S ▁ V E R Y ▁ S T E A D I L Y ▁ R E P L I E D ▁ T H E ▁ N E W ▁ K I N G",
+                    "tokenid": "16 5 2 5 8 7 17 2 8 10 24 2 17 26 5 5 40 17 2 53 5 21 39 2 17 7 5 8 24 12 26 39 2 21 5 40 26 12 5 24 2 7 16 5 2 10 5 34 2 54 12 10 38"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0008": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1676412",
+                    "name": "input1",
+                    "shape": [
+                        365,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        43,
+                        69
+                    ],
+                    "text": "I HOPE HE DOESN'T WORK TOO HARD SAID SHAGGY",
+                    "token": "I ▁ H O P E ▁ H E ▁ D O E S N ' T ▁ W O R K ▁ T O O ▁ H A R D ▁ S A I D ▁ S H A G G Y",
+                    "tokenid": "12 2 16 9 40 5 2 16 5 2 24 9 5 17 10 63 7 2 34 9 21 54 2 7 9 9 2 16 8 21 24 2 17 8 12 24 2 17 16 8 38 38 39"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0009": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1707409",
+                    "name": "input1",
+                    "shape": [
+                        189,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        22,
+                        69
+                    ],
+                    "text": "HE DOESN'T WORK AT ALL",
+                    "token": "H E ▁ D O E S N ' T ▁ W O R K ▁ A T ▁ A L L",
+                    "tokenid": "16 5 2 24 9 5 17 10 63 7 2 34 9 21 54 2 8 7 2 8 26 26"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0010": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1723798",
+                    "name": "input1",
+                    "shape": [
+                        898,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        142,
+                        69
+                    ],
+                    "text": "IN FACT THERE IS NOTHING HE CAN DO IN THESE DOMINIONS AS WELL AS OUR NOMES WHOSE NUMBERS ARE SO GREAT THAT IT WORRIES US TO KEEP THEM ALL BUSY",
+                    "token": "I N ▁ F A C T ▁ T H E R E ▁ I S ▁ N O T H I N G ▁ H E ▁ C A N ▁ D O ▁ I N ▁ T H E S E ▁ D O M I N I O N S ▁ A S ▁ W E L L ▁ A S ▁ O U R ▁ N O M E S ▁ W H O S E ▁ N U M B E R S ▁ A R E ▁ S O ▁ G R E A T ▁ T H A T ▁ I T ▁ W O R R I E S ▁ U S ▁ T O ▁ K E E P ▁ T H E M ▁ A L L ▁ B U S Y",
+                    "tokenid": "12 10 2 37 8 33 7 2 7 16 5 21 5 2 12 17 2 10 9 7 16 12 10 38 2 16 5 2 33 8 10 2 24 9 2 12 10 2 7 16 5 17 5 2 24 9 32 12 10 12 9 10 17 2 8 17 2 34 5 26 26 2 8 17 2 9 31 21 2 10 9 32 5 17 2 34 16 9 17 5 2 10 31 32 43 5 21 17 2 8 21 5 2 17 9 2 38 21 5 8 7 2 7 16 8 7 2 12 7 2 34 9 21 21 12 5 17 2 31 17 2 7 9 2 54 5 5 40 2 7 16 5 32 2 8 26 26 2 43 31 17 39"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0011": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1799034",
+                    "name": "input1",
+                    "shape": [
+                        316,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        27,
+                        69
+                    ],
+                    "text": "NOT EXACTLY RETURNED KALIKO",
+                    "token": "N O T ▁ E X A C T L Y ▁ R E T U R N E D ▁ K A L I K O",
+                    "tokenid": "10 9 7 2 5 64 8 33 7 26 39 2 21 5 7 31 21 10 5 24 2 54 8 26 12 54 9"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0012": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1825964",
+                    "name": "input1",
+                    "shape": [
+                        202,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        23,
+                        69
+                    ],
+                    "text": "WHERE IS MY BROTHER NOW",
+                    "token": "W H E R E ▁ I S ▁ M Y ▁ B R O T H E R ▁ N O W",
+                    "tokenid": "34 16 5 21 5 2 12 17 2 32 39 2 43 21 9 7 16 5 21 2 10 9 34"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0013": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1843432",
+                    "name": "input1",
+                    "shape": [
+                        368,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        35,
+                        69
+                    ],
+                    "text": "INQUIRED SHAGGY IN THE METAL FOREST",
+                    "token": "I N Q U I R E D ▁ S H A G G Y ▁ I N ▁ T H E ▁ M E T A L ▁ F O R E S T",
+                    "tokenid": "12 10 66 31 12 21 5 24 2 17 16 8 38 38 39 2 12 10 2 7 16 5 2 32 5 7 8 26 2 37 9 21 5 17 7"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0014": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1874678",
+                    "name": "input1",
+                    "shape": [
+                        172,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        13,
+                        69
+                    ],
+                    "text": "WHERE IS THAT",
+                    "token": "W H E R E ▁ I S ▁ T H A T",
+                    "tokenid": "34 16 5 21 5 2 12 17 2 7 16 8 7"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0015": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1889656",
+                    "name": "input1",
+                    "shape": [
+                        736,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        93,
+                        69
+                    ],
+                    "text": "THE METAL FOREST IS IN THE GREAT DOMED CAVERN THE LARGEST IN ALL OUR DOMINIONS REPLIED KALIKO",
+                    "token": "T H E ▁ M E T A L ▁ F O R E S T ▁ I S ▁ I N ▁ T H E ▁ G R E A T ▁ D O M E D ▁ C A V E R N ▁ T H E ▁ L A R G E S T ▁ I N ▁ A L L ▁ O U R ▁ D O M I N I O N S ▁ R E P L I E D ▁ K A L I K O",
+                    "tokenid": "7 16 5 2 32 5 7 8 26 2 37 9 21 5 17 7 2 12 17 2 12 10 2 7 16 5 2 38 21 5 8 7 2 24 9 32 5 24 2 33 8 53 5 21 10 2 7 16 5 2 26 8 21 38 5 17 7 2 12 10 2 8 26 26 2 9 31 21 2 24 9 32 12 10 12 9 10 17 2 21 5 40 26 12 5 24 2 54 8 26 12 54 9"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0016": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1951446",
+                    "name": "input1",
+                    "shape": [
+                        226,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        16,
+                        69
+                    ],
+                    "text": "KALIKO HESITATED",
+                    "token": "K A L I K O ▁ H E S I T A T E D",
+                    "tokenid": "54 8 26 12 54 9 2 16 5 17 12 7 8 7 5 24"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0017": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:1970906",
+                    "name": "input1",
+                    "shape": [
+                        684,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        76,
+                        69
+                    ],
+                    "text": "HOWEVER IF WE LOOK SHARP WE MAY BE ABLE TO DISCOVER ONE OF THESE SECRET WAYS",
+                    "token": "H O W E V E R ▁ I F ▁ W E ▁ L O O K ▁ S H A R P ▁ W E ▁ M A Y ▁ B E ▁ A B L E ▁ T O ▁ D I S C O V E R ▁ O N E ▁ O F ▁ T H E S E ▁ S E C R E T ▁ W A Y S",
+                    "tokenid": "16 9 34 5 53 5 21 2 12 37 2 34 5 2 26 9 9 54 2 17 16 8 21 40 2 34 5 2 32 8 39 2 43 5 2 8 43 26 5 2 7 9 2 24 12 17 33 9 53 5 21 2 9 10 5 2 9 37 2 7 16 5 17 5 2 17 5 33 21 5 7 2 34 8 39 17"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0018": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2028380",
+                    "name": "input1",
+                    "shape": [
+                        242,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        30,
+                        69
+                    ],
+                    "text": "OH NO I'M QUITE SURE HE DIDN'T",
+                    "token": "O H ▁ N O ▁ I ' M ▁ Q U I T E ▁ S U R E ▁ H E ▁ D I D N ' T",
+                    "tokenid": "9 16 2 10 9 2 12 63 32 2 66 31 12 7 5 2 17 31 21 5 2 16 5 2 24 12 24 10 63 7"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0019": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2049168",
+                    "name": "input1",
+                    "shape": [
+                        351,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        40,
+                        69
+                    ],
+                    "text": "THAT'S FUNNY REMARKED BETSY THOUGHTFULLY",
+                    "token": "T H A T ' S ▁ F U N N Y ▁ R E M A R K E D ▁ B E T S Y ▁ T H O U G H T F U L L Y",
+                    "tokenid": "7 16 8 7 63 17 2 37 31 10 10 39 2 21 5 32 8 21 54 5 24 2 43 5 7 17 39 2 7 16 9 31 38 16 7 37 31 26 26 39"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0020": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2079003",
+                    "name": "input1",
+                    "shape": [
+                        463,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        65,
+                        69
+                    ],
+                    "text": "I DON'T BELIEVE ANN KNEW ANY MAGIC OR SHE'D HAVE WORKED IT BEFORE",
+                    "token": "I ▁ D O N ' T ▁ B E L I E V E ▁ A N N ▁ K N E W ▁ A N Y ▁ M A G I C ▁ O R ▁ S H E ' D ▁ H A V E ▁ W O R K E D ▁ I T ▁ B E F O R E",
+                    "tokenid": "12 2 24 9 10 63 7 2 43 5 26 12 5 53 5 2 8 10 10 2 54 10 5 34 2 8 10 39 2 32 8 38 12 33 2 9 21 2 17 16 5 63 24 2 16 8 53 5 2 34 9 21 54 5 24 2 12 7 2 43 5 37 9 21 5"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0021": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2118134",
+                    "name": "input1",
+                    "shape": [
+                        258,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        30,
+                        69
+                    ],
+                    "text": "I DO NOT KNOW CONFESSED SHAGGY",
+                    "token": "I ▁ D O ▁ N O T ▁ K N O W ▁ C O N F E S S E D ▁ S H A G G Y",
+                    "tokenid": "12 2 24 9 2 10 9 7 2 54 10 9 34 2 33 9 10 37 5 17 17 5 24 2 17 16 8 38 38 39"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0022": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2140250",
+                    "name": "input1",
+                    "shape": [
+                        268,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        18,
+                        69
+                    ],
+                    "text": "TRUE AGREED KALIKO",
+                    "token": "T R U E ▁ A G R E E D ▁ K A L I K O",
+                    "tokenid": "7 21 31 5 2 8 38 21 5 5 24 2 54 8 26 12 54 9"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0023": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2163196",
+                    "name": "input1",
+                    "shape": [
+                        750,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        104,
+                        69
+                    ],
+                    "text": "KALIKO WENT TO THE BIG GONG AND POUNDED ON IT JUST AS RUGGEDO USED TO DO BUT NO ONE ANSWERED THE SUMMONS",
+                    "token": "K A L I K O ▁ W E N T ▁ T O ▁ T H E ▁ B I G ▁ G O N G ▁ A N D ▁ P O U N D E D ▁ O N ▁ I T ▁ J U S T ▁ A S ▁ R U G G E D O ▁ U S E D ▁ T O ▁ D O ▁ B U T ▁ N O ▁ O N E ▁ A N S W E R E D ▁ T H E ▁ S U M M O N S",
+                    "tokenid": "54 8 26 12 54 9 2 34 5 10 7 2 7 9 2 7 16 5 2 43 12 38 2 38 9 10 38 2 8 10 24 2 40 9 31 10 24 5 24 2 9 10 2 12 7 2 65 31 17 7 2 8 17 2 21 31 38 38 5 24 9 2 31 17 5 24 2 7 9 2 24 9 2 43 31 7 2 10 9 2 9 10 5 2 8 10 17 34 5 21 5 24 2 7 16 5 2 17 31 32 32 9 10 17"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-135031-0024": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2226148",
+                    "name": "input1",
+                    "shape": [
+                        1445,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        213,
+                        69
+                    ],
+                    "text": "HAVING RETURNED TO THE ROYAL CAVERN KALIKO FIRST POUNDED THE GONG AND THEN SAT IN THE THRONE WEARING RUGGEDO'S DISCARDED RUBY CROWN AND HOLDING IN HIS HAND THE SCEPTRE WHICH RUGGEDO HAD SO OFTEN THROWN AT HIS HEAD",
+                    "token": "H A V I N G ▁ R E T U R N E D ▁ T O ▁ T H E ▁ R O Y A L ▁ C A V E R N ▁ K A L I K O ▁ F I R S T ▁ P O U N D E D ▁ T H E ▁ G O N G ▁ A N D ▁ T H E N ▁ S A T ▁ I N ▁ T H E ▁ T H R O N E ▁ W E A R I N G ▁ R U G G E D O ' S ▁ D I S C A R D E D ▁ R U B Y ▁ C R O W N ▁ A N D ▁ H O L D I N G ▁ I N ▁ H I S ▁ H A N D ▁ T H E ▁ S C E P T R E ▁ W H I C H ▁ R U G G E D O ▁ H A D ▁ S O ▁ O F T E N ▁ T H R O W N ▁ A T ▁ H I S ▁ H E A D",
+                    "tokenid": "16 8 53 12 10 38 2 21 5 7 31 21 10 5 24 2 7 9 2 7 16 5 2 21 9 39 8 26 2 33 8 53 5 21 10 2 54 8 26 12 54 9 2 37 12 21 17 7 2 40 9 31 10 24 5 24 2 7 16 5 2 38 9 10 38 2 8 10 24 2 7 16 5 10 2 17 8 7 2 12 10 2 7 16 5 2 7 16 21 9 10 5 2 34 5 8 21 12 10 38 2 21 31 38 38 5 24 9 63 17 2 24 12 17 33 8 21 24 5 24 2 21 31 43 39 2 33 21 9 34 10 2 8 10 24 2 16 9 26 24 12 10 38 2 12 10 2 16 12 17 2 16 8 10 24 2 7 16 5 2 17 33 5 40 7 21 5 2 34 16 12 33 16 2 21 31 38 38 5 24 9 2 16 8 24 2 17 9 2 9 37 7 5 10 2 7 16 21 9 34 10 2 8 7 2 16 12 17 2 16 5 8 24"
+                }
+            ],
+            "utt2spk": "1272-135031"
+        },
+        "1272-141231-0000": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2346785",
+                    "name": "input1",
+                    "shape": [
+                        463,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        38,
+                        69
+                    ],
+                    "text": "A MAN SAID TO THE UNIVERSE SIR I EXIST",
+                    "token": "A ▁ M A N ▁ S A I D ▁ T O ▁ T H E ▁ U N I V E R S E ▁ S I R ▁ I ▁ E X I S T",
+                    "tokenid": "8 2 32 8 10 2 17 8 12 24 2 7 9 2 7 16 5 2 31 10 12 53 5 21 17 5 2 17 12 21 2 12 2 5 64 12 17 7"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0001": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2385916",
+                    "name": "input1",
+                    "shape": [
+                        652,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        95,
+                        69
+                    ],
+                    "text": "SWEAT COVERED BRION'S BODY TRICKLING INTO THE TIGHT LOINCLOTH THAT WAS THE ONLY GARMENT HE WORE",
+                    "token": "S W E A T ▁ C O V E R E D ▁ B R I O N ' S ▁ B O D Y ▁ T R I C K L I N G ▁ I N T O ▁ T H E ▁ T I G H T ▁ L O I N C L O T H ▁ T H A T ▁ W A S ▁ T H E ▁ O N L Y ▁ G A R M E N T ▁ H E ▁ W O R E",
+                    "tokenid": "17 34 5 8 7 2 33 9 53 5 21 5 24 2 43 21 12 9 10 63 17 2 43 9 24 39 2 7 21 12 33 54 26 12 10 38 2 12 10 7 9 2 7 16 5 2 7 12 38 16 7 2 26 9 12 10 33 26 9 7 16 2 7 16 8 7 2 34 8 17 2 7 16 5 2 9 10 26 39 2 38 8 21 32 5 10 7 2 16 5 2 34 9 21 5"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0002": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2440734",
+                    "name": "input1",
+                    "shape": [
+                        1332,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        185,
+                        69
+                    ],
+                    "text": "THE CUT ON HIS CHEST STILL DRIPPING BLOOD THE ACHE OF HIS OVERSTRAINED EYES EVEN THE SOARING ARENA AROUND HIM WITH THE THOUSANDS OF SPECTATORS WERE TRIVIALITIES NOT WORTH THINKING ABOUT",
+                    "token": "T H E ▁ C U T ▁ O N ▁ H I S ▁ C H E S T ▁ S T I L L ▁ D R I P P I N G ▁ B L O O D ▁ T H E ▁ A C H E ▁ O F ▁ H I S ▁ O V E R S T R A I N E D ▁ E Y E S ▁ E V E N ▁ T H E ▁ S O A R I N G ▁ A R E N A ▁ A R O U N D ▁ H I M ▁ W I T H ▁ T H E ▁ T H O U S A N D S ▁ O F ▁ S P E C T A T O R S ▁ W E R E ▁ T R I V I A L I T I E S ▁ N O T ▁ W O R T H ▁ T H I N K I N G ▁ A B O U T",
+                    "tokenid": "7 16 5 2 33 31 7 2 9 10 2 16 12 17 2 33 16 5 17 7 2 17 7 12 26 26 2 24 21 12 40 40 12 10 38 2 43 26 9 9 24 2 7 16 5 2 8 33 16 5 2 9 37 2 16 12 17 2 9 53 5 21 17 7 21 8 12 10 5 24 2 5 39 5 17 2 5 53 5 10 2 7 16 5 2 17 9 8 21 12 10 38 2 8 21 5 10 8 2 8 21 9 31 10 24 2 16 12 32 2 34 12 7 16 2 7 16 5 2 7 16 9 31 17 8 10 24 17 2 9 37 2 17 40 5 33 7 8 7 9 21 17 2 34 5 21 5 2 7 21 12 53 12 8 26 12 7 12 5 17 2 10 9 7 2 34 9 21 7 16 2 7 16 12 10 54 12 10 38 2 8 43 9 31 7"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0003": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2551992",
+                    "name": "input1",
+                    "shape": [
+                        540,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        73,
+                        69
+                    ],
+                    "text": "HIS INSTANT OF PANIC WAS FOLLOWED BY A SMALL SHARP BLOW HIGH ON HIS CHEST",
+                    "token": "H I S ▁ I N S T A N T ▁ O F ▁ P A N I C ▁ W A S ▁ F O L L O W E D ▁ B Y ▁ A ▁ S M A L L ▁ S H A R P ▁ B L O W ▁ H I G H ▁ O N ▁ H I S ▁ C H E S T",
+                    "tokenid": "16 12 17 2 12 10 17 7 8 10 7 2 9 37 2 40 8 10 12 33 2 34 8 17 2 37 9 26 26 9 34 5 24 2 43 39 2 8 2 17 32 8 26 26 2 17 16 8 21 40 2 43 26 9 34 2 16 12 38 16 2 9 10 2 16 12 17 2 33 16 5 17 7"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0004": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2597514",
+                    "name": "input1",
+                    "shape": [
+                        507,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        51,
+                        69
+                    ],
+                    "text": "ONE MINUTE A VOICE SAID AND THE TIME BUZZER SOUNDED",
+                    "token": "O N E ▁ M I N U T E ▁ A ▁ V O I C E ▁ S A I D ▁ A N D ▁ T H E ▁ T I M E ▁ B U Z Z E R ▁ S O U N D E D",
+                    "tokenid": "9 10 5 2 32 12 10 31 7 5 2 8 2 53 9 12 33 5 2 17 8 12 24 2 8 10 24 2 7 16 5 2 7 12 32 5 2 43 31 67 67 5 21 2 17 9 31 10 24 5 24"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0005": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2640297",
+                    "name": "input1",
+                    "shape": [
+                        579,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        85,
+                        69
+                    ],
+                    "text": "A MINUTE IS NOT A VERY LARGE MEASURE OF TIME AND HIS BODY NEEDED EVERY FRACTION OF IT",
+                    "token": "A ▁ M I N U T E ▁ I S ▁ N O T ▁ A ▁ V E R Y ▁ L A R G E ▁ M E A S U R E ▁ O F ▁ T I M E ▁ A N D ▁ H I S ▁ B O D Y ▁ N E E D E D ▁ E V E R Y ▁ F R A C T I O N ▁ O F ▁ I T",
+                    "tokenid": "8 2 32 12 10 31 7 5 2 12 17 2 10 9 7 2 8 2 53 5 21 39 2 26 8 21 38 5 2 32 5 8 17 31 21 5 2 9 37 2 7 12 32 5 2 8 10 24 2 16 12 17 2 43 9 24 39 2 10 5 5 24 5 24 2 5 53 5 21 39 2 37 21 8 33 7 12 9 10 2 9 37 2 12 7"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0006": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2689056",
+                    "name": "input1",
+                    "shape": [
+                        491,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        65,
+                        69
+                    ],
+                    "text": "THE BUZZER'S WHIRR TRIGGERED HIS MUSCLES INTO COMPLETE RELAXATION",
+                    "token": "T H E ▁ B U Z Z E R ' S ▁ W H I R R ▁ T R I G G E R E D ▁ H I S ▁ M U S C L E S ▁ I N T O ▁ C O M P L E T E ▁ R E L A X A T I O N",
+                    "tokenid": "7 16 5 2 43 31 67 67 5 21 63 17 2 34 16 12 21 21 2 7 21 12 38 38 5 21 5 24 2 16 12 17 2 32 31 17 33 26 5 17 2 12 10 7 9 2 33 9 32 40 26 5 7 5 2 21 5 26 8 64 8 7 12 9 10"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0007": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2730511",
+                    "name": "input1",
+                    "shape": [
+                        472,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        60,
+                        69
+                    ],
+                    "text": "ONLY HIS HEART AND LUNGS WORKED ON AT A STRONG MEASURED RATE",
+                    "token": "O N L Y ▁ H I S ▁ H E A R T ▁ A N D ▁ L U N G S ▁ W O R K E D ▁ O N ▁ A T ▁ A ▁ S T R O N G ▁ M E A S U R E D ▁ R A T E",
+                    "tokenid": "9 10 26 39 2 16 12 17 2 16 5 8 21 7 2 8 10 24 2 26 31 10 38 17 2 34 9 21 54 5 24 2 9 10 2 8 7 2 8 2 17 7 21 9 10 38 2 32 5 8 17 31 21 5 24 2 21 8 7 5"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0008": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2770389",
+                    "name": "input1",
+                    "shape": [
+                        458,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        60,
+                        69
+                    ],
+                    "text": "HE WAS IN REVERIE SLIDING ALONG THE BORDERS OF CONSCIOUSNESS",
+                    "token": "H E ▁ W A S ▁ I N ▁ R E V E R I E ▁ S L I D I N G ▁ A L O N G ▁ T H E ▁ B O R D E R S ▁ O F ▁ C O N S C I O U S N E S S",
+                    "tokenid": "16 5 2 34 8 17 2 12 10 2 21 5 53 5 21 12 5 2 17 26 12 24 12 10 38 2 8 26 9 10 38 2 7 16 5 2 43 9 21 24 5 21 17 2 9 37 2 33 9 10 17 33 12 9 31 17 10 5 17 17"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0009": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2809105",
+                    "name": "input1",
+                    "shape": [
+                        860,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        114,
+                        69
+                    ],
+                    "text": "THE CONTESTANTS IN THE TWENTIES NEEDED UNDISTURBED REST THEREFORE NIGHTS IN THE DORMITORIES WERE AS QUIET AS DEATH",
+                    "token": "T H E ▁ C O N T E S T A N T S ▁ I N ▁ T H E ▁ T W E N T I E S ▁ N E E D E D ▁ U N D I S T U R B E D ▁ R E S T ▁ T H E R E F O R E ▁ N I G H T S ▁ I N ▁ T H E ▁ D O R M I T O R I E S ▁ W E R E ▁ A S ▁ Q U I E T ▁ A S ▁ D E A T H",
+                    "tokenid": "7 16 5 2 33 9 10 7 5 17 7 8 10 7 17 2 12 10 2 7 16 5 2 7 34 5 10 7 12 5 17 2 10 5 5 24 5 24 2 31 10 24 12 17 7 31 21 43 5 24 2 21 5 17 7 2 7 16 5 21 5 37 9 21 5 2 10 12 38 16 7 17 2 12 10 2 7 16 5 2 24 9 21 32 12 7 9 21 12 5 17 2 34 5 21 5 2 8 17 2 66 31 12 5 7 2 8 17 2 24 5 8 7 16"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0010": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2881187",
+                    "name": "input1",
+                    "shape": [
+                        1074,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        140,
+                        69
+                    ],
+                    "text": "PARTICULARLY SO ON THIS LAST NIGHT WHEN ONLY TWO OF THE LITTLE CUBICLES WERE OCCUPIED THE THOUSANDS OF OTHERS STANDING WITH DARK EMPTY DOORS",
+                    "token": "P A R T I C U L A R L Y ▁ S O ▁ O N ▁ T H I S ▁ L A S T ▁ N I G H T ▁ W H E N ▁ O N L Y ▁ T W O ▁ O F ▁ T H E ▁ L I T T L E ▁ C U B I C L E S ▁ W E R E ▁ O C C U P I E D ▁ T H E ▁ T H O U S A N D S ▁ O F ▁ O T H E R S ▁ S T A N D I N G ▁ W I T H ▁ D A R K ▁ E M P T Y ▁ D O O R S",
+                    "tokenid": "40 8 21 7 12 33 31 26 8 21 26 39 2 17 9 2 9 10 2 7 16 12 17 2 26 8 17 7 2 10 12 38 16 7 2 34 16 5 10 2 9 10 26 39 2 7 34 9 2 9 37 2 7 16 5 2 26 12 7 7 26 5 2 33 31 43 12 33 26 5 17 2 34 5 21 5 2 9 33 33 31 40 12 5 24 2 7 16 5 2 7 16 9 31 17 8 10 24 17 2 9 37 2 9 7 16 5 21 17 2 17 7 8 10 24 12 10 38 2 34 12 7 16 2 24 8 21 54 2 5 32 40 7 39 2 24 9 9 21 17"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0011": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:2971031",
+                    "name": "input1",
+                    "shape": [
+                        500,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        68,
+                        69
+                    ],
+                    "text": "THE OTHER VOICE SNAPPED WITH A HARSH URGENCY CLEARLY USED TO COMMAND",
+                    "token": "T H E ▁ O T H E R ▁ V O I C E ▁ S N A P P E D ▁ W I T H ▁ A ▁ H A R S H ▁ U R G E N C Y ▁ C L E A R L Y ▁ U S E D ▁ T O ▁ C O M M A N D",
+                    "tokenid": "7 16 5 2 9 7 16 5 21 2 53 9 12 33 5 2 17 10 8 40 40 5 24 2 34 12 7 16 2 8 2 16 8 21 17 16 2 31 21 38 5 10 33 39 2 33 26 5 8 21 26 39 2 31 17 5 24 2 7 9 2 33 9 32 32 8 10 24"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0012": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3013233",
+                    "name": "input1",
+                    "shape": [
+                        772,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        100,
+                        69
+                    ],
+                    "text": "I'M HERE BECAUSE THE MATTER IS OF UTMOST IMPORTANCE AND BRANDD IS THE ONE I MUST SEE NOW STAND ASIDE",
+                    "token": "I ' M ▁ H E R E ▁ B E C A U S E ▁ T H E ▁ M A T T E R ▁ I S ▁ O F ▁ U T M O S T ▁ I M P O R T A N C E ▁ A N D ▁ B R A N D D ▁ I S ▁ T H E ▁ O N E ▁ I ▁ M U S T ▁ S E E ▁ N O W ▁ S T A N D ▁ A S I D E",
+                    "tokenid": "12 63 32 2 16 5 21 5 2 43 5 33 8 31 17 5 2 7 16 5 2 32 8 7 7 5 21 2 12 17 2 9 37 2 31 7 32 9 17 7 2 12 32 40 9 21 7 8 10 33 5 2 8 10 24 2 43 21 8 10 24 24 2 12 17 2 7 16 5 2 9 10 5 2 12 2 32 31 17 7 2 17 5 5 2 10 9 34 2 17 7 8 10 24 2 8 17 12 24 5"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0013": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3078011",
+                    "name": "input1",
+                    "shape": [
+                        162,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        12,
+                        69
+                    ],
+                    "text": "THE TWENTIES",
+                    "token": "T H E ▁ T W E N T I E S",
+                    "tokenid": "7 16 5 2 7 34 5 10 7 12 5 17"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0014": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3092159",
+                    "name": "input1",
+                    "shape": [
+                        729,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        98,
+                        69
+                    ],
+                    "text": "HE MUST HAVE DRAWN HIS GUN BECAUSE THE INTRUDER SAID QUICKLY PUT THAT AWAY YOU'RE BEING A FOOL OUT",
+                    "token": "H E ▁ M U S T ▁ H A V E ▁ D R A W N ▁ H I S ▁ G U N ▁ B E C A U S E ▁ T H E ▁ I N T R U D E R ▁ S A I D ▁ Q U I C K L Y ▁ P U T ▁ T H A T ▁ A W A Y ▁ Y O U ' R E ▁ B E I N G ▁ A ▁ F O O L ▁ O U T",
+                    "tokenid": "16 5 2 32 31 17 7 2 16 8 53 5 2 24 21 8 34 10 2 16 12 17 2 38 31 10 2 43 5 33 8 31 17 5 2 7 16 5 2 12 10 7 21 31 24 5 21 2 17 8 12 24 2 66 31 12 33 54 26 39 2 40 31 7 2 7 16 8 7 2 8 34 8 39 2 39 9 31 63 21 5 2 43 5 12 10 38 2 8 2 37 9 9 26 2 9 31 7"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0015": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3153368",
+                    "name": "input1",
+                    "shape": [
+                        566,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        69,
+                        69
+                    ],
+                    "text": "THERE WAS SILENCE THEN AND STILL WONDERING BRION WAS ONCE MORE ASLEEP",
+                    "token": "T H E R E ▁ W A S ▁ S I L E N C E ▁ T H E N ▁ A N D ▁ S T I L L ▁ W O N D E R I N G ▁ B R I O N ▁ W A S ▁ O N C E ▁ M O R E ▁ A S L E E P",
+                    "tokenid": "7 16 5 21 5 2 34 8 17 2 17 12 26 5 10 33 5 2 7 16 5 10 2 8 10 24 2 17 7 12 26 26 2 34 9 10 24 5 21 12 10 38 2 43 21 12 9 10 2 34 8 17 2 9 10 33 5 2 32 9 21 5 2 8 17 26 5 5 40"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0016": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3201048",
+                    "name": "input1",
+                    "shape": [
+                        183,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        11,
+                        69
+                    ],
+                    "text": "TEN SECONDS",
+                    "token": "T E N ▁ S E C O N D S",
+                    "tokenid": "7 5 10 2 17 5 33 9 10 24 17"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0017": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3216939",
+                    "name": "input1",
+                    "shape": [
+                        372,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        56,
+                        69
+                    ],
+                    "text": "HE ASKED THE HANDLER WHO WAS KNEADING HIS ACHING MUSCLES",
+                    "token": "H E ▁ A S K E D ▁ T H E ▁ H A N D L E R ▁ W H O ▁ W A S ▁ K N E A D I N G ▁ H I S ▁ A C H I N G ▁ M U S C L E S",
+                    "tokenid": "16 5 2 8 17 54 5 24 2 7 16 5 2 16 8 10 24 26 5 21 2 34 16 9 2 34 8 17 2 54 10 5 8 24 12 10 38 2 16 12 17 2 8 33 16 12 10 38 2 32 31 17 33 26 5 17"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0018": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3248517",
+                    "name": "input1",
+                    "shape": [
+                        598,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        79,
+                        69
+                    ],
+                    "text": "A RED HAIRED MOUNTAIN OF A MAN WITH AN APPARENTLY INEXHAUSTIBLE STORE OF ENERGY",
+                    "token": "A ▁ R E D ▁ H A I R E D ▁ M O U N T A I N ▁ O F ▁ A ▁ M A N ▁ W I T H ▁ A N ▁ A P P A R E N T L Y ▁ I N E X H A U S T I B L E ▁ S T O R E ▁ O F ▁ E N E R G Y",
+                    "tokenid": "8 2 21 5 24 2 16 8 12 21 5 24 2 32 9 31 10 7 8 12 10 2 9 37 2 8 2 32 8 10 2 34 12 7 16 2 8 10 2 8 40 40 8 21 5 10 7 26 39 2 12 10 5 64 16 8 31 17 7 12 43 26 5 2 17 7 9 21 5 2 9 37 2 5 10 5 21 38 39"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0019": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3298853",
+                    "name": "input1",
+                    "shape": [
+                        468,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        65,
+                        69
+                    ],
+                    "text": "THERE COULD BE LITTLE ART IN THIS LAST AND FINAL ROUND OF FENCING",
+                    "token": "T H E R E ▁ C O U L D ▁ B E ▁ L I T T L E ▁ A R T ▁ I N ▁ T H I S ▁ L A S T ▁ A N D ▁ F I N A L ▁ R O U N D ▁ O F ▁ F E N C I N G",
+                    "tokenid": "7 16 5 21 5 2 33 9 31 26 24 2 43 5 2 26 12 7 7 26 5 2 8 21 7 2 12 10 2 7 16 12 17 2 26 8 17 7 2 8 10 24 2 37 12 10 8 26 2 21 9 31 10 24 2 9 37 2 37 5 10 33 12 10 38"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0020": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3338399",
+                    "name": "input1",
+                    "shape": [
+                        430,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        49,
+                        69
+                    ],
+                    "text": "JUST THRUST AND PARRY AND VICTORY TO THE STRONGER",
+                    "token": "J U S T ▁ T H R U S T ▁ A N D ▁ P A R R Y ▁ A N D ▁ V I C T O R Y ▁ T O ▁ T H E ▁ S T R O N G E R",
+                    "tokenid": "65 31 17 7 2 7 16 21 31 17 7 2 8 10 24 2 40 8 21 21 39 2 8 10 24 2 53 12 33 7 9 21 39 2 7 9 2 7 16 5 2 17 7 21 9 10 38 5 21"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0021": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3374791",
+                    "name": "input1",
+                    "shape": [
+                        463,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        62,
+                        69
+                    ],
+                    "text": "EVERY MAN WHO ENTERED THE TWENTIES HAD HIS OWN TRAINING TRICKS",
+                    "token": "E V E R Y ▁ M A N ▁ W H O ▁ E N T E R E D ▁ T H E ▁ T W E N T I E S ▁ H A D ▁ H I S ▁ O W N ▁ T R A I N I N G ▁ T R I C K S",
+                    "tokenid": "5 53 5 21 39 2 32 8 10 2 34 16 9 2 5 10 7 5 21 5 24 2 7 16 5 2 7 34 5 10 7 12 5 17 2 16 8 24 2 16 12 17 2 9 34 10 2 7 21 8 12 10 12 10 38 2 7 21 12 33 54 17"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0022": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3413922",
+                    "name": "input1",
+                    "shape": [
+                        833,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        115,
+                        69
+                    ],
+                    "text": "THERE APPEARED TO BE AN IMMEDIATE ASSOCIATION WITH THE DEATH TRAUMA AS IF THE TWO WERE INEXTRICABLY LINKED INTO ONE",
+                    "token": "T H E R E ▁ A P P E A R E D ▁ T O ▁ B E ▁ A N ▁ I M M E D I A T E ▁ A S S O C I A T I O N ▁ W I T H ▁ T H E ▁ D E A T H ▁ T R A U M A ▁ A S ▁ I F ▁ T H E ▁ T W O ▁ W E R E ▁ I N E X T R I C A B L Y ▁ L I N K E D ▁ I N T O ▁ O N E",
+                    "tokenid": "7 16 5 21 5 2 8 40 40 5 8 21 5 24 2 7 9 2 43 5 2 8 10 2 12 32 32 5 24 12 8 7 5 2 8 17 17 9 33 12 8 7 12 9 10 2 34 12 7 16 2 7 16 5 2 24 5 8 7 16 2 7 21 8 31 32 8 2 8 17 2 12 37 2 7 16 5 2 7 34 9 2 34 5 21 5 2 12 10 5 64 7 21 12 33 8 43 26 39 2 26 12 10 54 5 24 2 12 10 7 9 2 9 10 5"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0023": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3483763",
+                    "name": "input1",
+                    "shape": [
+                        864,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        124,
+                        69
+                    ],
+                    "text": "THE STRENGTH THAT ENABLES SOMEONE IN A TRANCE TO HOLD HIS BODY STIFF AND UNSUPPORTED EXCEPT AT TWO POINTS THE HEAD AND HEELS",
+                    "token": "T H E ▁ S T R E N G T H ▁ T H A T ▁ E N A B L E S ▁ S O M E O N E ▁ I N ▁ A ▁ T R A N C E ▁ T O ▁ H O L D ▁ H I S ▁ B O D Y ▁ S T I F F ▁ A N D ▁ U N S U P P O R T E D ▁ E X C E P T ▁ A T ▁ T W O ▁ P O I N T S ▁ T H E ▁ H E A D ▁ A N D ▁ H E E L S",
+                    "tokenid": "7 16 5 2 17 7 21 5 10 38 7 16 2 7 16 8 7 2 5 10 8 43 26 5 17 2 17 9 32 5 9 10 5 2 12 10 2 8 2 7 21 8 10 33 5 2 7 9 2 16 9 26 24 2 16 12 17 2 43 9 24 39 2 17 7 12 37 37 2 8 10 24 2 31 10 17 31 40 40 9 21 7 5 24 2 5 64 33 5 40 7 2 8 7 2 7 34 9 2 40 9 12 10 7 17 2 7 16 5 2 16 5 8 24 2 8 10 24 2 16 5 5 26 17"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0024": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3556177",
+                    "name": "input1",
+                    "shape": [
+                        362,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        44,
+                        69
+                    ],
+                    "text": "THIS IS PHYSICALLY IMPOSSIBLE WHEN CONSCIOUS",
+                    "token": "T H I S ▁ I S ▁ P H Y S I C A L L Y ▁ I M P O S S I B L E ▁ W H E N ▁ C O N S C I O U S",
+                    "tokenid": "7 16 12 17 2 12 17 2 40 16 39 17 12 33 8 26 26 39 2 12 32 40 9 17 17 12 43 26 5 2 34 16 5 10 2 33 9 10 17 33 12 9 31 17"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0025": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3586925",
+                    "name": "input1",
+                    "shape": [
+                        871,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        110,
+                        69
+                    ],
+                    "text": "OTHERS HAD DIED BEFORE DURING THE TWENTIES AND DEATH DURING THE LAST ROUND WAS IN SOME WAYS EASIER THAN DEFEAT",
+                    "token": "O T H E R S ▁ H A D ▁ D I E D ▁ B E F O R E ▁ D U R I N G ▁ T H E ▁ T W E N T I E S ▁ A N D ▁ D E A T H ▁ D U R I N G ▁ T H E ▁ L A S T ▁ R O U N D ▁ W A S ▁ I N ▁ S O M E ▁ W A Y S ▁ E A S I E R ▁ T H A N ▁ D E F E A T",
+                    "tokenid": "9 7 16 5 21 17 2 16 8 24 2 24 12 5 24 2 43 5 37 9 21 5 2 24 31 21 12 10 38 2 7 16 5 2 7 34 5 10 7 12 5 17 2 8 10 24 2 24 5 8 7 16 2 24 31 21 12 10 38 2 7 16 5 2 26 8 17 7 2 21 9 31 10 24 2 34 8 17 2 12 10 2 17 9 32 5 2 34 8 39 17 2 5 8 17 12 5 21 2 7 16 8 10 2 24 5 37 5 8 7"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0026": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3659920",
+                    "name": "input1",
+                    "shape": [
+                        662,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        88,
+                        69
+                    ],
+                    "text": "BREATHING DEEPLY BRION SOFTLY SPOKE THE AUTO HYPNOTIC PHRASES THAT TRIGGERED THE PROCESS",
+                    "token": "B R E A T H I N G ▁ D E E P L Y ▁ B R I O N ▁ S O F T L Y ▁ S P O K E ▁ T H E ▁ A U T O ▁ H Y P N O T I C ▁ P H R A S E S ▁ T H A T ▁ T R I G G E R E D ▁ T H E ▁ P R O C E S S",
+                    "tokenid": "43 21 5 8 7 16 12 10 38 2 24 5 5 40 26 39 2 43 21 12 9 10 2 17 9 37 7 26 39 2 17 40 9 54 5 2 7 16 5 2 8 31 7 9 2 16 39 40 10 9 7 12 33 2 40 16 21 8 17 5 17 2 7 16 8 7 2 7 21 12 38 38 5 21 5 24 2 7 16 5 2 40 21 9 33 5 17 17"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0027": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3715568",
+                    "name": "input1",
+                    "shape": [
+                        655,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        91,
+                        69
+                    ],
+                    "text": "WHEN THE BUZZER SOUNDED HE PULLED HIS FOIL FROM HIS SECOND'S STARTLED GRASP AND RAN FORWARD",
+                    "token": "W H E N ▁ T H E ▁ B U Z Z E R ▁ S O U N D E D ▁ H E ▁ P U L L E D ▁ H I S ▁ F O I L ▁ F R O M ▁ H I S ▁ S E C O N D ' S ▁ S T A R T L E D ▁ G R A S P ▁ A N D ▁ R A N ▁ F O R W A R D",
+                    "tokenid": "34 16 5 10 2 7 16 5 2 43 31 67 67 5 21 2 17 9 31 10 24 5 24 2 16 5 2 40 31 26 26 5 24 2 16 12 17 2 37 9 12 26 2 37 21 9 32 2 16 12 17 2 17 5 33 9 10 24 63 17 2 17 7 8 21 7 26 5 24 2 38 21 8 17 40 2 8 10 24 2 21 8 10 2 37 9 21 34 8 21 24"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0028": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3770635",
+                    "name": "input1",
+                    "shape": [
+                        563,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        64,
+                        69
+                    ],
+                    "text": "IROLG LOOKED AMAZED AT THE SUDDEN FURY OF THE ATTACK THEN SMILED",
+                    "token": "I R O L G ▁ L O O K E D ▁ A M A Z E D ▁ A T ▁ T H E ▁ S U D D E N ▁ F U R Y ▁ O F ▁ T H E ▁ A T T A C K ▁ T H E N ▁ S M I L E D",
+                    "tokenid": "12 21 9 26 38 2 26 9 9 54 5 24 2 8 32 8 67 5 24 2 8 7 2 7 16 5 2 17 31 24 24 5 10 2 37 31 21 39 2 9 37 2 7 16 5 2 8 7 7 8 33 54 2 7 16 5 10 2 17 32 12 26 5 24"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0029": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3818066",
+                    "name": "input1",
+                    "shape": [
+                        686,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        87,
+                        69
+                    ],
+                    "text": "HE THOUGHT IT WAS A LAST BURST OF ENERGY HE KNEW HOW CLOSE THEY BOTH WERE TO EXHAUSTION",
+                    "token": "H E ▁ T H O U G H T ▁ I T ▁ W A S ▁ A ▁ L A S T ▁ B U R S T ▁ O F ▁ E N E R G Y ▁ H E ▁ K N E W ▁ H O W ▁ C L O S E ▁ T H E Y ▁ B O T H ▁ W E R E ▁ T O ▁ E X H A U S T I O N",
+                    "tokenid": "16 5 2 7 16 9 31 38 16 7 2 12 7 2 34 8 17 2 8 2 26 8 17 7 2 43 31 21 17 7 2 9 37 2 5 10 5 21 38 39 2 16 5 2 54 10 5 34 2 16 9 34 2 33 26 9 17 5 2 7 16 5 39 2 43 9 7 16 2 34 5 21 5 2 7 9 2 5 64 16 8 31 17 7 12 9 10"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0030": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3875706",
+                    "name": "input1",
+                    "shape": [
+                        711,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        99,
+                        69
+                    ],
+                    "text": "BRION SAW SOMETHING CLOSE TO PANIC ON HIS OPPONENT'S FACE WHEN THE MAN FINALLY RECOGNIZED HIS ERROR",
+                    "token": "B R I O N ▁ S A W ▁ S O M E T H I N G ▁ C L O S E ▁ T O ▁ P A N I C ▁ O N ▁ H I S ▁ O P P O N E N T ' S ▁ F A C E ▁ W H E N ▁ T H E ▁ M A N ▁ F I N A L L Y ▁ R E C O G N I Z E D ▁ H I S ▁ E R R O R",
+                    "tokenid": "43 21 12 9 10 2 17 8 34 2 17 9 32 5 7 16 12 10 38 2 33 26 9 17 5 2 7 9 2 40 8 10 12 33 2 9 10 2 16 12 17 2 9 40 40 9 10 5 10 7 63 17 2 37 8 33 5 2 34 16 5 10 2 7 16 5 2 32 8 10 2 37 12 10 8 26 26 39 2 21 5 33 9 38 10 12 67 5 24 2 16 12 17 2 5 21 21 9 21"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0031": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3935421",
+                    "name": "input1",
+                    "shape": [
+                        710,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        88,
+                        69
+                    ],
+                    "text": "A WAVE OF DESPAIR ROLLED OUT FROM IROLG BRION SENSED IT AND KNEW THE FIFTH POINT WAS HIS",
+                    "token": "A ▁ W A V E ▁ O F ▁ D E S P A I R ▁ R O L L E D ▁ O U T ▁ F R O M ▁ I R O L G ▁ B R I O N ▁ S E N S E D ▁ I T ▁ A N D ▁ K N E W ▁ T H E ▁ F I F T H ▁ P O I N T ▁ W A S ▁ H I S",
+                    "tokenid": "8 2 34 8 53 5 2 9 37 2 24 5 17 40 8 12 21 2 21 9 26 26 5 24 2 9 31 7 2 37 21 9 32 2 12 21 9 26 38 2 43 21 12 9 10 2 17 5 10 17 5 24 2 12 7 2 8 10 24 2 54 10 5 34 2 7 16 5 2 37 12 37 7 16 2 40 9 12 10 7 2 34 8 17 2 16 12 17"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1272-141231-0032": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:3995053",
+                    "name": "input1",
+                    "shape": [
+                        446,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        67,
+                        69
+                    ],
+                    "text": "THEN THE POWERFUL TWIST THAT THRUST IT ASIDE IN AND UNDER THE GUARD",
+                    "token": "T H E N ▁ T H E ▁ P O W E R F U L ▁ T W I S T ▁ T H A T ▁ T H R U S T ▁ I T ▁ A S I D E ▁ I N ▁ A N D ▁ U N D E R ▁ T H E ▁ G U A R D",
+                    "tokenid": "7 16 5 10 2 7 16 5 2 40 9 34 5 21 37 31 26 2 7 34 12 17 7 2 7 16 8 7 2 7 16 21 31 17 7 2 12 7 2 8 17 12 24 5 2 12 10 2 8 10 24 2 31 10 24 5 21 2 7 16 5 2 38 31 8 21 24"
+                }
+            ],
+            "utt2spk": "1272-141231"
+        },
+        "1462-170138-0000": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4032773",
+                    "name": "input1",
+                    "shape": [
+                        1453,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        173,
+                        69
+                    ],
+                    "text": "HE HAD WRITTEN A NUMBER OF BOOKS HIMSELF AMONG THEM A HISTORY OF DANCING A HISTORY OF COSTUME A KEY TO SHAKESPEARE'S SONNETS A STUDY OF THE POETRY OF ERNEST DOWSON ET CETERA",
+                    "token": "H E ▁ H A D ▁ W R I T T E N ▁ A ▁ N U M B E R ▁ O F ▁ B O O K S ▁ H I M S E L F ▁ A M O N G ▁ T H E M ▁ A ▁ H I S T O R Y ▁ O F ▁ D A N C I N G ▁ A ▁ H I S T O R Y ▁ O F ▁ C O S T U M E ▁ A ▁ K E Y ▁ T O ▁ S H A K E S P E A R E ' S ▁ S O N N E T S ▁ A ▁ S T U D Y ▁ O F ▁ T H E ▁ P O E T R Y ▁ O F ▁ E R N E S T ▁ D O W S O N ▁ E T ▁ C E T E R A",
+                    "tokenid": "16 5 2 16 8 24 2 34 21 12 7 7 5 10 2 8 2 10 31 32 43 5 21 2 9 37 2 43 9 9 54 17 2 16 12 32 17 5 26 37 2 8 32 9 10 38 2 7 16 5 32 2 8 2 16 12 17 7 9 21 39 2 9 37 2 24 8 10 33 12 10 38 2 8 2 16 12 17 7 9 21 39 2 9 37 2 33 9 17 7 31 32 5 2 8 2 54 5 39 2 7 9 2 17 16 8 54 5 17 40 5 8 21 5 63 17 2 17 9 10 10 5 7 17 2 8 2 17 7 31 24 39 2 9 37 2 7 16 5 2 40 9 5 7 21 39 2 9 37 2 5 21 10 5 17 7 2 24 9 34 17 9 10 2 5 7 2 33 5 7 5 21 8"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0001": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4154074",
+                    "name": "input1",
+                    "shape": [
+                        397,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        70,
+                        69
+                    ],
+                    "text": "HUGH'S WRITTEN A DELIGHTFUL PART FOR HER AND SHE'S QUITE INEXPRESSIBLE",
+                    "token": "H U G H ' S ▁ W R I T T E N ▁ A ▁ D E L I G H T F U L ▁ P A R T ▁ F O R ▁ H E R ▁ A N D ▁ S H E ' S ▁ Q U I T E ▁ I N E X P R E S S I B L E",
+                    "tokenid": "16 31 38 16 63 17 2 34 21 12 7 7 5 10 2 8 2 24 5 26 12 38 16 7 37 31 26 2 40 8 21 7 2 37 9 21 2 16 5 21 2 8 10 24 2 17 16 5 63 17 2 66 31 12 7 5 2 12 10 5 64 40 21 5 17 17 12 43 26 5"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0002": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4187727",
+                    "name": "input1",
+                    "shape": [
+                        463,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        92,
+                        69
+                    ],
+                    "text": "I HAPPEN TO HAVE MAC CONNELL'S BOX FOR TONIGHT OR THERE'D BE NO CHANCE OF OUR GETTING PLACES",
+                    "token": "I ▁ H A P P E N ▁ T O ▁ H A V E ▁ M A C ▁ C O N N E L L ' S ▁ B O X ▁ F O R ▁ T O N I G H T ▁ O R ▁ T H E R E ' D ▁ B E ▁ N O ▁ C H A N C E ▁ O F ▁ O U R ▁ G E T T I N G ▁ P L A C E S",
+                    "tokenid": "12 2 16 8 40 40 5 10 2 7 9 2 16 8 53 5 2 32 8 33 2 33 9 10 10 5 26 26 63 17 2 43 9 64 2 37 9 21 2 7 9 10 12 38 16 7 2 9 21 2 7 16 5 21 5 63 24 2 43 5 2 10 9 2 33 16 8 10 33 5 2 9 37 2 9 31 21 2 38 5 7 7 12 10 38 2 40 26 8 33 5 17"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0003": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4226858",
+                    "name": "input1",
+                    "shape": [
+                        230,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        26,
+                        69
+                    ],
+                    "text": "ALEXANDER EXCLAIMED MILDLY",
+                    "token": "A L E X A N D E R ▁ E X C L A I M E D ▁ M I L D L Y",
+                    "tokenid": "8 26 5 64 8 10 24 5 21 2 5 64 33 26 8 12 32 5 24 2 32 12 26 24 26 39"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0004": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4246650",
+                    "name": "input1",
+                    "shape": [
+                        249,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        38,
+                        69
+                    ],
+                    "text": "MYSELF I ALWAYS KNEW SHE HAD IT IN HER",
+                    "token": "M Y S E L F ▁ I ▁ A L W A Y S ▁ K N E W ▁ S H E ▁ H A D ▁ I T ▁ I N ▁ H E R",
+                    "tokenid": "32 39 17 5 26 37 2 12 2 8 26 34 8 39 17 2 54 10 5 34 2 17 16 5 2 16 8 24 2 12 7 2 12 10 2 16 5 21"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0005": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4268019",
+                    "name": "input1",
+                    "shape": [
+                        1315,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        202,
+                        69
+                    ],
+                    "text": "DO YOU KNOW ALEXANDER MAINHALL LOOKED WITH PERPLEXITY UP INTO THE TOP OF THE HANSOM AND RUBBED HIS PINK CHEEK WITH HIS GLOVED FINGER DO YOU KNOW I SOMETIMES THINK OF TAKING TO CRITICISM SERIOUSLY MYSELF",
+                    "token": "D O ▁ Y O U ▁ K N O W ▁ A L E X A N D E R ▁ M A I N H A L L ▁ L O O K E D ▁ W I T H ▁ P E R P L E X I T Y ▁ U P ▁ I N T O ▁ T H E ▁ T O P ▁ O F ▁ T H E ▁ H A N S O M ▁ A N D ▁ R U B B E D ▁ H I S ▁ P I N K ▁ C H E E K ▁ W I T H ▁ H I S ▁ G L O V E D ▁ F I N G E R ▁ D O ▁ Y O U ▁ K N O W ▁ I ▁ S O M E T I M E S ▁ T H I N K ▁ O F ▁ T A K I N G ▁ T O ▁ C R I T I C I S M ▁ S E R I O U S L Y ▁ M Y S E L F",
+                    "tokenid": "24 9 2 39 9 31 2 54 10 9 34 2 8 26 5 64 8 10 24 5 21 2 32 8 12 10 16 8 26 26 2 26 9 9 54 5 24 2 34 12 7 16 2 40 5 21 40 26 5 64 12 7 39 2 31 40 2 12 10 7 9 2 7 16 5 2 7 9 40 2 9 37 2 7 16 5 2 16 8 10 17 9 32 2 8 10 24 2 21 31 43 43 5 24 2 16 12 17 2 40 12 10 54 2 33 16 5 5 54 2 34 12 7 16 2 16 12 17 2 38 26 9 53 5 24 2 37 12 10 38 5 21 2 24 9 2 39 9 31 2 54 10 9 34 2 12 2 17 9 32 5 7 12 32 5 17 2 7 16 12 10 54 2 9 37 2 7 8 54 12 10 38 2 7 9 2 33 21 12 7 12 33 12 17 32 2 17 5 21 12 9 31 17 26 39 2 32 39 17 5 26 37"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0006": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4377866",
+                    "name": "input1",
+                    "shape": [
+                        856,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        140,
+                        69
+                    ],
+                    "text": "WHEN THEY ENTERED THE STAGE BOX ON THE LEFT THE FIRST ACT WAS WELL UNDER WAY THE SCENE BEING THE INTERIOR OF A CABIN IN THE SOUTH OF IRELAND",
+                    "token": "W H E N ▁ T H E Y ▁ E N T E R E D ▁ T H E ▁ S T A G E ▁ B O X ▁ O N ▁ T H E ▁ L E F T ▁ T H E ▁ F I R S T ▁ A C T ▁ W A S ▁ W E L L ▁ U N D E R ▁ W A Y ▁ T H E ▁ S C E N E ▁ B E I N G ▁ T H E ▁ I N T E R I O R ▁ O F ▁ A ▁ C A B I N ▁ I N ▁ T H E ▁ S O U T H ▁ O F ▁ I R E L A N D",
+                    "tokenid": "34 16 5 10 2 7 16 5 39 2 5 10 7 5 21 5 24 2 7 16 5 2 17 7 8 38 5 2 43 9 64 2 9 10 2 7 16 5 2 26 5 37 7 2 7 16 5 2 37 12 21 17 7 2 8 33 7 2 34 8 17 2 34 5 26 26 2 31 10 24 5 21 2 34 8 39 2 7 16 5 2 17 33 5 10 5 2 43 5 12 10 38 2 7 16 5 2 12 10 7 5 21 12 9 21 2 9 37 2 8 2 33 8 43 12 10 2 12 10 2 7 16 5 2 17 9 31 7 16 2 9 37 2 12 21 5 26 8 10 24"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0007": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4449616",
+                    "name": "input1",
+                    "shape": [
+                        524,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        76,
+                        69
+                    ],
+                    "text": "AS THEY SAT DOWN A BURST OF APPLAUSE DREW ALEXANDER'S ATTENTION TO THE STAGE",
+                    "token": "A S ▁ T H E Y ▁ S A T ▁ D O W N ▁ A ▁ B U R S T ▁ O F ▁ A P P L A U S E ▁ D R E W ▁ A L E X A N D E R ' S ▁ A T T E N T I O N ▁ T O ▁ T H E ▁ S T A G E",
+                    "tokenid": "8 17 2 7 16 5 39 2 17 8 7 2 24 9 34 10 2 8 2 43 31 21 17 7 2 9 37 2 8 40 40 26 8 31 17 5 2 24 21 5 34 2 8 26 5 64 8 10 24 5 21 63 17 2 8 7 7 5 10 7 12 9 10 2 7 9 2 7 16 5 2 17 7 8 38 5"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0008": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4493810",
+                    "name": "input1",
+                    "shape": [
+                        630,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        105,
+                        69
+                    ],
+                    "text": "OF COURSE HILDA IS IRISH THE BURGOYNES HAVE BEEN STAGE PEOPLE FOR GENERATIONS AND SHE HAS THE IRISH VOICE",
+                    "token": "O F ▁ C O U R S E ▁ H I L D A ▁ I S ▁ I R I S H ▁ T H E ▁ B U R G O Y N E S ▁ H A V E ▁ B E E N ▁ S T A G E ▁ P E O P L E ▁ F O R ▁ G E N E R A T I O N S ▁ A N D ▁ S H E ▁ H A S ▁ T H E ▁ I R I S H ▁ V O I C E",
+                    "tokenid": "9 37 2 33 9 31 21 17 5 2 16 12 26 24 8 2 12 17 2 12 21 12 17 16 2 7 16 5 2 43 31 21 38 9 39 10 5 17 2 16 8 53 5 2 43 5 5 10 2 17 7 8 38 5 2 40 5 9 40 26 5 2 37 9 21 2 38 5 10 5 21 8 7 12 9 10 17 2 8 10 24 2 17 16 5 2 16 8 17 2 7 16 5 2 12 21 12 17 16 2 53 9 12 33 5"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0009": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4546802",
+                    "name": "input1",
+                    "shape": [
+                        249,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        46,
+                        69
+                    ],
+                    "text": "IT'S DELIGHTFUL TO HEAR IT IN A LONDON THEATRE",
+                    "token": "I T ' S ▁ D E L I G H T F U L ▁ T O ▁ H E A R ▁ I T ▁ I N ▁ A ▁ L O N D O N ▁ T H E A T R E",
+                    "tokenid": "12 7 63 17 2 24 5 26 12 38 16 7 37 31 26 2 7 9 2 16 5 8 21 2 12 7 2 12 10 2 8 2 26 9 10 24 9 10 2 7 16 5 8 7 21 5"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0010": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4568171",
+                    "name": "input1",
+                    "shape": [
+                        860,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        140,
+                        69
+                    ],
+                    "text": "WHEN SHE BEGAN TO DANCE BY WAY OF SHOWING THE GOSSOONS WHAT SHE HAD SEEN IN THE FAIRY RINGS AT NIGHT THE HOUSE BROKE INTO A PROLONGED UPROAR",
+                    "token": "W H E N ▁ S H E ▁ B E G A N ▁ T O ▁ D A N C E ▁ B Y ▁ W A Y ▁ O F ▁ S H O W I N G ▁ T H E ▁ G O S S O O N S ▁ W H A T ▁ S H E ▁ H A D ▁ S E E N ▁ I N ▁ T H E ▁ F A I R Y ▁ R I N G S ▁ A T ▁ N I G H T ▁ T H E ▁ H O U S E ▁ B R O K E ▁ I N T O ▁ A ▁ P R O L O N G E D ▁ U P R O A R",
+                    "tokenid": "34 16 5 10 2 17 16 5 2 43 5 38 8 10 2 7 9 2 24 8 10 33 5 2 43 39 2 34 8 39 2 9 37 2 17 16 9 34 12 10 38 2 7 16 5 2 38 9 17 17 9 9 10 17 2 34 16 8 7 2 17 16 5 2 16 8 24 2 17 5 5 10 2 12 10 2 7 16 5 2 37 8 12 21 39 2 21 12 10 38 17 2 8 7 2 10 12 38 16 7 2 7 16 5 2 16 9 31 17 5 2 43 21 9 54 5 2 12 10 7 9 2 8 2 40 21 9 26 9 10 38 5 24 2 31 40 21 9 8 21"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0011": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4640253",
+                    "name": "input1",
+                    "shape": [
+                        1140,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        195,
+                        69
+                    ],
+                    "text": "AFTER HER DANCE SHE WITHDREW FROM THE DIALOGUE AND RETREATED TO THE DITCH WALL BACK OF PHILLY'S BURROW WHERE SHE SAT SINGING THE RISING OF THE MOON AND MAKING A WREATH OF PRIMROSES FOR HER DONKEY",
+                    "token": "A F T E R ▁ H E R ▁ D A N C E ▁ S H E ▁ W I T H D R E W ▁ F R O M ▁ T H E ▁ D I A L O G U E ▁ A N D ▁ R E T R E A T E D ▁ T O ▁ T H E ▁ D I T C H ▁ W A L L ▁ B A C K ▁ O F ▁ P H I L L Y ' S ▁ B U R R O W ▁ W H E R E ▁ S H E ▁ S A T ▁ S I N G I N G ▁ T H E ▁ R I S I N G ▁ O F ▁ T H E ▁ M O O N ▁ A N D ▁ M A K I N G ▁ A ▁ W R E A T H ▁ O F ▁ P R I M R O S E S ▁ F O R ▁ H E R ▁ D O N K E Y",
+                    "tokenid": "8 37 7 5 21 2 16 5 21 2 24 8 10 33 5 2 17 16 5 2 34 12 7 16 24 21 5 34 2 37 21 9 32 2 7 16 5 2 24 12 8 26 9 38 31 5 2 8 10 24 2 21 5 7 21 5 8 7 5 24 2 7 9 2 7 16 5 2 24 12 7 33 16 2 34 8 26 26 2 43 8 33 54 2 9 37 2 40 16 12 26 26 39 63 17 2 43 31 21 21 9 34 2 34 16 5 21 5 2 17 16 5 2 17 8 7 2 17 12 10 38 12 10 38 2 7 16 5 2 21 12 17 12 10 38 2 9 37 2 7 16 5 2 32 9 9 10 2 8 10 24 2 32 8 54 12 10 38 2 8 2 34 21 5 8 7 16 2 9 37 2 40 21 12 32 21 9 17 5 17 2 37 9 21 2 16 5 21 2 24 9 10 54 5 39"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0012": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4735575",
+                    "name": "input1",
+                    "shape": [
+                        384,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        53,
+                        69
+                    ],
+                    "text": "MAC CONNELL LET ME INTRODUCE MISTER BARTLEY ALEXANDER",
+                    "token": "M A C ▁ C O N N E L L ▁ L E T ▁ M E ▁ I N T R O D U C E ▁ M I S T E R ▁ B A R T L E Y ▁ A L E X A N D E R",
+                    "tokenid": "32 8 33 2 33 9 10 10 5 26 26 2 26 5 7 2 32 5 2 12 10 7 21 9 24 31 33 5 2 32 12 17 7 5 21 2 43 8 21 7 26 5 39 2 8 26 5 64 8 10 24 5 21"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0013": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4768149",
+                    "name": "input1",
+                    "shape": [
+                        700,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        94,
+                        69
+                    ],
+                    "text": "THE PLAYWRIGHT GAVE MAINHALL A CURIOUS LOOK OUT OF HIS DEEP SET FADED EYES AND MADE A WRY FACE",
+                    "token": "T H E ▁ P L A Y W R I G H T ▁ G A V E ▁ M A I N H A L L ▁ A ▁ C U R I O U S ▁ L O O K ▁ O U T ▁ O F ▁ H I S ▁ D E E P ▁ S E T ▁ F A D E D ▁ E Y E S ▁ A N D ▁ M A D E ▁ A ▁ W R Y ▁ F A C E",
+                    "tokenid": "7 16 5 2 40 26 8 39 34 21 12 38 16 7 2 38 8 53 5 2 32 8 12 10 16 8 26 26 2 8 2 33 31 21 12 9 31 17 2 26 9 9 54 2 9 31 7 2 9 37 2 16 12 17 2 24 5 5 40 2 17 5 7 2 37 8 24 5 24 2 5 39 5 17 2 8 10 24 2 32 8 24 5 2 8 2 34 21 39 2 37 8 33 5"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0014": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4826951",
+                    "name": "input1",
+                    "shape": [
+                        490,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        71,
+                        69
+                    ],
+                    "text": "HE NODDED CURTLY AND MADE FOR THE DOOR DODGING ACQUAINTANCES AS HE WENT",
+                    "token": "H E ▁ N O D D E D ▁ C U R T L Y ▁ A N D ▁ M A D E ▁ F O R ▁ T H E ▁ D O O R ▁ D O D G I N G ▁ A C Q U A I N T A N C E S ▁ A S ▁ H E ▁ W E N T",
+                    "tokenid": "16 5 2 10 9 24 24 5 24 2 33 31 21 7 26 39 2 8 10 24 2 32 8 24 5 2 37 9 21 2 7 16 5 2 24 9 9 21 2 24 9 24 38 12 10 38 2 8 33 66 31 8 12 10 7 8 10 33 5 17 2 8 17 2 16 5 2 34 5 10 7"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0015": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4868323",
+                    "name": "input1",
+                    "shape": [
+                        336,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        63,
+                        69
+                    ],
+                    "text": "I DARE SAY IT'S QUITE TRUE THAT THERE'S NEVER BEEN ANY ONE ELSE",
+                    "token": "I ▁ D A R E ▁ S A Y ▁ I T ' S ▁ Q U I T E ▁ T R U E ▁ T H A T ▁ T H E R E ' S ▁ N E V E R ▁ B E E N ▁ A N Y ▁ O N E ▁ E L S E",
+                    "tokenid": "12 2 24 8 21 5 2 17 8 39 2 12 7 63 17 2 66 31 12 7 5 2 7 21 31 5 2 7 16 8 7 2 7 16 5 21 5 63 17 2 10 5 53 5 21 2 43 5 5 10 2 8 10 39 2 9 10 5 2 5 26 17 5"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0016": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4896913",
+                    "name": "input1",
+                    "shape": [
+                        341,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        62,
+                        69
+                    ],
+                    "text": "HE'S ANOTHER WHO'S AWFULLY KEEN ABOUT HER LET ME INTRODUCE YOU",
+                    "token": "H E ' S ▁ A N O T H E R ▁ W H O ' S ▁ A W F U L L Y ▁ K E E N ▁ A B O U T ▁ H E R ▁ L E T ▁ M E ▁ I N T R O D U C E ▁ Y O U",
+                    "tokenid": "16 5 63 17 2 8 10 9 7 16 5 21 2 34 16 9 63 17 2 8 34 37 31 26 26 39 2 54 5 5 10 2 8 43 9 31 7 2 16 5 21 2 26 5 7 2 32 5 2 12 10 7 21 9 24 31 33 5 2 39 9 31"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0017": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4925918",
+                    "name": "input1",
+                    "shape": [
+                        619,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        85,
+                        69
+                    ],
+                    "text": "SIR HARRY TOWNE BOWED AND SAID THAT HE HAD MET MISTER ALEXANDER AND HIS WIFE IN TOKYO",
+                    "token": "S I R ▁ H A R R Y ▁ T O W N E ▁ B O W E D ▁ A N D ▁ S A I D ▁ T H A T ▁ H E ▁ H A D ▁ M E T ▁ M I S T E R ▁ A L E X A N D E R ▁ A N D ▁ H I S ▁ W I F E ▁ I N ▁ T O K Y O",
+                    "tokenid": "17 12 21 2 16 8 21 21 39 2 7 9 34 10 5 2 43 9 34 5 24 2 8 10 24 2 17 8 12 24 2 7 16 8 7 2 16 5 2 16 8 24 2 32 5 7 2 32 12 17 7 5 21 2 8 26 5 64 8 10 24 5 21 2 8 10 24 2 16 12 17 2 34 12 37 5 2 12 10 2 7 9 54 39 9"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0018": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:4977997",
+                    "name": "input1",
+                    "shape": [
+                        438,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        67,
+                        69
+                    ],
+                    "text": "I SAY SIR HARRY THE LITTLE GIRL'S GOING FAMOUSLY TO NIGHT ISN'T SHE",
+                    "token": "I ▁ S A Y ▁ S I R ▁ H A R R Y ▁ T H E ▁ L I T T L E ▁ G I R L ' S ▁ G O I N G ▁ F A M O U S L Y ▁ T O ▁ N I G H T ▁ I S N ' T ▁ S H E",
+                    "tokenid": "12 2 17 8 39 2 17 12 21 2 16 8 21 21 39 2 7 16 5 2 26 12 7 7 26 5 2 38 12 21 26 63 17 2 38 9 12 10 38 2 37 8 32 9 31 17 26 39 2 7 9 2 10 12 38 16 7 2 12 17 10 63 7 2 17 16 5"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0019": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5015053",
+                    "name": "input1",
+                    "shape": [
+                        354,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        49,
+                        69
+                    ],
+                    "text": "THE FACT IS SHE'S FEELING RATHER SEEDY POOR CHILD",
+                    "token": "T H E ▁ F A C T ▁ I S ▁ S H E ' S ▁ F E E L I N G ▁ R A T H E R ▁ S E E D Y ▁ P O O R ▁ C H I L D",
+                    "tokenid": "7 16 5 2 37 8 33 7 2 12 17 2 17 16 5 63 17 2 37 5 5 26 12 10 38 2 21 8 7 16 5 21 2 17 5 5 24 39 2 40 9 9 21 2 33 16 12 26 24"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0020": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5045137",
+                    "name": "input1",
+                    "shape": [
+                        233,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        34,
+                        69
+                    ],
+                    "text": "A LITTLE ATTACK OF NERVES POSSIBLY",
+                    "token": "A ▁ L I T T L E ▁ A T T A C K ▁ O F ▁ N E R V E S ▁ P O S S I B L Y",
+                    "tokenid": "8 2 26 12 7 7 26 5 2 8 7 7 8 33 54 2 9 37 2 10 5 21 53 5 17 2 40 9 17 17 12 43 26 39"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0021": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5065178",
+                    "name": "input1",
+                    "shape": [
+                        963,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        155,
+                        69
+                    ],
+                    "text": "HE BOWED AS THE WARNING BELL RANG AND MAINHALL WHISPERED YOU KNOW LORD WESTMERE OF COURSE THE STOOPED MAN WITH THE LONG GRAY MUSTACHE TALKING TO LADY DOWLE",
+                    "token": "H E ▁ B O W E D ▁ A S ▁ T H E ▁ W A R N I N G ▁ B E L L ▁ R A N G ▁ A N D ▁ M A I N H A L L ▁ W H I S P E R E D ▁ Y O U ▁ K N O W ▁ L O R D ▁ W E S T M E R E ▁ O F ▁ C O U R S E ▁ T H E ▁ S T O O P E D ▁ M A N ▁ W I T H ▁ T H E ▁ L O N G ▁ G R A Y ▁ M U S T A C H E ▁ T A L K I N G ▁ T O ▁ L A D Y ▁ D O W L E",
+                    "tokenid": "16 5 2 43 9 34 5 24 2 8 17 2 7 16 5 2 34 8 21 10 12 10 38 2 43 5 26 26 2 21 8 10 38 2 8 10 24 2 32 8 12 10 16 8 26 26 2 34 16 12 17 40 5 21 5 24 2 39 9 31 2 54 10 9 34 2 26 9 21 24 2 34 5 17 7 32 5 21 5 2 9 37 2 33 9 31 21 17 5 2 7 16 5 2 17 7 9 9 40 5 24 2 32 8 10 2 34 12 7 16 2 7 16 5 2 26 9 10 38 2 38 21 8 39 2 32 31 17 7 8 33 16 5 2 7 8 26 54 12 10 38 2 7 9 2 26 8 24 39 2 24 9 34 26 5"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0022": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5145809",
+                    "name": "input1",
+                    "shape": [
+                        617,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        89,
+                        69
+                    ],
+                    "text": "IN A MOMENT PEGGY WAS ON THE STAGE AGAIN AND ALEXANDER APPLAUDED VIGOROUSLY WITH THE REST",
+                    "token": "I N ▁ A ▁ M O M E N T ▁ P E G G Y ▁ W A S ▁ O N ▁ T H E ▁ S T A G E ▁ A G A I N ▁ A N D ▁ A L E X A N D E R ▁ A P P L A U D E D ▁ V I G O R O U S L Y ▁ W I T H ▁ T H E ▁ R E S T",
+                    "tokenid": "12 10 2 8 2 32 9 32 5 10 7 2 40 5 38 38 39 2 34 8 17 2 9 10 2 7 16 5 2 17 7 8 38 5 2 8 38 8 12 10 2 8 10 24 2 8 26 5 64 8 10 24 5 21 2 8 40 40 26 8 31 24 5 24 2 53 12 38 9 21 9 31 17 26 39 2 34 12 7 16 2 7 16 5 2 21 5 17 7"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0023": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5197722",
+                    "name": "input1",
+                    "shape": [
+                        948,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        141,
+                        69
+                    ],
+                    "text": "IN THE HALF LIGHT HE LOOKED ABOUT AT THE STALLS AND BOXES AND SMILED A LITTLE CONSCIOUSLY RECALLING WITH AMUSEMENT SIR HARRY'S JUDICIAL FROWN",
+                    "token": "I N ▁ T H E ▁ H A L F ▁ L I G H T ▁ H E ▁ L O O K E D ▁ A B O U T ▁ A T ▁ T H E ▁ S T A L L S ▁ A N D ▁ B O X E S ▁ A N D ▁ S M I L E D ▁ A ▁ L I T T L E ▁ C O N S C I O U S L Y ▁ R E C A L L I N G ▁ W I T H ▁ A M U S E M E N T ▁ S I R ▁ H A R R Y ' S ▁ J U D I C I A L ▁ F R O W N",
+                    "tokenid": "12 10 2 7 16 5 2 16 8 26 37 2 26 12 38 16 7 2 16 5 2 26 9 9 54 5 24 2 8 43 9 31 7 2 8 7 2 7 16 5 2 17 7 8 26 26 17 2 8 10 24 2 43 9 64 5 17 2 8 10 24 2 17 32 12 26 5 24 2 8 2 26 12 7 7 26 5 2 33 9 10 17 33 12 9 31 17 26 39 2 21 5 33 8 26 26 12 10 38 2 34 12 7 16 2 8 32 31 17 5 32 5 10 7 2 17 12 21 2 16 8 21 21 39 63 17 2 65 31 24 12 33 12 8 26 2 37 21 9 34 10"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0024": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5277108",
+                    "name": "input1",
+                    "shape": [
+                        1633,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        251,
+                        69
+                    ],
+                    "text": "HE LEANED FORWARD AND BEAMED FELICITATIONS AS WARMLY AS MAINHALL HIMSELF WHEN AT THE END OF THE PLAY SHE CAME AGAIN AND AGAIN BEFORE THE CURTAIN PANTING A LITTLE AND FLUSHED HER EYES DANCING AND HER EAGER NERVOUS LITTLE MOUTH TREMULOUS WITH EXCITEMENT",
+                    "token": "H E ▁ L E A N E D ▁ F O R W A R D ▁ A N D ▁ B E A M E D ▁ F E L I C I T A T I O N S ▁ A S ▁ W A R M L Y ▁ A S ▁ M A I N H A L L ▁ H I M S E L F ▁ W H E N ▁ A T ▁ T H E ▁ E N D ▁ O F ▁ T H E ▁ P L A Y ▁ S H E ▁ C A M E ▁ A G A I N ▁ A N D ▁ A G A I N ▁ B E F O R E ▁ T H E ▁ C U R T A I N ▁ P A N T I N G ▁ A ▁ L I T T L E ▁ A N D ▁ F L U S H E D ▁ H E R ▁ E Y E S ▁ D A N C I N G ▁ A N D ▁ H E R ▁ E A G E R ▁ N E R V O U S ▁ L I T T L E ▁ M O U T H ▁ T R E M U L O U S ▁ W I T H ▁ E X C I T E M E N T",
+                    "tokenid": "16 5 2 26 5 8 10 5 24 2 37 9 21 34 8 21 24 2 8 10 24 2 43 5 8 32 5 24 2 37 5 26 12 33 12 7 8 7 12 9 10 17 2 8 17 2 34 8 21 32 26 39 2 8 17 2 32 8 12 10 16 8 26 26 2 16 12 32 17 5 26 37 2 34 16 5 10 2 8 7 2 7 16 5 2 5 10 24 2 9 37 2 7 16 5 2 40 26 8 39 2 17 16 5 2 33 8 32 5 2 8 38 8 12 10 2 8 10 24 2 8 38 8 12 10 2 43 5 37 9 21 5 2 7 16 5 2 33 31 21 7 8 12 10 2 40 8 10 7 12 10 38 2 8 2 26 12 7 7 26 5 2 8 10 24 2 37 26 31 17 16 5 24 2 16 5 21 2 5 39 5 17 2 24 8 10 33 12 10 38 2 8 10 24 2 16 5 21 2 5 8 38 5 21 2 10 5 21 53 9 31 17 2 26 12 7 7 26 5 2 32 9 31 7 16 2 7 21 5 32 31 26 9 31 17 2 34 12 7 16 2 5 64 33 12 7 5 32 5 10 7"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0025": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5413349",
+                    "name": "input1",
+                    "shape": [
+                        442,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        59,
+                        69
+                    ],
+                    "text": "ALL THE SAME HE LIFTED HIS GLASS HERE'S TO YOU LITTLE HILDA",
+                    "token": "A L L ▁ T H E ▁ S A M E ▁ H E ▁ L I F T E D ▁ H I S ▁ G L A S S ▁ H E R E ' S ▁ T O ▁ Y O U ▁ L I T T L E ▁ H I L D A",
+                    "tokenid": "8 26 26 2 7 16 5 2 17 8 32 5 2 16 5 2 26 12 37 7 5 24 2 16 12 17 2 38 26 8 17 17 2 16 5 21 5 63 17 2 7 9 2 39 9 31 2 26 12 7 7 26 5 2 16 12 26 24 8"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0026": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5450737",
+                    "name": "input1",
+                    "shape": [
+                        237,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        33,
+                        69
+                    ],
+                    "text": "I'M GLAD SHE'S HELD HER OWN SINCE",
+                    "token": "I ' M ▁ G L A D ▁ S H E ' S ▁ H E L D ▁ H E R ▁ O W N ▁ S I N C E",
+                    "tokenid": "12 63 32 2 38 26 8 24 2 17 16 5 63 17 2 16 5 26 24 2 16 5 21 2 9 34 10 2 17 12 10 33 5"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170138-0027": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5471110",
+                    "name": "input1",
+                    "shape": [
+                        499,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        74,
+                        69
+                    ],
+                    "text": "IT WAS YOUTH AND POVERTY AND PROXIMITY AND EVERYTHING WAS YOUNG AND KINDLY",
+                    "token": "I T ▁ W A S ▁ Y O U T H ▁ A N D ▁ P O V E R T Y ▁ A N D ▁ P R O X I M I T Y ▁ A N D ▁ E V E R Y T H I N G ▁ W A S ▁ Y O U N G ▁ A N D ▁ K I N D L Y",
+                    "tokenid": "12 7 2 34 8 17 2 39 9 31 7 16 2 8 10 24 2 40 9 53 5 21 7 39 2 8 10 24 2 40 21 9 64 12 32 12 7 39 2 8 10 24 2 5 53 5 21 39 7 16 12 10 38 2 34 8 17 2 39 9 31 10 38 2 8 10 24 2 54 12 10 24 26 39"
+                }
+            ],
+            "utt2spk": "1462-170138"
+        },
+        "1462-170142-0000": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5513229",
+                    "name": "input1",
+                    "shape": [
+                        470,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        64,
+                        69
+                    ],
+                    "text": "THE LAST TWO DAYS OF THE VOYAGE BARTLEY FOUND ALMOST INTOLERABLE",
+                    "token": "T H E ▁ L A S T ▁ T W O ▁ D A Y S ▁ O F ▁ T H E ▁ V O Y A G E ▁ B A R T L E Y ▁ F O U N D ▁ A L M O S T ▁ I N T O L E R A B L E",
+                    "tokenid": "7 16 5 2 26 8 17 7 2 7 34 9 2 24 8 39 17 2 9 37 2 7 16 5 2 53 9 39 8 38 5 2 43 8 21 7 26 5 39 2 37 9 31 10 24 2 8 26 32 9 17 7 2 12 10 7 9 26 5 21 8 43 26 5"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0001": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5552941",
+                    "name": "input1",
+                    "shape": [
+                        957,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        142,
+                        69
+                    ],
+                    "text": "EMERGING AT EUSTON AT HALF PAST THREE O'CLOCK IN THE AFTERNOON ALEXANDER HAD HIS LUGGAGE SENT TO THE SAVOY AND DROVE AT ONCE TO BEDFORD SQUARE",
+                    "token": "E M E R G I N G ▁ A T ▁ E U S T O N ▁ A T ▁ H A L F ▁ P A S T ▁ T H R E E ▁ O ' C L O C K ▁ I N ▁ T H E ▁ A F T E R N O O N ▁ A L E X A N D E R ▁ H A D ▁ H I S ▁ L U G G A G E ▁ S E N T ▁ T O ▁ T H E ▁ S A V O Y ▁ A N D ▁ D R O V E ▁ A T ▁ O N C E ▁ T O ▁ B E D F O R D ▁ S Q U A R E",
+                    "tokenid": "5 32 5 21 38 12 10 38 2 8 7 2 5 31 17 7 9 10 2 8 7 2 16 8 26 37 2 40 8 17 7 2 7 16 21 5 5 2 9 63 33 26 9 33 54 2 12 10 2 7 16 5 2 8 37 7 5 21 10 9 9 10 2 8 26 5 64 8 10 24 5 21 2 16 8 24 2 16 12 17 2 26 31 38 38 8 38 5 2 17 5 10 7 2 7 9 2 7 16 5 2 17 8 53 9 39 2 8 10 24 2 24 21 9 53 5 2 8 7 2 9 10 33 5 2 7 9 2 43 5 24 37 9 21 24 2 17 66 31 8 21 5"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0002": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5633074",
+                    "name": "input1",
+                    "shape": [
+                        643,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        84,
+                        69
+                    ],
+                    "text": "SHE BLUSHED AND SMILED AND FUMBLED HIS CARD IN HER CONFUSION BEFORE SHE RAN UPSTAIRS",
+                    "token": "S H E ▁ B L U S H E D ▁ A N D ▁ S M I L E D ▁ A N D ▁ F U M B L E D ▁ H I S ▁ C A R D ▁ I N ▁ H E R ▁ C O N F U S I O N ▁ B E F O R E ▁ S H E ▁ R A N ▁ U P S T A I R S",
+                    "tokenid": "17 16 5 2 43 26 31 17 16 5 24 2 8 10 24 2 17 32 12 26 5 24 2 8 10 24 2 37 31 32 43 26 5 24 2 16 12 17 2 33 8 21 24 2 12 10 2 16 5 21 2 33 9 10 37 31 17 12 9 10 2 43 5 37 9 21 5 2 17 16 5 2 21 8 10 2 31 40 17 7 8 12 21 17"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0003": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5687145",
+                    "name": "input1",
+                    "shape": [
+                        235,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        34,
+                        69
+                    ],
+                    "text": "THE ROOM WAS EMPTY WHEN HE ENTERED",
+                    "token": "T H E ▁ R O O M ▁ W A S ▁ E M P T Y ▁ W H E N ▁ H E ▁ E N T E R E D",
+                    "tokenid": "7 16 5 2 21 9 9 32 2 34 8 17 2 5 32 40 7 39 2 34 16 5 10 2 16 5 2 5 10 7 5 21 5 24"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0004": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5707352",
+                    "name": "input1",
+                    "shape": [
+                        724,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        111,
+                        69
+                    ],
+                    "text": "A COAL FIRE WAS CRACKLING IN THE GRATE AND THE LAMPS WERE LIT FOR IT WAS ALREADY BEGINNING TO GROW DARK OUTSIDE",
+                    "token": "A ▁ C O A L ▁ F I R E ▁ W A S ▁ C R A C K L I N G ▁ I N ▁ T H E ▁ G R A T E ▁ A N D ▁ T H E ▁ L A M P S ▁ W E R E ▁ L I T ▁ F O R ▁ I T ▁ W A S ▁ A L R E A D Y ▁ B E G I N N I N G ▁ T O ▁ G R O W ▁ D A R K ▁ O U T S I D E",
+                    "tokenid": "8 2 33 9 8 26 2 37 12 21 5 2 34 8 17 2 33 21 8 33 54 26 12 10 38 2 12 10 2 7 16 5 2 38 21 8 7 5 2 8 10 24 2 7 16 5 2 26 8 32 40 17 2 34 5 21 5 2 26 12 7 2 37 9 21 2 12 7 2 34 8 17 2 8 26 21 5 8 24 39 2 43 5 38 12 10 10 12 10 38 2 7 9 2 38 21 9 34 2 24 8 21 54 2 9 31 7 17 12 24 5"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0005": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5768146",
+                    "name": "input1",
+                    "shape": [
+                        1106,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        177,
+                        69
+                    ],
+                    "text": "SHE CALLED HIS NAME ON THE THRESHOLD BUT IN HER SWIFT FLIGHT ACROSS THE ROOM SHE FELT A CHANGE IN HIM AND CAUGHT HERSELF UP SO DEFTLY THAT HE COULD NOT TELL JUST WHEN SHE DID IT",
+                    "token": "S H E ▁ C A L L E D ▁ H I S ▁ N A M E ▁ O N ▁ T H E ▁ T H R E S H O L D ▁ B U T ▁ I N ▁ H E R ▁ S W I F T ▁ F L I G H T ▁ A C R O S S ▁ T H E ▁ R O O M ▁ S H E ▁ F E L T ▁ A ▁ C H A N G E ▁ I N ▁ H I M ▁ A N D ▁ C A U G H T ▁ H E R S E L F ▁ U P ▁ S O ▁ D E F T L Y ▁ T H A T ▁ H E ▁ C O U L D ▁ N O T ▁ T E L L ▁ J U S T ▁ W H E N ▁ S H E ▁ D I D ▁ I T",
+                    "tokenid": "17 16 5 2 33 8 26 26 5 24 2 16 12 17 2 10 8 32 5 2 9 10 2 7 16 5 2 7 16 21 5 17 16 9 26 24 2 43 31 7 2 12 10 2 16 5 21 2 17 34 12 37 7 2 37 26 12 38 16 7 2 8 33 21 9 17 17 2 7 16 5 2 21 9 9 32 2 17 16 5 2 37 5 26 7 2 8 2 33 16 8 10 38 5 2 12 10 2 16 12 32 2 8 10 24 2 33 8 31 38 16 7 2 16 5 21 17 5 26 37 2 31 40 2 17 9 2 24 5 37 7 26 39 2 7 16 8 7 2 16 5 2 33 9 31 26 24 2 10 9 7 2 7 5 26 26 2 65 31 17 7 2 34 16 5 10 2 17 16 5 2 24 12 24 2 12 7"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0006": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5860646",
+                    "name": "input1",
+                    "shape": [
+                        618,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        97,
+                        69
+                    ],
+                    "text": "SHE MERELY BRUSHED HIS CHEEK WITH HER LIPS AND PUT A HAND LIGHTLY AND JOYOUSLY ON EITHER SHOULDER",
+                    "token": "S H E ▁ M E R E L Y ▁ B R U S H E D ▁ H I S ▁ C H E E K ▁ W I T H ▁ H E R ▁ L I P S ▁ A N D ▁ P U T ▁ A ▁ H A N D ▁ L I G H T L Y ▁ A N D ▁ J O Y O U S L Y ▁ O N ▁ E I T H E R ▁ S H O U L D E R",
+                    "tokenid": "17 16 5 2 32 5 21 5 26 39 2 43 21 31 17 16 5 24 2 16 12 17 2 33 16 5 5 54 2 34 12 7 16 2 16 5 21 2 26 12 40 17 2 8 10 24 2 40 31 7 2 8 2 16 8 10 24 2 26 12 38 16 7 26 39 2 8 10 24 2 65 9 39 9 31 17 26 39 2 9 10 2 5 12 7 16 5 21 2 17 16 9 31 26 24 5 21"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0007": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5912642",
+                    "name": "input1",
+                    "shape": [
+                        242,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        39,
+                        69
+                    ],
+                    "text": "I NEVER DREAMED IT WOULD BE YOU BARTLEY",
+                    "token": "I ▁ N E V E R ▁ D R E A M E D ▁ I T ▁ W O U L D ▁ B E ▁ Y O U ▁ B A R T L E Y",
+                    "tokenid": "12 2 10 5 53 5 21 2 24 21 5 8 32 5 24 2 12 7 2 34 9 31 26 24 2 43 5 2 39 9 31 2 43 8 21 7 26 5 39"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0008": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5933430",
+                    "name": "input1",
+                    "shape": [
+                        479,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        73,
+                        69
+                    ],
+                    "text": "WHEN DID YOU COME BARTLEY AND HOW DID IT HAPPEN YOU HAVEN'T SPOKEN A WORD",
+                    "token": "W H E N ▁ D I D ▁ Y O U ▁ C O M E ▁ B A R T L E Y ▁ A N D ▁ H O W ▁ D I D ▁ I T ▁ H A P P E N ▁ Y O U ▁ H A V E N ' T ▁ S P O K E N ▁ A ▁ W O R D",
+                    "tokenid": "34 16 5 10 2 24 12 24 2 39 9 31 2 33 9 32 5 2 43 8 21 7 26 5 39 2 8 10 24 2 16 9 34 2 24 12 24 2 12 7 2 16 8 40 40 5 10 2 39 9 31 2 16 8 53 5 10 63 7 2 17 40 9 54 5 10 2 8 2 34 9 21 24"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0009": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:5973889",
+                    "name": "input1",
+                    "shape": [
+                        632,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        97,
+                        69
+                    ],
+                    "text": "SHE LOOKED AT HIS HEAVY SHOULDERS AND BIG DETERMINED HEAD THRUST FORWARD LIKE A CATAPULT IN LEASH",
+                    "token": "S H E ▁ L O O K E D ▁ A T ▁ H I S ▁ H E A V Y ▁ S H O U L D E R S ▁ A N D ▁ B I G ▁ D E T E R M I N E D ▁ H E A D ▁ T H R U S T ▁ F O R W A R D ▁ L I K E ▁ A ▁ C A T A P U L T ▁ I N ▁ L E A S H",
+                    "tokenid": "17 16 5 2 26 9 9 54 5 24 2 8 7 2 16 12 17 2 16 5 8 53 39 2 17 16 9 31 26 24 5 21 17 2 8 10 24 2 43 12 38 2 24 5 7 5 21 32 12 10 5 24 2 16 5 8 24 2 7 16 21 31 17 7 2 37 9 21 34 8 21 24 2 26 12 54 5 2 8 2 33 8 7 8 40 31 26 7 2 12 10 2 26 5 8 17 16"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0010": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6027047",
+                    "name": "input1",
+                    "shape": [
+                        456,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        60,
+                        69
+                    ],
+                    "text": "I'LL DO ANYTHING YOU WISH ME TO BARTLEY SHE SAID TREMULOUSLY",
+                    "token": "I ' L L ▁ D O ▁ A N Y T H I N G ▁ Y O U ▁ W I S H ▁ M E ▁ T O ▁ B A R T L E Y ▁ S H E ▁ S A I D ▁ T R E M U L O U S L Y",
+                    "tokenid": "12 63 26 26 2 24 9 2 8 10 39 7 16 12 10 38 2 39 9 31 2 34 12 17 16 2 32 5 2 7 9 2 43 8 21 7 26 5 39 2 17 16 5 2 17 8 12 24 2 7 21 5 32 31 26 9 31 17 26 39"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0011": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6065597",
+                    "name": "input1",
+                    "shape": [
+                        324,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        46,
+                        69
+                    ],
+                    "text": "HE PULLED UP A WINDOW AS IF THE AIR WERE HEAVY",
+                    "token": "H E ▁ P U L L E D ▁ U P ▁ A ▁ W I N D O W ▁ A S ▁ I F ▁ T H E ▁ A I R ▁ W E R E ▁ H E A V Y",
+                    "tokenid": "16 5 2 40 31 26 26 5 24 2 31 40 2 8 2 34 12 10 24 9 34 2 8 17 2 12 37 2 7 16 5 2 8 12 21 2 34 5 21 5 2 16 5 8 53 39"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0012": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6093191",
+                    "name": "input1",
+                    "shape": [
+                        665,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        102,
+                        69
+                    ],
+                    "text": "HILDA WATCHED HIM FROM HER CORNER TREMBLING AND SCARCELY BREATHING DARK SHADOWS GROWING ABOUT HER EYES",
+                    "token": "H I L D A ▁ W A T C H E D ▁ H I M ▁ F R O M ▁ H E R ▁ C O R N E R ▁ T R E M B L I N G ▁ A N D ▁ S C A R C E L Y ▁ B R E A T H I N G ▁ D A R K ▁ S H A D O W S ▁ G R O W I N G ▁ A B O U T ▁ H E R ▁ E Y E S",
+                    "tokenid": "16 12 26 24 8 2 34 8 7 33 16 5 24 2 16 12 32 2 37 21 9 32 2 16 5 21 2 33 9 21 10 5 21 2 7 21 5 32 43 26 12 10 38 2 8 10 24 2 17 33 8 21 33 5 26 39 2 43 21 5 8 7 16 12 10 38 2 24 8 21 54 2 17 16 8 24 9 34 17 2 38 21 9 34 12 10 38 2 8 43 9 31 7 2 16 5 21 2 5 39 5 17"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0013": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6149088",
+                    "name": "input1",
+                    "shape": [
+                        388,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        45,
+                        69
+                    ],
+                    "text": "IT IT HASN'T ALWAYS MADE YOU MISERABLE HAS IT",
+                    "token": "I T ▁ I T ▁ H A S N ' T ▁ A L W A Y S ▁ M A D E ▁ Y O U ▁ M I S E R A B L E ▁ H A S ▁ I T",
+                    "tokenid": "12 7 2 12 7 2 16 8 17 10 63 7 2 8 26 34 8 39 17 2 32 8 24 5 2 39 9 31 2 32 12 17 5 21 8 43 26 5 2 16 8 17 2 12 7"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0014": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6181994",
+                    "name": "input1",
+                    "shape": [
+                        253,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        25,
+                        69
+                    ],
+                    "text": "ALWAYS BUT IT'S WORSE NOW",
+                    "token": "A L W A Y S ▁ B U T ▁ I T ' S ▁ W O R S E ▁ N O W",
+                    "tokenid": "8 26 34 8 39 17 2 43 31 7 2 12 7 63 17 2 34 9 21 17 5 2 10 9 34"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0015": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6203695",
+                    "name": "input1",
+                    "shape": [
+                        299,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        43,
+                        69
+                    ],
+                    "text": "IT'S UNBEARABLE IT TORTURES ME EVERY MINUTE",
+                    "token": "I T ' S ▁ U N B E A R A B L E ▁ I T ▁ T O R T U R E S ▁ M E ▁ E V E R Y ▁ M I N U T E",
+                    "tokenid": "12 7 63 17 2 31 10 43 5 8 21 8 43 26 5 2 12 7 2 7 9 21 7 31 21 5 17 2 32 5 2 5 53 5 21 39 2 32 12 10 31 7 5"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0016": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6229214",
+                    "name": "input1",
+                    "shape": [
+                        622,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        86,
+                        69
+                    ],
+                    "text": "I AM NOT A MAN WHO CAN LIVE TWO LIVES HE WENT ON FEVERISHLY EACH LIFE SPOILS THE OTHER",
+                    "token": "I ▁ A M ▁ N O T ▁ A ▁ M A N ▁ W H O ▁ C A N ▁ L I V E ▁ T W O ▁ L I V E S ▁ H E ▁ W E N T ▁ O N ▁ F E V E R I S H L Y ▁ E A C H ▁ L I F E ▁ S P O I L S ▁ T H E ▁ O T H E R",
+                    "tokenid": "12 2 8 32 2 10 9 7 2 8 2 32 8 10 2 34 16 9 2 33 8 10 2 26 12 53 5 2 7 34 9 2 26 12 53 5 17 2 16 5 2 34 5 10 7 2 9 10 2 37 5 53 5 21 12 17 16 26 39 2 5 8 33 16 2 26 12 37 5 2 17 40 9 12 26 17 2 7 16 5 2 9 7 16 5 21"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0017": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6281542",
+                    "name": "input1",
+                    "shape": [
+                        230,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        38,
+                        69
+                    ],
+                    "text": "I GET NOTHING BUT MISERY OUT OF EITHER",
+                    "token": "I ▁ G E T ▁ N O T H I N G ▁ B U T ▁ M I S E R Y ▁ O U T ▁ O F ▁ E I T H E R",
+                    "tokenid": "12 2 38 5 7 2 10 9 7 16 12 10 38 2 43 31 7 2 32 12 17 5 21 39 2 9 31 7 2 9 37 2 5 12 7 16 5 21"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0018": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6301334",
+                    "name": "input1",
+                    "shape": [
+                        325,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        49,
+                        69
+                    ],
+                    "text": "THERE IS THIS DECEPTION BETWEEN ME AND EVERYTHING",
+                    "token": "T H E R E ▁ I S ▁ T H I S ▁ D E C E P T I O N ▁ B E T W E E N ▁ M E ▁ A N D ▁ E V E R Y T H I N G",
+                    "tokenid": "7 16 5 21 5 2 12 17 2 7 16 12 17 2 24 5 33 5 40 7 12 9 10 2 43 5 7 34 5 5 10 2 32 5 2 8 10 24 2 5 53 5 21 39 7 16 12 10 38"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0019": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6329011",
+                    "name": "input1",
+                    "shape": [
+                        1023,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        146,
+                        69
+                    ],
+                    "text": "AT THAT WORD DECEPTION SPOKEN WITH SUCH SELF CONTEMPT THE COLOR FLASHED BACK INTO HILDA'S FACE AS SUDDENLY AS IF SHE HAD BEEN STRUCK BY A WHIPLASH",
+                    "token": "A T ▁ T H A T ▁ W O R D ▁ D E C E P T I O N ▁ S P O K E N ▁ W I T H ▁ S U C H ▁ S E L F ▁ C O N T E M P T ▁ T H E ▁ C O L O R ▁ F L A S H E D ▁ B A C K ▁ I N T O ▁ H I L D A ' S ▁ F A C E ▁ A S ▁ S U D D E N L Y ▁ A S ▁ I F ▁ S H E ▁ H A D ▁ B E E N ▁ S T R U C K ▁ B Y ▁ A ▁ W H I P L A S H",
+                    "tokenid": "8 7 2 7 16 8 7 2 34 9 21 24 2 24 5 33 5 40 7 12 9 10 2 17 40 9 54 5 10 2 34 12 7 16 2 17 31 33 16 2 17 5 26 37 2 33 9 10 7 5 32 40 7 2 7 16 5 2 33 9 26 9 21 2 37 26 8 17 16 5 24 2 43 8 33 54 2 12 10 7 9 2 16 12 26 24 8 63 17 2 37 8 33 5 2 8 17 2 17 31 24 24 5 10 26 39 2 8 17 2 12 37 2 17 16 5 2 16 8 24 2 43 5 5 10 2 17 7 21 31 33 54 2 43 39 2 8 2 34 16 12 40 26 8 17 16"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0020": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6414622",
+                    "name": "input1",
+                    "shape": [
+                        493,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        87,
+                        69
+                    ],
+                    "text": "SHE BIT HER LIP AND LOOKED DOWN AT HER HANDS WHICH WERE CLASPED TIGHTLY IN FRONT OF HER",
+                    "token": "S H E ▁ B I T ▁ H E R ▁ L I P ▁ A N D ▁ L O O K E D ▁ D O W N ▁ A T ▁ H E R ▁ H A N D S ▁ W H I C H ▁ W E R E ▁ C L A S P E D ▁ T I G H T L Y ▁ I N ▁ F R O N T ▁ O F ▁ H E R",
+                    "tokenid": "17 16 5 2 43 12 7 2 16 5 21 2 26 12 40 2 8 10 24 2 26 9 9 54 5 24 2 24 9 34 10 2 8 7 2 16 5 21 2 16 8 10 24 17 2 34 16 12 33 16 2 34 5 21 5 2 33 26 8 17 40 5 24 2 7 12 38 16 7 26 39 2 12 10 2 37 21 9 10 7 2 9 37 2 16 5 21"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0021": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6456243",
+                    "name": "input1",
+                    "shape": [
+                        815,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        122,
+                        69
+                    ],
+                    "text": "COULD YOU COULD YOU SIT DOWN AND TALK ABOUT IT QUIETLY BARTLEY AS IF I WERE A FRIEND AND NOT SOME ONE WHO HAD TO BE DEFIED",
+                    "token": "C O U L D ▁ Y O U ▁ C O U L D ▁ Y O U ▁ S I T ▁ D O W N ▁ A N D ▁ T A L K ▁ A B O U T ▁ I T ▁ Q U I E T L Y ▁ B A R T L E Y ▁ A S ▁ I F ▁ I ▁ W E R E ▁ A ▁ F R I E N D ▁ A N D ▁ N O T ▁ S O M E ▁ O N E ▁ W H O ▁ H A D ▁ T O ▁ B E ▁ D E F I E D",
+                    "tokenid": "33 9 31 26 24 2 39 9 31 2 33 9 31 26 24 2 39 9 31 2 17 12 7 2 24 9 34 10 2 8 10 24 2 7 8 26 54 2 8 43 9 31 7 2 12 7 2 66 31 12 5 7 26 39 2 43 8 21 7 26 5 39 2 8 17 2 12 37 2 12 2 34 5 21 5 2 8 2 37 21 12 5 10 24 2 8 10 24 2 10 9 7 2 17 9 32 5 2 9 10 5 2 34 16 9 2 16 8 24 2 7 9 2 43 5 2 24 5 37 12 5 24"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0022": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6524590",
+                    "name": "input1",
+                    "shape": [
+                        374,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        50,
+                        69
+                    ],
+                    "text": "HE DROPPED BACK HEAVILY INTO HIS CHAIR BY THE FIRE",
+                    "token": "H E ▁ D R O P P E D ▁ B A C K ▁ H E A V I L Y ▁ I N T O ▁ H I S ▁ C H A I R ▁ B Y ▁ T H E ▁ F I R E",
+                    "tokenid": "16 5 2 24 21 9 40 40 5 24 2 43 8 33 54 2 16 5 8 53 12 26 39 2 12 10 7 9 2 16 12 17 2 33 16 8 12 21 2 43 39 2 7 16 5 2 37 12 21 5"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0023": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6556334",
+                    "name": "input1",
+                    "shape": [
+                        279,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        43,
+                        69
+                    ],
+                    "text": "I HAVE THOUGHT ABOUT IT UNTIL I AM WORN OUT",
+                    "token": "I ▁ H A V E ▁ T H O U G H T ▁ A B O U T ▁ I T ▁ U N T I L ▁ I ▁ A M ▁ W O R N ▁ O U T",
+                    "tokenid": "12 2 16 8 53 5 2 7 16 9 31 38 16 7 2 8 43 9 31 7 2 12 7 2 31 10 7 12 26 2 12 2 8 32 2 34 9 21 10 2 9 31 7"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0024": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6580193",
+                    "name": "input1",
+                    "shape": [
+                        214,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        20,
+                        69
+                    ],
+                    "text": "AFTER THE VERY FIRST",
+                    "token": "A F T E R ▁ T H E ▁ V E R Y ▁ F I R S T",
+                    "tokenid": "8 37 7 5 21 2 7 16 5 2 53 5 21 39 2 37 12 21 17 7"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0025": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6598657",
+                    "name": "input1",
+                    "shape": [
+                        553,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        69,
+                        69
+                    ],
+                    "text": "HILDA'S FACE QUIVERED BUT SHE WHISPERED YES I THINK IT MUST HAVE BEEN",
+                    "token": "H I L D A ' S ▁ F A C E ▁ Q U I V E R E D ▁ B U T ▁ S H E ▁ W H I S P E R E D ▁ Y E S ▁ I ▁ T H I N K ▁ I T ▁ M U S T ▁ H A V E ▁ B E E N",
+                    "tokenid": "16 12 26 24 8 63 17 2 37 8 33 5 2 66 31 12 53 5 21 5 24 2 43 31 7 2 17 16 5 2 34 16 12 17 40 5 21 5 24 2 39 5 17 2 12 2 7 16 12 10 54 2 12 7 2 32 31 17 7 2 16 8 53 5 2 43 5 5 10"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0026": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6645258",
+                    "name": "input1",
+                    "shape": [
+                        482,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        70,
+                        69
+                    ],
+                    "text": "SHE PRESSED HIS HAND GENTLY IN GRATITUDE WEREN'T YOU HAPPY THEN AT ALL",
+                    "token": "S H E ▁ P R E S S E D ▁ H I S ▁ H A N D ▁ G E N T L Y ▁ I N ▁ G R A T I T U D E ▁ W E R E N ' T ▁ Y O U ▁ H A P P Y ▁ T H E N ▁ A T ▁ A L L",
+                    "tokenid": "17 16 5 2 40 21 5 17 17 5 24 2 16 12 17 2 16 8 10 24 2 38 5 10 7 26 39 2 12 10 2 38 21 8 7 12 7 31 24 5 2 34 5 21 5 10 63 7 2 39 9 31 2 16 8 40 40 39 2 7 16 5 10 2 8 7 2 8 26 26"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0027": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6685966",
+                    "name": "input1",
+                    "shape": [
+                        417,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        65,
+                        69
+                    ],
+                    "text": "SOMETHING OF THEIR TROUBLING SWEETNESS CAME BACK TO ALEXANDER TOO",
+                    "token": "S O M E T H I N G ▁ O F ▁ T H E I R ▁ T R O U B L I N G ▁ S W E E T N E S S ▁ C A M E ▁ B A C K ▁ T O ▁ A L E X A N D E R ▁ T O O",
+                    "tokenid": "17 9 32 5 7 16 12 10 38 2 9 37 2 7 16 5 12 21 2 7 21 9 31 43 26 12 10 38 2 17 34 5 5 7 10 5 17 17 2 33 8 32 5 2 43 8 33 54 2 7 9 2 8 26 5 64 8 10 24 5 21 2 7 9 9"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0028": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6721279",
+                    "name": "input1",
+                    "shape": [
+                        299,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        42,
+                        69
+                    ],
+                    "text": "PRESENTLY IT STOLE BACK TO HIS COAT SLEEVE",
+                    "token": "P R E S E N T L Y ▁ I T ▁ S T O L E ▁ B A C K ▁ T O ▁ H I S ▁ C O A T ▁ S L E E V E",
+                    "tokenid": "40 21 5 17 5 10 7 26 39 2 12 7 2 17 7 9 26 5 2 43 8 33 54 2 7 9 2 16 12 17 2 33 9 8 7 2 17 26 5 5 53 5"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0029": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6746798",
+                    "name": "input1",
+                    "shape": [
+                        396,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        36,
+                        69
+                    ],
+                    "text": "YES HILDA I KNOW THAT HE SAID SIMPLY",
+                    "token": "Y E S ▁ H I L D A ▁ I ▁ K N O W ▁ T H A T ▁ H E ▁ S A I D ▁ S I M P L Y",
+                    "tokenid": "39 5 17 2 16 12 26 24 8 2 12 2 54 10 9 34 2 7 16 8 7 2 16 5 2 17 8 12 24 2 17 12 32 40 26 39"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0030": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6780368",
+                    "name": "input1",
+                    "shape": [
+                        269,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        32,
+                        69
+                    ],
+                    "text": "I UNDERSTAND BARTLEY I WAS WRONG",
+                    "token": "I ▁ U N D E R S T A N D ▁ B A R T L E Y ▁ I ▁ W A S ▁ W R O N G",
+                    "tokenid": "12 2 31 10 24 5 21 17 7 8 10 24 2 43 8 21 7 26 5 39 2 12 2 34 8 17 2 34 21 9 10 38"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0031": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6803397",
+                    "name": "input1",
+                    "shape": [
+                        481,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        73,
+                        69
+                    ],
+                    "text": "SHE LISTENED INTENTLY BUT SHE HEARD NOTHING BUT THE CREAKING OF HIS CHAIR",
+                    "token": "S H E ▁ L I S T E N E D ▁ I N T E N T L Y ▁ B U T ▁ S H E ▁ H E A R D ▁ N O T H I N G ▁ B U T ▁ T H E ▁ C R E A K I N G ▁ O F ▁ H I S ▁ C H A I R",
+                    "tokenid": "17 16 5 2 26 12 17 7 5 10 5 24 2 12 10 7 5 10 7 26 39 2 43 31 7 2 17 16 5 2 16 5 8 21 24 2 10 9 7 16 12 10 38 2 43 31 7 2 7 16 5 2 33 21 5 8 54 12 10 38 2 9 37 2 16 12 17 2 33 16 8 12 21"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0032": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6844022",
+                    "name": "input1",
+                    "shape": [
+                        275,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        35,
+                        69
+                    ],
+                    "text": "YOU WANT ME TO SAY IT SHE WHISPERED",
+                    "token": "Y O U ▁ W A N T ▁ M E ▁ T O ▁ S A Y ▁ I T ▁ S H E ▁ W H I S P E R E D",
+                    "tokenid": "39 9 31 2 34 8 10 7 2 32 5 2 7 9 2 17 8 39 2 12 7 2 17 16 5 2 34 16 12 17 40 5 21 5 24"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0033": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6867549",
+                    "name": "input1",
+                    "shape": [
+                        416,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        64,
+                        69
+                    ],
+                    "text": "BARTLEY LEANED HIS HEAD IN HIS HANDS AND SPOKE THROUGH HIS TEETH",
+                    "token": "B A R T L E Y ▁ L E A N E D ▁ H I S ▁ H E A D ▁ I N ▁ H I S ▁ H A N D S ▁ A N D ▁ S P O K E ▁ T H R O U G H ▁ H I S ▁ T E E T H",
+                    "tokenid": "43 8 21 7 26 5 39 2 26 5 8 10 5 24 2 16 12 17 2 16 5 8 24 2 12 10 2 16 12 17 2 16 8 10 24 17 2 8 10 24 2 17 40 9 54 5 2 7 16 21 9 31 38 16 2 16 12 17 2 7 5 5 7 16"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0034": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6902779",
+                    "name": "input1",
+                    "shape": [
+                        250,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        34,
+                        69
+                    ],
+                    "text": "IT'S GOT TO BE A CLEAN BREAK HILDA",
+                    "token": "I T ' S ▁ G O T ▁ T O ▁ B E ▁ A ▁ C L E A N ▁ B R E A K ▁ H I L D A",
+                    "tokenid": "12 7 63 17 2 38 9 7 2 7 9 2 43 5 2 8 2 33 26 5 8 10 2 43 21 5 8 54 2 16 12 26 24 8"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0035": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6924231",
+                    "name": "input1",
+                    "shape": [
+                        265,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        26,
+                        69
+                    ],
+                    "text": "OH BARTLEY WHAT AM I TO DO",
+                    "token": "O H ▁ B A R T L E Y ▁ W H A T ▁ A M ▁ I ▁ T O ▁ D O",
+                    "tokenid": "9 16 2 43 8 21 7 26 5 39 2 34 16 8 7 2 8 32 2 12 2 7 9 2 24 9"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0036": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6946928",
+                    "name": "input1",
+                    "shape": [
+                        305,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        52,
+                        69
+                    ],
+                    "text": "YOU ASK ME TO STAY AWAY FROM YOU BECAUSE YOU WANT ME",
+                    "token": "Y O U ▁ A S K ▁ M E ▁ T O ▁ S T A Y ▁ A W A Y ▁ F R O M ▁ Y O U ▁ B E C A U S E ▁ Y O U ▁ W A N T ▁ M E",
+                    "tokenid": "39 9 31 2 8 17 54 2 32 5 2 7 9 2 17 7 8 39 2 8 34 8 39 2 37 21 9 32 2 39 9 31 2 43 5 33 8 31 17 5 2 39 9 31 2 34 8 10 7 2 32 5"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0037": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:6972945",
+                    "name": "input1",
+                    "shape": [
+                        431,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        57,
+                        69
+                    ],
+                    "text": "I WILL ASK THE LEAST IMAGINABLE BUT I MUST HAVE SOMETHING",
+                    "token": "I ▁ W I L L ▁ A S K ▁ T H E ▁ L E A S T ▁ I M A G I N A B L E ▁ B U T ▁ I ▁ M U S T ▁ H A V E ▁ S O M E T H I N G",
+                    "tokenid": "12 2 34 12 26 26 2 8 17 54 2 7 16 5 2 26 5 8 17 7 2 12 32 8 38 12 10 8 43 26 5 2 43 31 7 2 12 2 32 31 17 7 2 16 8 53 5 2 17 9 32 5 7 16 12 10 38"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0038": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7009420",
+                    "name": "input1",
+                    "shape": [
+                        484,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        69,
+                        69
+                    ],
+                    "text": "HILDA SAT ON THE ARM OF IT AND PUT HER HANDS LIGHTLY ON HIS SHOULDERS",
+                    "token": "H I L D A ▁ S A T ▁ O N ▁ T H E ▁ A R M ▁ O F ▁ I T ▁ A N D ▁ P U T ▁ H E R ▁ H A N D S ▁ L I G H T L Y ▁ O N ▁ H I S ▁ S H O U L D E R S",
+                    "tokenid": "16 12 26 24 8 2 17 8 7 2 9 10 2 7 16 5 2 8 21 32 2 9 37 2 12 7 2 8 10 24 2 40 31 7 2 16 5 21 2 16 8 10 24 17 2 26 12 38 16 7 26 39 2 9 10 2 16 12 17 2 17 16 9 31 26 24 5 21 17"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0039": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7050294",
+                    "name": "input1",
+                    "shape": [
+                        470,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        69,
+                        69
+                    ],
+                    "text": "YOU SEE LOVING SOME ONE AS I LOVE YOU MAKES THE WHOLE WORLD DIFFERENT",
+                    "token": "Y O U ▁ S E E ▁ L O V I N G ▁ S O M E ▁ O N E ▁ A S ▁ I ▁ L O V E ▁ Y O U ▁ M A K E S ▁ T H E ▁ W H O L E ▁ W O R L D ▁ D I F F E R E N T",
+                    "tokenid": "39 9 31 2 17 5 5 2 26 9 53 12 10 38 2 17 9 32 5 2 9 10 5 2 8 17 2 12 2 26 9 53 5 2 39 9 31 2 32 8 54 5 17 2 7 16 5 2 34 16 9 26 5 2 34 9 21 26 24 2 24 12 37 37 5 21 5 10 7"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0040": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7090006",
+                    "name": "input1",
+                    "shape": [
+                        458,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        69,
+                        69
+                    ],
+                    "text": "AND THEN YOU CAME BACK NOT CARING VERY MUCH BUT IT MADE NO DIFFERENCE",
+                    "token": "A N D ▁ T H E N ▁ Y O U ▁ C A M E ▁ B A C K ▁ N O T ▁ C A R I N G ▁ V E R Y ▁ M U C H ▁ B U T ▁ I T ▁ M A D E ▁ N O ▁ D I F F E R E N C E",
+                    "tokenid": "8 10 24 2 7 16 5 10 2 39 9 31 2 33 8 32 5 2 43 8 33 54 2 10 9 7 2 33 8 21 12 10 38 2 53 5 21 39 2 32 31 33 16 2 43 31 7 2 12 7 2 32 8 24 5 2 10 9 2 24 12 37 37 5 21 5 10 33 5"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0041": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7128722",
+                    "name": "input1",
+                    "shape": [
+                        556,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        78,
+                        69
+                    ],
+                    "text": "SHE SLID TO THE FLOOR BESIDE HIM AS IF SHE WERE TOO TIRED TO SIT UP ANY LONGER",
+                    "token": "S H E ▁ S L I D ▁ T O ▁ T H E ▁ F L O O R ▁ B E S I D E ▁ H I M ▁ A S ▁ I F ▁ S H E ▁ W E R E ▁ T O O ▁ T I R E D ▁ T O ▁ S I T ▁ U P ▁ A N Y ▁ L O N G E R",
+                    "tokenid": "17 16 5 2 17 26 12 24 2 7 9 2 7 16 5 2 37 26 9 9 21 2 43 5 17 12 24 5 2 16 12 32 2 8 17 2 12 37 2 17 16 5 2 34 5 21 5 2 7 9 9 2 7 12 21 5 24 2 7 9 2 17 12 7 2 31 40 2 8 10 39 2 26 9 10 38 5 21"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170142-0042": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7175572",
+                    "name": "input1",
+                    "shape": [
+                        322,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        32,
+                        69
+                    ],
+                    "text": "DON'T CRY DON'T CRY HE WHISPERED",
+                    "token": "D O N ' T ▁ C R Y ▁ D O N ' T ▁ C R Y ▁ H E ▁ W H I S P E R E D",
+                    "tokenid": "24 9 10 63 7 2 33 21 39 2 24 9 10 63 7 2 33 21 39 2 16 5 2 34 16 12 17 40 5 21 5 24"
+                }
+            ],
+            "utt2spk": "1462-170142"
+        },
+        "1462-170145-0000": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7203000",
+                    "name": "input1",
+                    "shape": [
+                        1539,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        235,
+                        69
+                    ],
+                    "text": "ON THE LAST SATURDAY IN APRIL THE NEW YORK TIMES PUBLISHED AN ACCOUNT OF THE STRIKE COMPLICATIONS WHICH WERE DELAYING ALEXANDER'S NEW JERSEY BRIDGE AND STATED THAT THE ENGINEER HIMSELF WAS IN TOWN AND AT HIS OFFICE ON WEST TENTH STREET",
+                    "token": "O N ▁ T H E ▁ L A S T ▁ S A T U R D A Y ▁ I N ▁ A P R I L ▁ T H E ▁ N E W ▁ Y O R K ▁ T I M E S ▁ P U B L I S H E D ▁ A N ▁ A C C O U N T ▁ O F ▁ T H E ▁ S T R I K E ▁ C O M P L I C A T I O N S ▁ W H I C H ▁ W E R E ▁ D E L A Y I N G ▁ A L E X A N D E R ' S ▁ N E W ▁ J E R S E Y ▁ B R I D G E ▁ A N D ▁ S T A T E D ▁ T H A T ▁ T H E ▁ E N G I N E E R ▁ H I M S E L F ▁ W A S ▁ I N ▁ T O W N ▁ A N D ▁ A T ▁ H I S ▁ O F F I C E ▁ O N ▁ W E S T ▁ T E N T H ▁ S T R E E T",
+                    "tokenid": "9 10 2 7 16 5 2 26 8 17 7 2 17 8 7 31 21 24 8 39 2 12 10 2 8 40 21 12 26 2 7 16 5 2 10 5 34 2 39 9 21 54 2 7 12 32 5 17 2 40 31 43 26 12 17 16 5 24 2 8 10 2 8 33 33 9 31 10 7 2 9 37 2 7 16 5 2 17 7 21 12 54 5 2 33 9 32 40 26 12 33 8 7 12 9 10 17 2 34 16 12 33 16 2 34 5 21 5 2 24 5 26 8 39 12 10 38 2 8 26 5 64 8 10 24 5 21 63 17 2 10 5 34 2 65 5 21 17 5 39 2 43 21 12 24 38 5 2 8 10 24 2 17 7 8 7 5 24 2 7 16 8 7 2 7 16 5 2 5 10 38 12 10 5 5 21 2 16 12 32 17 5 26 37 2 34 8 17 2 12 10 2 7 9 34 10 2 8 10 24 2 8 7 2 16 12 17 2 9 37 37 12 33 5 2 9 10 2 34 5 17 7 2 7 5 10 7 16 2 17 7 21 5 5 7"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0001": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7331439",
+                    "name": "input1",
+                    "shape": [
+                        481,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        62,
+                        69
+                    ],
+                    "text": "OVER THE FIREPLACE THERE WAS A LARGE OLD FASHIONED GILT MIRROR",
+                    "token": "O V E R ▁ T H E ▁ F I R E P L A C E ▁ T H E R E ▁ W A S ▁ A ▁ L A R G E ▁ O L D ▁ F A S H I O N E D ▁ G I L T ▁ M I R R O R",
+                    "tokenid": "9 53 5 21 2 7 16 5 2 37 12 21 5 40 26 8 33 5 2 7 16 5 21 5 2 34 8 17 2 8 2 26 8 21 38 5 2 9 26 24 2 37 8 17 16 12 9 10 5 24 2 38 12 26 7 2 32 12 21 21 9 21"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0002": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7372064",
+                    "name": "input1",
+                    "shape": [
+                        283,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        36,
+                        69
+                    ],
+                    "text": "HE ROSE AND CROSSED THE ROOM QUICKLY",
+                    "token": "H E ▁ R O S E ▁ A N D ▁ C R O S S E D ▁ T H E ▁ R O O M ▁ Q U I C K L Y",
+                    "tokenid": "16 5 2 21 9 17 5 2 8 10 24 2 33 21 9 17 17 5 24 2 7 16 5 2 21 9 9 32 2 66 31 12 33 54 26 39"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0003": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7396255",
+                    "name": "input1",
+                    "shape": [
+                        872,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        121,
+                        69
+                    ],
+                    "text": "OF COURSE I KNOW BARTLEY SHE SAID AT LAST THAT AFTER THIS YOU WON'T OWE ME THE LEAST CONSIDERATION BUT WE SAIL ON TUESDAY",
+                    "token": "O F ▁ C O U R S E ▁ I ▁ K N O W ▁ B A R T L E Y ▁ S H E ▁ S A I D ▁ A T ▁ L A S T ▁ T H A T ▁ A F T E R ▁ T H I S ▁ Y O U ▁ W O N ' T ▁ O W E ▁ M E ▁ T H E ▁ L E A S T ▁ C O N S I D E R A T I O N ▁ B U T ▁ W E ▁ S A I L ▁ O N ▁ T U E S D A Y",
+                    "tokenid": "9 37 2 33 9 31 21 17 5 2 12 2 54 10 9 34 2 43 8 21 7 26 5 39 2 17 16 5 2 17 8 12 24 2 8 7 2 26 8 17 7 2 7 16 8 7 2 8 37 7 5 21 2 7 16 12 17 2 39 9 31 2 34 9 10 63 7 2 9 34 5 2 32 5 2 7 16 5 2 26 5 8 17 7 2 33 9 10 17 12 24 5 21 8 7 12 9 10 2 43 31 7 2 34 5 2 17 8 12 26 2 9 10 2 7 31 5 17 24 8 39"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0004": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7469333",
+                    "name": "input1",
+                    "shape": [
+                        826,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        133,
+                        69
+                    ],
+                    "text": "I SAW THAT INTERVIEW IN THE PAPER YESTERDAY TELLING WHERE YOU WERE AND I THOUGHT I HAD TO SEE YOU THAT'S ALL GOOD NIGHT I'M GOING NOW",
+                    "token": "I ▁ S A W ▁ T H A T ▁ I N T E R V I E W ▁ I N ▁ T H E ▁ P A P E R ▁ Y E S T E R D A Y ▁ T E L L I N G ▁ W H E R E ▁ Y O U ▁ W E R E ▁ A N D ▁ I ▁ T H O U G H T ▁ I ▁ H A D ▁ T O ▁ S E E ▁ Y O U ▁ T H A T ' S ▁ A L L ▁ G O O D ▁ N I G H T ▁ I ' M ▁ G O I N G ▁ N O W",
+                    "tokenid": "12 2 17 8 34 2 7 16 8 7 2 12 10 7 5 21 53 12 5 34 2 12 10 2 7 16 5 2 40 8 40 5 21 2 39 5 17 7 5 21 24 8 39 2 7 5 26 26 12 10 38 2 34 16 5 21 5 2 39 9 31 2 34 5 21 5 2 8 10 24 2 12 2 7 16 9 31 38 16 7 2 12 2 16 8 24 2 7 9 2 17 5 5 2 39 9 31 2 7 16 8 7 63 17 2 8 26 26 2 38 9 9 24 2 10 12 38 16 7 2 12 63 32 2 38 9 12 10 38 2 10 9 34"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0005": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7538593",
+                    "name": "input1",
+                    "shape": [
+                        370,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        61,
+                        69
+                    ],
+                    "text": "LET ME TAKE OFF YOUR COAT AND YOUR BOOTS THEY'RE OOZING WATER",
+                    "token": "L E T ▁ M E ▁ T A K E ▁ O F F ▁ Y O U R ▁ C O A T ▁ A N D ▁ Y O U R ▁ B O O T S ▁ T H E Y ' R E ▁ O O Z I N G ▁ W A T E R",
+                    "tokenid": "26 5 7 2 32 5 2 7 8 54 5 2 9 37 37 2 39 9 31 21 2 33 9 8 7 2 8 10 24 2 39 9 31 21 2 43 9 9 7 17 2 7 16 5 39 63 21 5 2 9 9 67 12 10 38 2 34 8 7 5 21"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0006": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7570005",
+                    "name": "input1",
+                    "shape": [
+                        344,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        52,
+                        69
+                    ],
+                    "text": "IF YOU'D SENT ME A NOTE OR TELEPHONED ME OR ANYTHING",
+                    "token": "I F ▁ Y O U ' D ▁ S E N T ▁ M E ▁ A ▁ N O T E ▁ O R ▁ T E L E P H O N E D ▁ M E ▁ O R ▁ A N Y T H I N G",
+                    "tokenid": "12 37 2 39 9 31 63 24 2 17 5 10 7 2 32 5 2 8 2 10 9 7 5 2 9 21 2 7 5 26 5 40 16 9 10 5 24 2 32 5 2 9 21 2 8 10 39 7 16 12 10 38"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0007": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7599259",
+                    "name": "input1",
+                    "shape": [
+                        630,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        107,
+                        69
+                    ],
+                    "text": "I TOLD MYSELF THAT IF I WERE REALLY THINKING OF YOU AND NOT OF MYSELF A LETTER WOULD BE BETTER THAN NOTHING",
+                    "token": "I ▁ T O L D ▁ M Y S E L F ▁ T H A T ▁ I F ▁ I ▁ W E R E ▁ R E A L L Y ▁ T H I N K I N G ▁ O F ▁ Y O U ▁ A N D ▁ N O T ▁ O F ▁ M Y S E L F ▁ A ▁ L E T T E R ▁ W O U L D ▁ B E ▁ B E T T E R ▁ T H A N ▁ N O T H I N G",
+                    "tokenid": "12 2 7 9 26 24 2 32 39 17 5 26 37 2 7 16 8 7 2 12 37 2 12 2 34 5 21 5 2 21 5 8 26 26 39 2 7 16 12 10 54 12 10 38 2 9 37 2 39 9 31 2 8 10 24 2 10 9 7 2 9 37 2 32 39 17 5 26 37 2 8 2 26 5 7 7 5 21 2 34 9 31 26 24 2 43 5 2 43 5 7 7 5 21 2 7 16 8 10 2 10 9 7 16 12 10 38"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0008": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7652251",
+                    "name": "input1",
+                    "shape": [
+                        313,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        30,
+                        69
+                    ],
+                    "text": "HE PAUSED THEY NEVER DID TO ME",
+                    "token": "H E ▁ P A U S E D ▁ T H E Y ▁ N E V E R ▁ D I D ▁ T O ▁ M E",
+                    "tokenid": "16 5 2 40 8 31 17 5 24 2 7 16 5 39 2 10 5 53 5 21 2 24 12 24 2 7 9 2 32 5"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0009": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7678932",
+                    "name": "input1",
+                    "shape": [
+                        291,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        30,
+                        69
+                    ],
+                    "text": "OH BARTLEY DID YOU WRITE TO ME",
+                    "token": "O H ▁ B A R T L E Y ▁ D I D ▁ Y O U ▁ W R I T E ▁ T O ▁ M E",
+                    "tokenid": "9 16 2 43 8 21 7 26 5 39 2 24 12 24 2 39 9 31 2 34 21 12 7 5 2 7 9 2 32 5"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0010": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7703787",
+                    "name": "input1",
+                    "shape": [
+                        293,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        35,
+                        69
+                    ],
+                    "text": "ALEXANDER SLIPPED HIS ARM ABOUT HER",
+                    "token": "A L E X A N D E R ▁ S L I P P E D ▁ H I S ▁ A R M ▁ A B O U T ▁ H E R",
+                    "tokenid": "8 26 5 64 8 10 24 5 21 2 17 26 12 40 40 5 24 2 16 12 17 2 8 21 32 2 8 43 9 31 7 2 16 5 21"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0011": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7728808",
+                    "name": "input1",
+                    "shape": [
+                        245,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        40,
+                        69
+                    ],
+                    "text": "I THINK I HAVE FELT THAT YOU WERE COMING",
+                    "token": "I ▁ T H I N K ▁ I ▁ H A V E ▁ F E L T ▁ T H A T ▁ Y O U ▁ W E R E ▁ C O M I N G",
+                    "tokenid": "12 2 7 16 12 10 54 2 12 2 16 8 53 5 2 37 5 26 7 2 7 16 8 7 2 39 9 31 2 34 5 21 5 2 33 9 32 12 10 38"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0012": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7749845",
+                    "name": "input1",
+                    "shape": [
+                        268,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        30,
+                        69
+                    ],
+                    "text": "HE BENT HIS FACE OVER HER HAIR",
+                    "token": "H E ▁ B E N T ▁ H I S ▁ F A C E ▁ O V E R ▁ H E R ▁ H A I R",
+                    "tokenid": "16 5 2 43 5 10 7 2 16 12 17 2 37 8 33 5 2 9 53 5 21 2 16 5 21 2 16 8 12 21"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0013": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7772791",
+                    "name": "input1",
+                    "shape": [
+                        478,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        53,
+                        69
+                    ],
+                    "text": "AND I SHE WHISPERED I FELT THAT YOU WERE FEELING THAT",
+                    "token": "A N D ▁ I ▁ S H E ▁ W H I S P E R E D ▁ I ▁ F E L T ▁ T H A T ▁ Y O U ▁ W E R E ▁ F E E L I N G ▁ T H A T",
+                    "tokenid": "8 10 24 2 12 2 17 16 5 2 34 16 12 17 40 5 21 5 24 2 12 2 37 5 26 7 2 7 16 8 7 2 39 9 31 2 34 5 21 5 2 37 5 5 26 12 10 38 2 7 16 8 7"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0014": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7813167",
+                    "name": "input1",
+                    "shape": [
+                        295,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        45,
+                        69
+                    ],
+                    "text": "BUT WHEN I CAME I THOUGHT I HAD BEEN MISTAKEN",
+                    "token": "B U T ▁ W H E N ▁ I ▁ C A M E ▁ I ▁ T H O U G H T ▁ I ▁ H A D ▁ B E E N ▁ M I S T A K E N",
+                    "tokenid": "43 31 7 2 34 16 5 10 2 12 2 33 8 32 5 2 12 2 7 16 9 31 38 16 7 2 12 2 16 8 24 2 43 5 5 10 2 32 12 17 7 8 54 5 10"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0015": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7838354",
+                    "name": "input1",
+                    "shape": [
+                        604,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        101,
+                        69
+                    ],
+                    "text": "I'VE BEEN UP IN CANADA WITH MY BRIDGE AND I ARRANGED NOT TO COME TO NEW YORK UNTIL AFTER YOU HAD GONE",
+                    "token": "I ' V E ▁ B E E N ▁ U P ▁ I N ▁ C A N A D A ▁ W I T H ▁ M Y ▁ B R I D G E ▁ A N D ▁ I ▁ A R R A N G E D ▁ N O T ▁ T O ▁ C O M E ▁ T O ▁ N E W ▁ Y O R K ▁ U N T I L ▁ A F T E R ▁ Y O U ▁ H A D ▁ G O N E",
+                    "tokenid": "12 63 53 5 2 43 5 5 10 2 31 40 2 12 10 2 33 8 10 8 24 8 2 34 12 7 16 2 32 39 2 43 21 12 24 38 5 2 8 10 24 2 12 2 8 21 21 8 10 38 5 24 2 10 9 7 2 7 9 2 33 9 32 5 2 7 9 2 10 5 34 2 39 9 21 54 2 31 10 7 12 26 2 8 37 7 5 21 2 39 9 31 2 16 8 24 2 38 9 10 5"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0016": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7889188",
+                    "name": "input1",
+                    "shape": [
+                        416,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        67,
+                        69
+                    ],
+                    "text": "THEN WHEN YOUR MANAGER ADDED TWO MORE WEEKS I WAS ALREADY COMMITTED",
+                    "token": "T H E N ▁ W H E N ▁ Y O U R ▁ M A N A G E R ▁ A D D E D ▁ T W O ▁ M O R E ▁ W E E K S ▁ I ▁ W A S ▁ A L R E A D Y ▁ C O M M I T T E D",
+                    "tokenid": "7 16 5 10 2 34 16 5 10 2 39 9 31 21 2 32 8 10 8 38 5 21 2 8 24 24 5 24 2 7 34 9 2 32 9 21 5 2 34 5 5 54 17 2 12 2 34 8 17 2 8 26 21 5 8 24 39 2 33 9 32 32 12 7 7 5 24"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0017": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7924418",
+                    "name": "input1",
+                    "shape": [
+                        324,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        63,
+                        69
+                    ],
+                    "text": "I'M GOING TO DO WHAT YOU ASKED ME TO DO WHEN YOU WERE IN LONDON",
+                    "token": "I ' M ▁ G O I N G ▁ T O ▁ D O ▁ W H A T ▁ Y O U ▁ A S K E D ▁ M E ▁ T O ▁ D O ▁ W H E N ▁ Y O U ▁ W E R E ▁ I N ▁ L O N D O N",
+                    "tokenid": "12 63 32 2 38 9 12 10 38 2 7 9 2 24 9 2 34 16 8 7 2 39 9 31 2 8 17 54 5 24 2 32 5 2 7 9 2 24 9 2 34 16 5 10 2 39 9 31 2 34 5 21 5 2 12 10 2 26 9 10 24 9 10"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0018": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7952012",
+                    "name": "input1",
+                    "shape": [
+                        201,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        31,
+                        69
+                    ],
+                    "text": "ONLY I'LL DO IT MORE COMPLETELY",
+                    "token": "O N L Y ▁ I ' L L ▁ D O ▁ I T ▁ M O R E ▁ C O M P L E T E L Y",
+                    "tokenid": "9 10 26 39 2 12 63 26 26 2 24 9 2 12 7 2 32 9 21 5 2 33 9 32 40 26 5 7 5 26 39"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0019": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7969397",
+                    "name": "input1",
+                    "shape": [
+                        267,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        45,
+                        69
+                    ],
+                    "text": "THEN YOU DON'T KNOW WHAT YOU'RE TALKING ABOUT",
+                    "token": "T H E N ▁ Y O U ▁ D O N ' T ▁ K N O W ▁ W H A T ▁ Y O U ' R E ▁ T A L K I N G ▁ A B O U T",
+                    "tokenid": "7 16 5 10 2 39 9 31 2 24 9 10 63 7 2 54 10 9 34 2 34 16 8 7 2 39 9 31 63 21 5 2 7 8 26 54 12 10 38 2 8 43 9 31 7"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0020": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:7992260",
+                    "name": "input1",
+                    "shape": [
+                        213,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        20,
+                        69
+                    ],
+                    "text": "YES I KNOW VERY WELL",
+                    "token": "Y E S ▁ I ▁ K N O W ▁ V E R Y ▁ W E L L",
+                    "tokenid": "39 5 17 2 12 2 54 10 9 34 2 53 5 21 39 2 34 5 26 26"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0021": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:8010641",
+                    "name": "input1",
+                    "shape": [
+                        254,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        25,
+                        69
+                    ],
+                    "text": "ALEXANDER FLUSHED ANGRILY",
+                    "token": "A L E X A N D E R ▁ F L U S H E D ▁ A N G R I L Y",
+                    "tokenid": "8 26 5 64 8 10 24 5 21 2 37 26 31 17 16 5 24 2 8 10 38 21 12 26 39"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1462-170145-0022": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:8032425",
+                    "name": "input1",
+                    "shape": [
+                        649,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        114,
+                        69
+                    ],
+                    "text": "I DON'T KNOW WHAT I OUGHT TO SAY BUT I DON'T BELIEVE YOU'D BE HAPPY TRULY I DON'T AREN'T YOU TRYING TO FRIGHTEN ME",
+                    "token": "I ▁ D O N ' T ▁ K N O W ▁ W H A T ▁ I ▁ O U G H T ▁ T O ▁ S A Y ▁ B U T ▁ I ▁ D O N ' T ▁ B E L I E V E ▁ Y O U ' D ▁ B E ▁ H A P P Y ▁ T R U L Y ▁ I ▁ D O N ' T ▁ A R E N ' T ▁ Y O U ▁ T R Y I N G ▁ T O ▁ F R I G H T E N ▁ M E",
+                    "tokenid": "12 2 24 9 10 63 7 2 54 10 9 34 2 34 16 8 7 2 12 2 9 31 38 16 7 2 7 9 2 17 8 39 2 43 31 7 2 12 2 24 9 10 63 7 2 43 5 26 12 5 53 5 2 39 9 31 63 24 2 43 5 2 16 8 40 40 39 2 7 21 31 26 39 2 12 2 24 9 10 63 7 2 8 21 5 10 63 7 2 39 9 31 2 7 21 39 12 10 38 2 7 9 2 37 21 12 38 16 7 5 10 2 32 5"
+                }
+            ],
+            "utt2spk": "1462-170145"
+        },
+        "1673-143396-0000": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:8086994",
+                    "name": "input1",
+                    "shape": [
+                        1466,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        237,
+                        69
+                    ],
+                    "text": "A LAUDABLE REGARD FOR THE HONOR OF THE FIRST PROSELYTE HAS COUNTENANCED THE BELIEF THE HOPE THE WISH THAT THE EBIONITES OR AT LEAST THE NAZARENES WERE DISTINGUISHED ONLY BY THEIR OBSTINATE PERSEVERANCE IN THE PRACTICE OF THE MOSAIC RITES",
+                    "token": "A ▁ L A U D A B L E ▁ R E G A R D ▁ F O R ▁ T H E ▁ H O N O R ▁ O F ▁ T H E ▁ F I R S T ▁ P R O S E L Y T E ▁ H A S ▁ C O U N T E N A N C E D ▁ T H E ▁ B E L I E F ▁ T H E ▁ H O P E ▁ T H E ▁ W I S H ▁ T H A T ▁ T H E ▁ E B I O N I T E S ▁ O R ▁ A T ▁ L E A S T ▁ T H E ▁ N A Z A R E N E S ▁ W E R E ▁ D I S T I N G U I S H E D ▁ O N L Y ▁ B Y ▁ T H E I R ▁ O B S T I N A T E ▁ P E R S E V E R A N C E ▁ I N ▁ T H E ▁ P R A C T I C E ▁ O F ▁ T H E ▁ M O S A I C ▁ R I T E S",
+                    "tokenid": "8 2 26 8 31 24 8 43 26 5 2 21 5 38 8 21 24 2 37 9 21 2 7 16 5 2 16 9 10 9 21 2 9 37 2 7 16 5 2 37 12 21 17 7 2 40 21 9 17 5 26 39 7 5 2 16 8 17 2 33 9 31 10 7 5 10 8 10 33 5 24 2 7 16 5 2 43 5 26 12 5 37 2 7 16 5 2 16 9 40 5 2 7 16 5 2 34 12 17 16 2 7 16 8 7 2 7 16 5 2 5 43 12 9 10 12 7 5 17 2 9 21 2 8 7 2 26 5 8 17 7 2 7 16 5 2 10 8 67 8 21 5 10 5 17 2 34 5 21 5 2 24 12 17 7 12 10 38 31 12 17 16 5 24 2 9 10 26 39 2 43 39 2 7 16 5 12 21 2 9 43 17 7 12 10 8 7 5 2 40 5 21 17 5 53 5 21 8 10 33 5 2 12 10 2 7 16 5 2 40 21 8 33 7 12 33 5 2 9 37 2 7 16 5 2 32 9 17 8 12 33 2 21 12 7 5 17"
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0001": {
+            "input": [
+                {
+                    "feat": "data/dev/feats.1.ark:8209374",
+                    "name": "input1",
+                    "shape": [
+                        1403,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        226,
+                        69
+                    ],
+                    "text": "THEIR CHURCHES HAVE DISAPPEARED THEIR BOOKS ARE OBLITERATED THEIR OBSCURE FREEDOM MIGHT ALLOW A LATITUDE OF FAITH AND THE SOFTNESS OF THEIR INFANT CREED WOULD BE VARIOUSLY MOULDED BY THE ZEAL OR PRUDENCE OF THREE HUNDRED YEARS",
+                    "token": "T H E I R ▁ C H U R C H E S ▁ H A V E ▁ D I S A P P E A R E D ▁ T H E I R ▁ B O O K S ▁ A R E ▁ O B L I T E R A T E D ▁ T H E I R ▁ O B S C U R E ▁ F R E E D O M ▁ M I G H T ▁ A L L O W ▁ A ▁ L A T I T U D E ▁ O F ▁ F A I T H ▁ A N D ▁ T H E ▁ S O F T N E S S ▁ O F ▁ T H E I R ▁ I N F A N T ▁ C R E E D ▁ W O U L D ▁ B E ▁ V A R I O U S L Y ▁ M O U L D E D ▁ B Y ▁ T H E ▁ Z E A L ▁ O R ▁ P R U D E N C E ▁ O F ▁ T H R E E ▁ H U N D R E D ▁ Y E A R S",
+                    "tokenid": "7 16 5 12 21 2 33 16 31 21 33 16 5 17 2 16 8 53 5 2 24 12 17 8 40 40 5 8 21 5 24 2 7 16 5 12 21 2 43 9 9 54 17 2 8 21 5 2 9 43 26 12 7 5 21 8 7 5 24 2 7 16 5 12 21 2 9 43 17 33 31 21 5 2 37 21 5 5 24 9 32 2 32 12 38 16 7 2 8 26 26 9 34 2 8 2 26 8 7 12 7 31 24 5 2 9 37 2 37 8 12 7 16 2 8 10 24 2 7 16 5 2 17 9 37 7 10 5 17 17 2 9 37 2 7 16 5 12 21 2 12 10 37 8 10 7 2 33 21 5 5 24 2 34 9 31 26 24 2 43 5 2 53 8 21 12 9 31 17 26 39 2 32 9 31 26 24 5 24 2 43 39 2 7 16 5 2 67 5 8 26 2 9 21 2 40 21 31 24 5 10 33 5 2 9 37 2 7 16 21 5 5 2 16 31 10 24 21 5 24 2 39 5 8 21 17"
+                }
+            ],
+            "utt2spk": "1673-143396"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+### This is an example config file
+
+hidden_dim: 256
+attention_heads: 4
+linear_units: 1024
+eblocks: 18
+edropout: 0.1
+dblocks: 6
+ddropout: 0.1
+
+batch_bins: 4000000
+accum_grad: 5
+nepochs: 60
+nworkers: 4
+log_interval: 200
+
+lr: 1e-3
+wdecay: 1e-6
+warmup_steps: 15000
+label_smoothing: 0.1

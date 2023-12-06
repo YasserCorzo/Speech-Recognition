@@ -1,0 +1,2201 @@
+{
+    "utts": {
+        "1673-143396-0002": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:17",
+                    "name": "input1",
+                    "shape": [
+                        783,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0003": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:65708",
+                    "name": "input1",
+                    "shape": [
+                        1134,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0004": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:160532",
+                    "name": "input1",
+                    "shape": [
+                        1990,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0005": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:326404",
+                    "name": "input1",
+                    "shape": [
+                        1172,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0006": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:424382",
+                    "name": "input1",
+                    "shape": [
+                        1590,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0007": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:557054",
+                    "name": "input1",
+                    "shape": [
+                        708,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0008": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:616520",
+                    "name": "input1",
+                    "shape": [
+                        1763,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0009": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:763551",
+                    "name": "input1",
+                    "shape": [
+                        1644,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0010": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:900705",
+                    "name": "input1",
+                    "shape": [
+                        1198,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0011": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:1000841",
+                    "name": "input1",
+                    "shape": [
+                        1640,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0012": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:1137663",
+                    "name": "input1",
+                    "shape": [
+                        1445,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0013": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:1258300",
+                    "name": "input1",
+                    "shape": [
+                        1550,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0014": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:1387652",
+                    "name": "input1",
+                    "shape": [
+                        1397,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0015": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:1504305",
+                    "name": "input1",
+                    "shape": [
+                        629,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0016": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:1557214",
+                    "name": "input1",
+                    "shape": [
+                        1444,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0017": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:1677768",
+                    "name": "input1",
+                    "shape": [
+                        841,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0018": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:1748273",
+                    "name": "input1",
+                    "shape": [
+                        1264,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0019": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:1853887",
+                    "name": "input1",
+                    "shape": [
+                        1547,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143396-0020": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:1982990",
+                    "name": "input1",
+                    "shape": [
+                        1500,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143396"
+        },
+        "1673-143397-0000": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:2108192",
+                    "name": "input1",
+                    "shape": [
+                        933,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0001": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:2186333",
+                    "name": "input1",
+                    "shape": [
+                        888,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0002": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:2260739",
+                    "name": "input1",
+                    "shape": [
+                        1301,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0003": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:2369424",
+                    "name": "input1",
+                    "shape": [
+                        1116,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0004": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:2462754",
+                    "name": "input1",
+                    "shape": [
+                        1205,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0005": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:2563471",
+                    "name": "input1",
+                    "shape": [
+                        988,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0006": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:2646177",
+                    "name": "input1",
+                    "shape": [
+                        852,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0007": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:2717595",
+                    "name": "input1",
+                    "shape": [
+                        514,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0008": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:2760959",
+                    "name": "input1",
+                    "shape": [
+                        426,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0009": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:2797019",
+                    "name": "input1",
+                    "shape": [
+                        358,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0010": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:2827435",
+                    "name": "input1",
+                    "shape": [
+                        1198,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0011": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:2927571",
+                    "name": "input1",
+                    "shape": [
+                        1418,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0012": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:3045967",
+                    "name": "input1",
+                    "shape": [
+                        931,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0013": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:3123942",
+                    "name": "input1",
+                    "shape": [
+                        666,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0014": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:3179922",
+                    "name": "input1",
+                    "shape": [
+                        938,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0015": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:3258478",
+                    "name": "input1",
+                    "shape": [
+                        633,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0016": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:3311719",
+                    "name": "input1",
+                    "shape": [
+                        1527,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0017": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:3439162",
+                    "name": "input1",
+                    "shape": [
+                        704,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0018": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:3498296",
+                    "name": "input1",
+                    "shape": [
+                        425,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0019": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:3534273",
+                    "name": "input1",
+                    "shape": [
+                        1568,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "1673-143397-0020": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:3665119",
+                    "name": "input1",
+                    "shape": [
+                        1630,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1673-143397"
+        },
+        "174-168635-0000": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:3801110",
+                    "name": "input1",
+                    "shape": [
+                        451,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0001": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:3839244",
+                    "name": "input1",
+                    "shape": [
+                        463,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0002": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:3878374",
+                    "name": "input1",
+                    "shape": [
+                        1584,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0003": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4010547",
+                    "name": "input1",
+                    "shape": [
+                        1316,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0004": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4120476",
+                    "name": "input1",
+                    "shape": [
+                        1275,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0005": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4227002",
+                    "name": "input1",
+                    "shape": [
+                        791,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0006": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4293356",
+                    "name": "input1",
+                    "shape": [
+                        655,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0007": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4348422",
+                    "name": "input1",
+                    "shape": [
+                        1019,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0008": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4433700",
+                    "name": "input1",
+                    "shape": [
+                        1022,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0009": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4519227",
+                    "name": "input1",
+                    "shape": [
+                        326,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0010": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4546986",
+                    "name": "input1",
+                    "shape": [
+                        1004,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0011": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4631019",
+                    "name": "input1",
+                    "shape": [
+                        463,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0012": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4670149",
+                    "name": "input1",
+                    "shape": [
+                        834,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0013": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4740072",
+                    "name": "input1",
+                    "shape": [
+                        585,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0014": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4789328",
+                    "name": "input1",
+                    "shape": [
+                        481,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0015": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4829952",
+                    "name": "input1",
+                    "shape": [
+                        417,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0016": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4865264",
+                    "name": "input1",
+                    "shape": [
+                        704,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0017": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4924397",
+                    "name": "input1",
+                    "shape": [
+                        455,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0018": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:4962863",
+                    "name": "input1",
+                    "shape": [
+                        2709,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0019": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5188411",
+                    "name": "input1",
+                    "shape": [
+                        798,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0020": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5255346",
+                    "name": "input1",
+                    "shape": [
+                        460,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0021": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5294227",
+                    "name": "input1",
+                    "shape": [
+                        415,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-168635-0022": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5329373",
+                    "name": "input1",
+                    "shape": [
+                        432,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-168635"
+        },
+        "174-50561-0000": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5365929",
+                    "name": "input1",
+                    "shape": [
+                        400,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0001": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5399829",
+                    "name": "input1",
+                    "shape": [
+                        1584,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0002": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5532001",
+                    "name": "input1",
+                    "shape": [
+                        213,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0003": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5550380",
+                    "name": "input1",
+                    "shape": [
+                        332,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0004": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5578636",
+                    "name": "input1",
+                    "shape": [
+                        204,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0005": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5596268",
+                    "name": "input1",
+                    "shape": [
+                        569,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0006": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5644195",
+                    "name": "input1",
+                    "shape": [
+                        520,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0007": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5688055",
+                    "name": "input1",
+                    "shape": [
+                        1084,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0008": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5778727",
+                    "name": "input1",
+                    "shape": [
+                        1629,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0009": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5914634",
+                    "name": "input1",
+                    "shape": [
+                        202,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0010": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:5932100",
+                    "name": "input1",
+                    "shape": [
+                        1489,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0011": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6056387",
+                    "name": "input1",
+                    "shape": [
+                        950,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0012": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6135937",
+                    "name": "input1",
+                    "shape": [
+                        205,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0013": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6153652",
+                    "name": "input1",
+                    "shape": [
+                        1060,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0014": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6242332",
+                    "name": "input1",
+                    "shape": [
+                        178,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0015": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6257806",
+                    "name": "input1",
+                    "shape": [
+                        1674,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0016": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6397448",
+                    "name": "input1",
+                    "shape": [
+                        1344,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0017": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6509700",
+                    "name": "input1",
+                    "shape": [
+                        281,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0018": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6533723",
+                    "name": "input1",
+                    "shape": [
+                        210,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-50561-0019": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6551853",
+                    "name": "input1",
+                    "shape": [
+                        424,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-50561"
+        },
+        "174-84280-0000": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6587745",
+                    "name": "input1",
+                    "shape": [
+                        238,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0001": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6608199",
+                    "name": "input1",
+                    "shape": [
+                        1831,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0002": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6760872",
+                    "name": "input1",
+                    "shape": [
+                        1218,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0003": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6862666",
+                    "name": "input1",
+                    "shape": [
+                        743,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0004": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:6925035",
+                    "name": "input1",
+                    "shape": [
+                        2051,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0005": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7095968",
+                    "name": "input1",
+                    "shape": [
+                        859,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0006": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7167965",
+                    "name": "input1",
+                    "shape": [
+                        701,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0007": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7226848",
+                    "name": "input1",
+                    "shape": [
+                        971,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0008": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7308141",
+                    "name": "input1",
+                    "shape": [
+                        450,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0009": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7346191",
+                    "name": "input1",
+                    "shape": [
+                        308,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0010": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7372455",
+                    "name": "input1",
+                    "shape": [
+                        434,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0011": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7409177",
+                    "name": "input1",
+                    "shape": [
+                        334,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0012": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7437599",
+                    "name": "input1",
+                    "shape": [
+                        1441,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0013": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7557902",
+                    "name": "input1",
+                    "shape": [
+                        1684,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0014": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7698374",
+                    "name": "input1",
+                    "shape": [
+                        299,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "174-84280-0015": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7723891",
+                    "name": "input1",
+                    "shape": [
+                        1371,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "174-84280"
+        },
+        "1919-142785-0000": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7838386",
+                    "name": "input1",
+                    "shape": [
+                        264,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0001": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7861000",
+                    "name": "input1",
+                    "shape": [
+                        1103,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0002": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:7953251",
+                    "name": "input1",
+                    "shape": [
+                        1024,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0003": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:8038945",
+                    "name": "input1",
+                    "shape": [
+                        539,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0004": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:8084384",
+                    "name": "input1",
+                    "shape": [
+                        815,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0005": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:8152731",
+                    "name": "input1",
+                    "shape": [
+                        1884,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0006": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:8309805",
+                    "name": "input1",
+                    "shape": [
+                        278,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0007": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:8333581",
+                    "name": "input1",
+                    "shape": [
+                        2661,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0008": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:8555146",
+                    "name": "input1",
+                    "shape": [
+                        2027,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0009": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:8724089",
+                    "name": "input1",
+                    "shape": [
+                        582,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0010": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:8773097",
+                    "name": "input1",
+                    "shape": [
+                        1149,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0011": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:8869166",
+                    "name": "input1",
+                    "shape": [
+                        1398,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0012": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:8985902",
+                    "name": "input1",
+                    "shape": [
+                        539,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0013": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9031341",
+                    "name": "input1",
+                    "shape": [
+                        599,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0014": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9081760",
+                    "name": "input1",
+                    "shape": [
+                        811,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0015": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9149775",
+                    "name": "input1",
+                    "shape": [
+                        427,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0016": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9185918",
+                    "name": "input1",
+                    "shape": [
+                        276,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0017": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9209528",
+                    "name": "input1",
+                    "shape": [
+                        709,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0018": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9269077",
+                    "name": "input1",
+                    "shape": [
+                        704,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0019": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9328211",
+                    "name": "input1",
+                    "shape": [
+                        836,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0020": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9398301",
+                    "name": "input1",
+                    "shape": [
+                        932,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0021": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9476359",
+                    "name": "input1",
+                    "shape": [
+                        167,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0022": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9490922",
+                    "name": "input1",
+                    "shape": [
+                        675,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0023": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9547649",
+                    "name": "input1",
+                    "shape": [
+                        722,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0024": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9608277",
+                    "name": "input1",
+                    "shape": [
+                        284,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0025": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9632551",
+                    "name": "input1",
+                    "shape": [
+                        799,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0026": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9699570",
+                    "name": "input1",
+                    "shape": [
+                        564,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0027": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9747084",
+                    "name": "input1",
+                    "shape": [
+                        952,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0028": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9826802",
+                    "name": "input1",
+                    "shape": [
+                        514,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0029": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9870166",
+                    "name": "input1",
+                    "shape": [
+                        261,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0030": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9892531",
+                    "name": "input1",
+                    "shape": [
+                        935,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0031": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:9970838",
+                    "name": "input1",
+                    "shape": [
+                        514,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0032": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10014202",
+                    "name": "input1",
+                    "shape": [
+                        590,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0033": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10063874",
+                    "name": "input1",
+                    "shape": [
+                        769,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0034": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10128403",
+                    "name": "input1",
+                    "shape": [
+                        366,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0035": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10159483",
+                    "name": "input1",
+                    "shape": [
+                        359,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0036": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10189982",
+                    "name": "input1",
+                    "shape": [
+                        1386,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0037": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10305722",
+                    "name": "input1",
+                    "shape": [
+                        295,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0038": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10330909",
+                    "name": "input1",
+                    "shape": [
+                        589,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0039": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10380498",
+                    "name": "input1",
+                    "shape": [
+                        286,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0040": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10404938",
+                    "name": "input1",
+                    "shape": [
+                        790,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0041": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10471210",
+                    "name": "input1",
+                    "shape": [
+                        1213,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0042": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10572591",
+                    "name": "input1",
+                    "shape": [
+                        385,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0043": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10605248",
+                    "name": "input1",
+                    "shape": [
+                        707,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0044": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10664631",
+                    "name": "input1",
+                    "shape": [
+                        575,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0045": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10713058",
+                    "name": "input1",
+                    "shape": [
+                        609,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0046": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10764307",
+                    "name": "input1",
+                    "shape": [
+                        262,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0047": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10786755",
+                    "name": "input1",
+                    "shape": [
+                        1765,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0048": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10933952",
+                    "name": "input1",
+                    "shape": [
+                        182,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0049": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:10949760",
+                    "name": "input1",
+                    "shape": [
+                        1582,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0050": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11081768",
+                    "name": "input1",
+                    "shape": [
+                        877,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0051": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11155261",
+                    "name": "input1",
+                    "shape": [
+                        927,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0052": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11232904",
+                    "name": "input1",
+                    "shape": [
+                        308,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0053": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11259170",
+                    "name": "input1",
+                    "shape": [
+                        1104,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0054": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11351504",
+                    "name": "input1",
+                    "shape": [
+                        771,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0055": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11416199",
+                    "name": "input1",
+                    "shape": [
+                        949,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0056": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11495668",
+                    "name": "input1",
+                    "shape": [
+                        208,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0057": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11513634",
+                    "name": "input1",
+                    "shape": [
+                        829,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0058": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11583143",
+                    "name": "input1",
+                    "shape": [
+                        234,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0059": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11603267",
+                    "name": "input1",
+                    "shape": [
+                        873,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0060": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11676428",
+                    "name": "input1",
+                    "shape": [
+                        739,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0061": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11738467",
+                    "name": "input1",
+                    "shape": [
+                        1741,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0062": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11883672",
+                    "name": "input1",
+                    "shape": [
+                        412,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1919-142785-0063": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11918570",
+                    "name": "input1",
+                    "shape": [
+                        278,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1919-142785"
+        },
+        "1988-147956-0000": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:11942346",
+                    "name": "input1",
+                    "shape": [
+                        1493,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1988-147956"
+        },
+        "1988-147956-0001": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:12066967",
+                    "name": "input1",
+                    "shape": [
+                        1419,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1988-147956"
+        },
+        "1988-147956-0002": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:12185446",
+                    "name": "input1",
+                    "shape": [
+                        438,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1988-147956"
+        },
+        "1988-147956-0003": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:12222502",
+                    "name": "input1",
+                    "shape": [
+                        248,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1988-147956"
+        },
+        "1988-147956-0004": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:12243788",
+                    "name": "input1",
+                    "shape": [
+                        901,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1988-147956"
+        },
+        "1988-147956-0005": {
+            "input": [
+                {
+                    "feat": "data/test/feats.2.ark:12319273",
+                    "name": "input1",
+                    "shape": [
+                        345,
+                        83
+                    ]
+                }
+            ],
+            "utt2spk": "1988-147956"
+        }
+    }
+}

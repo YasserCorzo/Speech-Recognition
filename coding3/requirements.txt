@@ -1,0 +1,7 @@
+kaldiio
+numpy
+matplotlib
+configargparse
+editdistance
+PyYAML
+jiwer
